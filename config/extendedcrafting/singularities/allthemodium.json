@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.allthemodium",
+  "colors": [
+    "FCC50C",
+    "CD5913"
+  ],
+  "ingredient": {
+    "item": "allthemodium:allthemodium_ingot"
+  }
+}
