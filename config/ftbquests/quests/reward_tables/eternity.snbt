@@ -1,0 +1,21 @@
+{
+	id: "262B1C3581E1813D"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			count: 2
+			item: {
+				Count: 1
+				ForgeCaps: {
+					Parent: { }
+				}
+				id: "projectexpansion:colossal_star_omega"
+			}
+			weight: 1.3f
+		}
+		{ item: "projectexpansion:fading_matter" }
+		{ count: 5, item: "kubejs:estelar_obsidium_ingot", weight: 1.5f }
+	]
+	title: "Eternity"
+}

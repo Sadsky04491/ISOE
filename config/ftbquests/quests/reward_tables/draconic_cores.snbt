@@ -1,0 +1,10 @@
+{
+	id: "14262E24E7AC0EDC"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ count: 3, item: "minecraft:nether_star", weight: 0.25f }
+		{ count: 6, item: "draconicevolution:draconium_ingot", weight: 2.0f }
+	]
+	title: "Draconic Cores"
+}
