@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.crystal_matrix",
+  "colors": [
+    "97F0EA",
+    "FFFB00"
+  ],
+  "ingredient": {
+    "item": "avaritia:crystal_matrix_ingot"
+  }
+}

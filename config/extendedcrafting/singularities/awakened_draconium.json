@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.awakened_draconium",
+  "colors": [
+    "FCCA00",
+    "FC7100"
+  ],
+  "ingredient": {
+    "item": "draconicevolution:awakened_draconium_ingot"
+  }
+}

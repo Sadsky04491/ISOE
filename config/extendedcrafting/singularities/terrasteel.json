@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.terrasteel",
+  "colors": [
+    "69E561",
+    "2AB73A"
+  ],
+  "ingredient": {
+    "item": "botania:terrasteel_ingot"
+  }
+}

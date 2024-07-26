@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.unobtainium",
+  "colors": [
+    "A62BE0",
+    "6B1CDE"
+  ],
+  "ingredient": {
+    "item": "allthemodium:unobtainium_ingot"
+  }
+}

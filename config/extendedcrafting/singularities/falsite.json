@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.falsite",
+  "colors": [
+    "7561E2",
+    "5D17A4"
+  ],
+  "ingredient": {
+    "item": "blue_skies:falsite_ingot"
+  }
+}

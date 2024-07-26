@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.neutron",
+  "colors": [
+    "3A3A3A",
+    "0E0E0E"
+  ],
+  "ingredient": {
+    "item": "avaritia:neutron_ingot"
+  }
+}

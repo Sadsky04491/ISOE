@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.ender",
+  "colors": [
+    "219480",
+    "033229"
+  ],
+  "ingredient": {
+    "item": "extendedcrafting:ender_ingot"
+  }
+}

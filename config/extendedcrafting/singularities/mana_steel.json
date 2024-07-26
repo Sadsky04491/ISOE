@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.manasteel",
+  "colors": [
+    "66B7EB",
+    "160538"
+  ],
+  "ingredient": {
+    "item": "botania:manasteel_ingot"
+  }
+}

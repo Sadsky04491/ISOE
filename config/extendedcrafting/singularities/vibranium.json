@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.vibranium",
+  "colors": [
+    "1BB188",
+    "0F5B79"
+  ],
+  "ingredient": {
+    "item": "allthemodium:vibranium_ingot"
+  }
+}

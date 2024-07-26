@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.forgotten",
+  "colors": [
+    "56E0B1",
+    "56E0B1"
+  ],
+  "ingredient": {
+    "item": "undergarden:forgotten_ingot"
+  }
+}

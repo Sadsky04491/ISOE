@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.crimson_iron",
+  "colors": [
+    "FC6087",
+    "AA386E"
+  ],
+  "ingredient": {
+    "item": "silentgear:crimson_iron_ingot"
+  }
+}

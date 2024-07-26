@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.enderium",
+  "colors": [
+    "1D7D8A",
+    "011D36"
+  ],
+  "ingredient": {
+    "item": "thermal:enderium_ingot"
+  }
+}

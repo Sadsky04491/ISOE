@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.blaze_gold",
+  "colors": [
+    "E0A444",
+    "D0350A"
+  ],
+  "ingredient": {
+    "item": "silentgear:blaze_gold_ingot"
+  }
+}

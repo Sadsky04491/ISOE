@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.ventium",
+  "colors": [
+    "D93737",
+    "7B1F16"
+  ],
+  "ingredient": {
+    "item": "blue_skies:ventium_ingot"
+  }
+}

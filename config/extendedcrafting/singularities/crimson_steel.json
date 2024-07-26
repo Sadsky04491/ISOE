@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.crimson_steel",
+  "colors": [
+    "D9143B",
+    "7D0C41"
+  ],
+  "ingredient": {
+    "item": "silentgear:crimson_steel_ingot"
+  }
+}

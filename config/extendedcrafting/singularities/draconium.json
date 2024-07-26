@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.draconium",
+  "colors": [
+    "C69AEB",
+    "7B49AC"
+  ],
+  "ingredient": {
+    "item": "draconicevolution:draconium_ingot"
+  }
+}
