@@ -22,7 +22,7 @@ toggleSprint:false
 darkMojangStudiosBackground:false
 hideLightningFlashes:false
 mouseSensitivity:0.5
-fov:0.5
+fov:0.625
 screenEffectScale:1.0
 fovEffectScale:1.0
 darknessEffectScale:1.0
@@ -42,8 +42,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","builtin/resource/overrides_pack","builtin/resource/redux_tips","builtin/aether_tips","file/[1.4.1] Enhanced Boss Bars.zip"]
-incompatibleResourcePacks:[]
+resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","builtin/resource/overrides_pack","builtin/resource/redux_tips","builtin/aether_tips","file/guiretextures-1.9.zip","file/GUIRC 1.7 (1.20).zip"]
+incompatibleResourcePacks:["file/guiretextures-1.9.zip"]
 lastServer:
 lang:en_us
 soundDevice:""
@@ -151,7 +151,7 @@ key_key.structure_gel.open_building_tool_gui:key.keyboard.r
 key_key.corpse.death_history:key.keyboard.keypad.9
 key_key.industrialforegoing.backpack.desc:key.keyboard.unknown
 key_key.botania_corporea_request:key.keyboard.c
-key_iris.keybind.reload:key.keyboard.r
+key_iris.keybind.reload:key.keyboard.left.bracket
 key_iris.keybind.toggleShaders:key.keyboard.unknown
 key_iris.keybind.shaderPackSelection:key.keyboard.unknown
 key_framedblocks.key.update_cull:key.keyboard.f9
@@ -187,7 +187,7 @@ key_gui.xaero_toggle_grid:key.keyboard.unknown
 key_gui.xaero_toggle_waypoints:key.keyboard.unknown
 key_gui.xaero_toggle_map_waypoints:key.keyboard.unknown
 key_gui.xaero_toggle_map:key.keyboard.unknown
-key_gui.xaero_enlarge_map:key.keyboard.z
+key_gui.xaero_enlarge_map:key.keyboard.unknown
 key_gui.xaero_waypoints_key:key.keyboard.u
 key_gui.xaero_zoom_in:key.keyboard.equal
 key_gui.xaero_zoom_out:key.keyboard.minus
@@ -347,7 +347,7 @@ key_bloodmagic.keybind.cycle_holding_pos:key.keyboard.unknown
 key_bloodmagic.keybind.cycle_holding_neg:key.keyboard.unknown
 key_key.draconicevolution.place_item:key.keyboard.p
 key_key.draconicevolution.tool_config:key.keyboard.apostrophe
-key_key.draconicevolution.tool_modules:key.keyboard.unknown
+key_key.draconicevolution.tool_modules:key.keyboard.g
 key_key.draconicevolution.toggle_flight:key.keyboard.unknown
 key_key.draconicevolution.toggle_magnet:key.keyboard.unknown
 key_key.draconicevolution.dislocator_teleport:key.keyboard.unknown
