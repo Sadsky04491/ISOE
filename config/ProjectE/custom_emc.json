@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "item": "avaritia:neutron_pile",
-      "emc": 512
-    },
-    {
-      "item": "kubejs:crystal_matrix_plate",
-      "emc": 458752
-    },
-    {
-      "item": "kubejs:dark_matter_plate",
-      "emc": 139264
-    },
-    {
-      "item": "kubejs:neutronium_plate",
-      "emc": 41472
-    },
-    {
-      "item": "kubejs:red_matter_plate",
-      "emc": 466944
-    },
-    {
       "item": "draconicevolution:draconium_dust",
       "emc": 5120
     },
@@ -37,14 +17,6 @@
       "emc": 14909
     },
     {
-      "item": "kubejs:draconium_plate",
-      "emc": 5112
-    },
-    {
-      "item": "kubejs:awakened_draconium_plate",
-      "emc": 14886
-    },
-    {
       "item": "draconicevolution:mob_soul",
       "emc": 16384
     },
@@ -53,36 +25,8 @@
       "emc": 16384
     },
     {
-      "item": "projecte:transmutation_table",
-      "emc": 31991680
-    },
-    {
       "item": "mysticalagriculture:inferium_essence",
       "emc": 512
-    },
-    {
-      "item": "projecte:condenser_mk1",
-      "emc": 113918395
-    },
-    {
-      "item": "projecte:condenser_mk2",
-      "emc": 283826979
-    },
-    {
-      "item": "avaritia:neutron_collector",
-      "emc": 9202944
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:redstone\"}",
-      "emc": 640000
-    },
-    {
-      "item": "avaritia:densest_neutron_collector",
-      "emc": 4765853440
-    },
-    {
-      "item": "kubejs:eternity_core",
-      "emc": 463402473308160
     },
     {
       "item": "create:zinc_ingot",
@@ -197,26 +141,6 @@
       "emc": 768
     },
     {
-      "item": "extendedcrafting:crystaltine_ingot",
-      "emc": 90480
-    },
-    {
-      "item": "extendedcrafting:ender_star",
-      "emc": 146432
-    },
-    {
-      "item": "extendedcrafting:enhanced_ender_ingot",
-      "emc": 37886
-    },
-    {
-      "item": "extendedcrafting:flux_star",
-      "emc": 147456
-    },
-    {
-      "item": "extendedcrafting:enhanced_redstone_ingot",
-      "emc": 37179
-    },
-    {
       "item": "undergarden:utherium_crystal",
       "emc": 8776
     },
@@ -305,190 +229,6 @@
       "emc": 8192
     },
     {
-      "item": "kubejs:estelar_obsidium_ingot",
-      "emc": 2819752
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:bronze\"}",
-      "emc": 1600000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:crystal_matrix\"}",
-      "emc": 4587520000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:electrum\"}",
-      "emc": 12780000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:invar\"}",
-      "emc": 5040000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:lapis_lazuli\"}",
-      "emc": 8640000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:crimson_steel\"}",
-      "emc": 59130000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:osmium\"}",
-      "emc": 5120000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:uranium\"}",
-      "emc": 40960000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:coal\"}",
-      "emc": 1280000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:zinc\"}",
-      "emc": 2240000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:terrasteel\"}",
-      "emc": 94720000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:black_iron\"}",
-      "emc": 2610000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:vibranium\"}",
-      "emc": 3756540000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:diamond\"}",
-      "emc": 81920000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:platinum\"}",
-      "emc": 40960000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:iron\"}",
-      "emc": 2560000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:neutron\"}",
-      "emc": 414720000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:awakened_draconium\"}",
-      "emc": 148860000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:mana_steel\"}",
-      "emc": 2560000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:lumium\"}",
-      "emc": 5040000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:nickel\"}",
-      "emc": 10240000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:glowstone\"}",
-      "emc": 3840000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:refined_obsidian\"}",
-      "emc": 14310000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:rose_gold\"}",
-      "emc": 62640000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:steel\"}",
-      "emc": 2610000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:ender\"}",
-      "emc": 12780000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:crystaltine\"}",
-      "emc": 904800000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:enderium\"}",
-      "emc": 58860000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:emerald\"}",
-      "emc": 163840000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:constantan\"}",
-      "emc": 5760000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:netherite\"}",
-      "emc": 501480000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:aluminum\"}",
-      "emc": 1280000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:draconium\"}",
-      "emc": 51120000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:silver\"}",
-      "emc": 5120000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:tin\"}",
-      "emc": 2560000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:brass\"}",
-      "emc": 1440000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:blaze_gold\"}",
-      "emc": 51120000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:copper\"}",
-      "emc": 1280000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:signalum\"}",
-      "emc": 2880000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:unobtainium\"}",
-      "emc": 3925580000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:allthemodium\"}",
-      "emc": 3069060000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:lead\"}",
-      "emc": 5120000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:gold\"}",
-      "emc": 20480000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:crimson_iron\"}",
-      "emc": 5120000
-    },
-    {
-      "item": "extendedcrafting:ultimate_singularity",
-      "emc": 18286160000
-    },
-    {
       "item": "fruitsdelight:fig",
       "emc": 16
     },
@@ -573,10 +313,6 @@
       "emc": 16
     },
     {
-      "item": "avaritia:ultimate_stew",
-      "emc": 2385
-    },
-    {
       "item": "casualness_delight:raw_donkey_meat",
       "emc": 64
     },
@@ -659,82 +395,6 @@
     {
       "item": "blue_skies:venison",
       "emc": 64
-    },
-    {
-      "item": "avaritia:cosmic_meatballs",
-      "emc": 3392
-    },
-    {
-      "item": "avaritia:endest_pearl",
-      "emc": 337944
-    },
-    {
-      "item": "avaritia:infinity_catalyst",
-      "emc": 18339112524
-    },
-    {
-      "item": "avaritia:infinity_nugget",
-      "emc": 220069663593
-    },
-    {
-      "item": "avaritia:infinity_ingot",
-      "emc": 1026994374316
-    },
-    {
-      "item": "avaritia:infinity_totem{Damage:0}",
-      "emc": 1390207421251584
-    },
-    {
-      "item": "kubejs:eternity_ingot",
-      "emc": 475726405799952
-    },
-    {
-      "item": "kubejs:eternity_shaper",
-      "emc": 26616030859813728
-    },
-    {
-      "item": "avaritia:skull_fire_sword{Damage:0}",
-      "emc": 4732032
-    },
-    {
-      "item": "avaritia:infinity_boots",
-      "emc": 7611622494458112
-    },
-    {
-      "item": "avaritia:infinity_pants",
-      "emc": 17076854880407040
-    },
-    {
-      "item": "avaritia:infinity_chestplate",
-      "emc": 17540257353134592
-    },
-    {
-      "item": "avaritia:infinity_helmet",
-      "emc": 20357643990541872
-    },
-    {
-      "item": "avaritia:infinity_bow",
-      "emc": 9990254522462544
-    },
-    {
-      "item": "avaritia:infinity_sword",
-      "emc": 9502204183963440
-    },
-    {
-      "item": "avaritia:infinity_hoe",
-      "emc": 7599298561012464
-    },
-    {
-      "item": "avaritia:infinity_axe",
-      "emc": 12356562619177872
-    },
-    {
-      "item": "avaritia:infinity_shovel",
-      "emc": 8075024966688000
-    },
-    {
-      "item": "avaritia:infinity_pickaxe",
-      "emc": 11880836212963200
     },
     {
       "item": "undergarden:forgotten_ingot",
@@ -1045,18 +705,6 @@
       "emc": 12396233
     },
     {
-      "item": "solarflux:sp_avaritia.neutronium",
-      "emc": 147192653188
-    },
-    {
-      "item": "kubejs:infinity_plate",
-      "emc": 1026994374316
-    },
-    {
-      "item": "solarflux:sp_avaritia.infinity",
-      "emc": 33470887865360
-    },
-    {
       "item": "draconicevolution:wyvern_crafting_injector",
       "emc": 514493
     },
@@ -1142,67 +790,67 @@
     },
     {
       "item": "draconicevolution:draconic_sword",
-      "emc": 1311538
+      "emc": 11613754
     },
     {
       "item": "draconicevolution:draconic_pickaxe",
-      "emc": 1319699
+      "emc": 11621915
     },
     {
       "item": "draconicevolution:draconic_axe",
-      "emc": 1319699
+      "emc": 11621915
     },
     {
       "item": "draconicevolution:draconic_shovel",
-      "emc": 1303345
+      "emc": 11605561
     },
     {
       "item": "draconicevolution:draconic_hoe",
-      "emc": 1311542
+      "emc": 11613758
     },
     {
       "item": "draconicevolution:draconic_chestpiece",
-      "emc": 1360800
+      "emc": 11663016
     },
     {
       "item": "draconicevolution:draconic_staff",
-      "emc": 6055786
+      "emc": 36962434
     },
     {
       "item": "draconicevolution:draconic_bow",
-      "emc": 1295164
+      "emc": 11597380
     },
     {
       "item": "draconicevolution:chaotic_sword",
-      "emc": 11466752
+      "emc": 21768968
     },
     {
       "item": "draconicevolution:chaotic_pickaxe",
-      "emc": 11474883
+      "emc": 21777129
     },
     {
       "item": "draconicevolution:chaotic_axe",
-      "emc": 11474883
+      "emc": 21777129
     },
     {
       "item": "draconicevolution:chaotic_shovel",
-      "emc": 11458559
+      "emc": 21760775
     },
     {
       "item": "draconicevolution:chaotic_hoe",
-      "emc": 11466756
+      "emc": 21768972
     },
     {
       "item": "draconicevolution:chaotic_bow",
-      "emc": 11450378
+      "emc": 21752594
     },
     {
       "item": "draconicevolution:chaotic_staff",
-      "emc": 55979947
+      "emc": 75428066
     },
     {
       "item": "draconicevolution:chaotic_chestpiece",
-      "emc": 11516014
+      "emc": 21818230
     },
     {
       "item": "draconicevolution:item_wyvern_flight",
@@ -1271,18 +919,6 @@
     {
       "item": "productivetrees:fig",
       "emc": 16
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:forgotten\"}",
-      "emc": 122280000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:ventium\"}",
-      "emc": 2560000
-    },
-    {
-      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:falsite\"}",
-      "emc": 2560000
     },
     {
       "item": "pamhc2trees:figitem",
@@ -1435,6 +1071,1454 @@
     {
       "item": "minecraft:lime_dye",
       "emc": 8
+    },
+    {
+      "item": "terramity:iridium_chunk",
+      "emc": 19115
+    },
+    {
+      "item": "terramity:iridescent_shard",
+      "emc": 28672
+    },
+    {
+      "item": "terramity:decayed_bedrock_dust",
+      "emc": 512
+    },
+    {
+      "item": "terramity:accursed_soul",
+      "emc": 512
+    },
+    {
+      "item": "terramity:spiteful_soul",
+      "emc": 64
+    },
+    {
+      "item": "terramity:lost_soul",
+      "emc": 128
+    },
+    {
+      "item": "terramity:black_matter",
+      "emc": 17639
+    },
+    {
+      "item": "terramity:chthonic_crystal",
+      "emc": 256
+    },
+    {
+      "item": "terramity:empty_essence",
+      "emc": 17639
+    },
+    {
+      "item": "terramity:cracked_microcosm",
+      "emc": 17639
+    },
+    {
+      "item": "terramity:profanum",
+      "emc": 38229
+    },
+    {
+      "item": "terramity:sapphire",
+      "emc": 6371
+    },
+    {
+      "item": "terramity:onyx",
+      "emc": 2064
+    },
+    {
+      "item": "terramity:topaz",
+      "emc": 6371
+    },
+    {
+      "item": "terramity:ruby",
+      "emc": 2048
+    },
+    {
+      "item": "terramity:antiprism",
+      "emc": 11731
+    },
+    {
+      "item": "terramity:daemonium_chunk",
+      "emc": 2518
+    },
+    {
+      "item": "terramity:untapped_dimlite",
+      "emc": 9557
+    },
+    {
+      "item": "terramity:fairy_dust",
+      "emc": 256
+    },
+    {
+      "item": "terramity:moonstone_rock",
+      "emc": 2048
+    },
+    {
+      "item": "terramity:opaline_moonstone",
+      "emc": 50148
+    },
+    {
+      "item": "terramity:raw_cosmilite",
+      "emc": 24576
+    },
+    {
+      "item": "terramity:gaianite_cluster",
+      "emc": 3640
+    },
+    {
+      "item": "terramity:angel_feather",
+      "emc": 4096
+    },
+    {
+      "item": "terramity:warden_soul",
+      "emc": 32768
+    },
+    {
+      "item": "terramity:raw_profanum",
+      "emc": 38229
+    },
+    {
+      "item": "trials:bolt_template",
+      "emc": 29248
+    },
+    {
+      "item": "trials:breeze_rod",
+      "emc": 1536
+    },
+    {
+      "item": "trials:flow_template",
+      "emc": 29440
+    },
+    {
+      "item": "mythicbotany:alfsteel_template",
+      "emc": 9441
+    },
+    {
+      "item": "cataclysm:black_steel_nugget",
+      "emc": 44
+    },
+    {
+      "item": "undergarden:depthrock_pebble",
+      "emc": 64
+    },
+    {
+      "item": "undergarden:forgotten_upgrade_smithing_template",
+      "emc": 28960
+    },
+    {
+      "item": "minecraft:diamond_helmet",
+      "emc": 40960
+    },
+    {
+      "item": "minecraft:diamond_boots",
+      "emc": 32768
+    },
+    {
+      "item": "minecraft:diamond_chestplate",
+      "emc": 65536
+    },
+    {
+      "item": "minecraft:diamond_leggings",
+      "emc": 57344
+    },
+    {
+      "item": "minecraft:netherite_helmet",
+      "emc": 98717
+    },
+    {
+      "item": "minecraft:netherite_chestplate",
+      "emc": 123389
+    },
+    {
+      "item": "minecraft:netherite_leggings",
+      "emc": 115196
+    },
+    {
+      "item": "minecraft:netherite_boots",
+      "emc": 90600
+    },
+    {
+      "item": "minecraft:iron_helmet",
+      "emc": 1280
+    },
+    {
+      "item": "minecraft:iron_chestplate",
+      "emc": 2048
+    },
+    {
+      "item": "minecraft:iron_leggings",
+      "emc": 1792
+    },
+    {
+      "item": "minecraft:iron_boots",
+      "emc": 1024
+    },
+    {
+      "item": "minecraft:golden_chestplate",
+      "emc": 16384
+    },
+    {
+      "item": "minecraft:golden_leggings",
+      "emc": 14336
+    },
+    {
+      "item": "minecraft:golden_helmet",
+      "emc": 10240
+    },
+    {
+      "item": "minecraft:golden_boots",
+      "emc": 8192
+    },
+    {
+      "item": "minecraft:chainmail_chestplate",
+      "emc": 2496
+    },
+    {
+      "item": "minecraft:chainmail_leggings",
+      "emc": 2184
+    },
+    {
+      "item": "minecraft:chainmail_helmet",
+      "emc": 1560
+    },
+    {
+      "item": "minecraft:chainmail_boots",
+      "emc": 1248
+    },
+    {
+      "item": "minecraft:leather_chestplate",
+      "emc": 216
+    },
+    {
+      "item": "minecraft:leather_leggings",
+      "emc": 189
+    },
+    {
+      "item": "minecraft:leather_boots",
+      "emc": 108
+    },
+    {
+      "item": "minecraft:leather_helmet",
+      "emc": 135
+    },
+    {
+      "item": "terramity:dimlite_upgrade_smithing_template",
+      "emc": 84095
+    },
+    {
+      "item": "terramity:virentium_upgrade_smithing_template",
+      "emc": 81137
+    },
+    {
+      "item": "terramity:cosmilite_upgrade_smithing_template",
+      "emc": 91605
+    },
+    {
+      "item": "terramity:void_upgrade_smithing_template",
+      "emc": 75722
+    },
+    {
+      "item": "terramity:conductite_upgrade_smithing_template",
+      "emc": 87453
+    },
+    {
+      "item": "terramity:hellspec_upgrade_smithing_template",
+      "emc": 67030
+    },
+    {
+      "item": "silentgear:coating_smithing_template",
+      "emc": 28672
+    },
+    {
+      "item": "allthemodium:allthemodium_upgrade_smithing_template",
+      "emc": 175519
+    },
+    {
+      "item": "allthemodium:vibranium_upgrade_smithing_template",
+      "emc": 1074175
+    },
+    {
+      "item": "allthemodium:unobtainium_upgrade_smithing_template",
+      "emc": 1314789
+    },
+    {
+      "item": "deeperdarker:warden_upgrade_smithing_template",
+      "emc": 28680
+    },
+    {
+      "item": "irons_spellbooks:dragonskin",
+      "emc": 6144
+    },
+    {
+      "item": "bhc:wither_bone",
+      "emc": 288
+    },
+    {
+      "item": "iceandfire:ectoplasm",
+      "emc": 64
+    },
+    {
+      "item": "deeperdarker:heart_of_the_deep",
+      "emc": 65536
+    },
+    {
+      "item": "deeperdarker:warden_carapace",
+      "emc": 32768
+    },
+    {
+      "item": "kubejs:purple_soul",
+      "emc": 2625702
+    },
+    {
+      "item": "kubejs:red_soul",
+      "emc": 2625702
+    },
+    {
+      "item": "kubejs:blue_soul",
+      "emc": 2625702
+    },
+    {
+      "item": "kubejs:green_soul",
+      "emc": 2625702
+    },
+    {
+      "item": "enlightened_end:adamantite_nugget",
+      "emc": 1170
+    },
+    {
+      "item": "powah:steel_energized",
+      "emc": 1152
+    },
+    {
+      "item": "alltheores:iridium_nugget",
+      "emc": 8495
+    },
+    {
+      "item": "immersiveengineering:dust_hop_graphite",
+      "emc": 256
+    },
+    {
+      "item": "iceandfire:ghost_ingot",
+      "emc": 12873
+    },
+    {
+      "item": "bigreactors:blutonium_ingot",
+      "emc": 2048
+    },
+    {
+      "item": "bigreactors:ludicrite_ingot",
+      "emc": 4096
+    },
+    {
+      "item": "bigreactors:ridiculite_ingot",
+      "emc": 8192
+    },
+    {
+      "item": "bigreactors:inanite_ingot",
+      "emc": 16384
+    },
+    {
+      "item": "megacells:sky_steel_ingot",
+      "emc": 384
+    },
+    {
+      "item": "deeperdarker:bloom_berries",
+      "emc": 16
+    },
+    {
+      "item": "kubejs:awakened_draconium_plate",
+      "emc": 14886
+    },
+    {
+      "item": "kubejs:crystal_matrix_plate",
+      "emc": 458752
+    },
+    {
+      "item": "kubejs:dark_matter_plate",
+      "emc": 139264
+    },
+    {
+      "item": "kubejs:draconium_plate",
+      "emc": 5112
+    },
+    {
+      "item": "kubejs:neutronium_plate",
+      "emc": 8100
+    },
+    {
+      "item": "kubejs:red_matter_plate",
+      "emc": 466944
+    },
+    {
+      "item": "kubejs:infinity_plate",
+      "emc": 717341333628
+    },
+    {
+      "item": "enlightened_end:adamantite_smithing_template",
+      "emc": 7497
+    },
+    {
+      "item": "mysticalagriculture:air_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:earth_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:water_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:fire_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:stone_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:dirt_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:wood_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:ice_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:deepslate_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:nature_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:dye_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:nether_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:coal_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:coral_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:honey_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:amethyst_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:pig_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:chicken_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:cow_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:sheep_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:squid_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:fish_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:slime_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:turtle_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:rubber_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:silicon_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:sulfur_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:aluminum_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:saltpeter_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:apatite_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:grains_of_infinity_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:mystical_flower_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:limestone_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:menril_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:iron_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:copper_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:nether_quartz_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:glowstone_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:redstone_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:obsidian_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:prismarine_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:zombie_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:skeleton_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:creeper_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:spider_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:rabbit_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:tin_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:bronze_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:zinc_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:brass_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:silver_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:lead_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:graphite_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:blizz_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:blitz_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:basalz_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:copper_alloy_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:redstone_alloy_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:conductive_alloy_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:manasteel_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:steeleaf_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:ironwood_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:sky_stone_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:certus_quartz_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:quartz_enriched_iron_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:gold_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:lapis_lazuli_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:end_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:experience_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:blaze_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:ghast_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:enderman_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:steel_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:nickel_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:constantan_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:electrum_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:invar_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:mithril_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:tungsten_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:titanium_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:uranium_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:chrome_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:ruby_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:sapphire_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:peridot_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:soulium_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:signalum_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:lumium_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:hop_graphite_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:soularium_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:dark_steel_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:pulsating_alloy_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:energetic_alloy_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:elementium_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:osmium_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:fluorite_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:refined_glowstone_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:refined_obsidian_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:knightmetal_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:fiery_ingot_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:compressed_iron_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:fluix_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:energized_steel_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:blazing_crystal_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:diamond_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:emerald_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:netherite_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:wither_skeleton_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:platinum_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:iridium_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:enderium_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:vibrant_alloy_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:end_steel_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:terrasteel_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:draconium_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:yellorium_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:cyanite_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:niotic_crystal_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:spirited_crystal_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:uraninite_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:nether_star_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:dragon_egg_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:gaia_spirit_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:awakened_draconium_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:neutronium_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:nitro_crystal_essence",
+      "emc": 0
+    },
+    {
+      "item": "extendedcrafting:flux_star",
+      "emc": 147456
+    },
+    {
+      "item": "extendedcrafting:enhanced_redstone_ingot",
+      "emc": 37179
+    },
+    {
+      "item": "pamhc2trees:coconutitem",
+      "emc": 16
+    },
+    {
+      "item": "ecologics:coconut_slice",
+      "emc": 16
+    },
+    {
+      "item": "aether:blue_berry",
+      "emc": 16
+    },
+    {
+      "item": "pamhc2crops:juniperberryitem",
+      "emc": 16
+    },
+    {
+      "item": "allthecompressed:acacia_log_1x",
+      "emc": 288
+    },
+    {
+      "item": "allthecompressed:acacia_planks_1x",
+      "emc": 72
+    },
+    {
+      "item": "allthecompressed:birch_log_1x",
+      "emc": 288
+    },
+    {
+      "item": "allthecompressed:birch_planks_1x",
+      "emc": 72
+    },
+    {
+      "item": "allthecompressed:dark_oak_log_1x",
+      "emc": 288
+    },
+    {
+      "item": "allthecompressed:dark_oak_planks_1x",
+      "emc": 72
+    },
+    {
+      "item": "allthecompressed:jungle_log_1x",
+      "emc": 288
+    },
+    {
+      "item": "allthecompressed:jungle_planks_1x",
+      "emc": 72
+    },
+    {
+      "item": "allthecompressed:mangrove_log_1x",
+      "emc": 288
+    },
+    {
+      "item": "allthecompressed:mangrove_planks_1x",
+      "emc": 72
+    },
+    {
+      "item": "allthecompressed:oak_log_1x",
+      "emc": 288
+    },
+    {
+      "item": "allthecompressed:oak_planks_1x",
+      "emc": 72
+    },
+    {
+      "item": "allthecompressed:spruce_log_1x",
+      "emc": 288
+    },
+    {
+      "item": "allthecompressed:spruce_planks_1x",
+      "emc": 72
+    },
+    {
+      "item": "powah:crystal_blazing",
+      "emc": 2048
+    },
+    {
+      "item": "allthecompressed:niotic_crystal_block_1x",
+      "emc": 663552
+    },
+    {
+      "item": "powah:crystal_nitro",
+      "emc": 1327104
+    },
+    {
+      "item": "powah:uraninite",
+      "emc": 4096
+    },
+    {
+      "item": "powah:crystal_spirited",
+      "emc": 16384
+    },
+    {
+      "item": "allthecompressed:acacia_log_8x",
+      "emc": 1377495072
+    },
+    {
+      "item": "allthecompressed:birch_log_8x",
+      "emc": 1377495072
+    },
+    {
+      "item": "allthecompressed:dark_oak_log_8x",
+      "emc": 1377495072
+    },
+    {
+      "item": "allthecompressed:jungle_log_8x",
+      "emc": 1377495072
+    },
+    {
+      "item": "allthecompressed:mangrove_log_8x",
+      "emc": 1377495072
+    },
+    {
+      "item": "allthecompressed:oak_log_8x",
+      "emc": 1377495072
+    },
+    {
+      "item": "allthecompressed:spruce_log_8x",
+      "emc": 1377495072
+    },
+    {
+      "item": "allthecompressed:acacia_log_9x",
+      "emc": 12397455648
+    },
+    {
+      "item": "allthecompressed:birch_log_9x",
+      "emc": 12397455648
+    },
+    {
+      "item": "allthecompressed:dark_oak_log_9x",
+      "emc": 12397455648
+    },
+    {
+      "item": "allthecompressed:jungle_log_9x",
+      "emc": 12397455648
+    },
+    {
+      "item": "allthecompressed:mangrove_log_9x",
+      "emc": 12397455648
+    },
+    {
+      "item": "allthecompressed:oak_log_9x",
+      "emc": 12397455648
+    },
+    {
+      "item": "allthecompressed:spruce_log_9x",
+      "emc": 12397455648
+    },
+    {
+      "item": "allthecompressed:acacia_log_2x",
+      "emc": 2592
+    },
+    {
+      "item": "allthecompressed:birch_log_2x",
+      "emc": 2592
+    },
+    {
+      "item": "allthecompressed:dark_oak_log_2x",
+      "emc": 2592
+    },
+    {
+      "item": "allthecompressed:jungle_log_2x",
+      "emc": 2592
+    },
+    {
+      "item": "allthecompressed:mangrove_log_2x",
+      "emc": 2592
+    },
+    {
+      "item": "allthecompressed:oak_log_2x",
+      "emc": 2592
+    },
+    {
+      "item": "allthecompressed:spruce_log_2x",
+      "emc": 2592
+    },
+    {
+      "item": "allthecompressed:acacia_log_3x",
+      "emc": 23328
+    },
+    {
+      "item": "allthecompressed:birch_log_3x",
+      "emc": 23328
+    },
+    {
+      "item": "allthecompressed:dark_oak_log_3x",
+      "emc": 23328
+    },
+    {
+      "item": "allthecompressed:jungle_log_3x",
+      "emc": 23328
+    },
+    {
+      "item": "allthecompressed:mangrove_log_3x",
+      "emc": 23328
+    },
+    {
+      "item": "allthecompressed:oak_log_3x",
+      "emc": 23328
+    },
+    {
+      "item": "allthecompressed:spruce_log_3x",
+      "emc": 23328
+    },
+    {
+      "item": "allthecompressed:acacia_log_4x",
+      "emc": 209952
+    },
+    {
+      "item": "allthecompressed:birch_log_4x",
+      "emc": 209952
+    },
+    {
+      "item": "allthecompressed:dark_oak_log_4x",
+      "emc": 209952
+    },
+    {
+      "item": "allthecompressed:jungle_log_4x",
+      "emc": 209952
+    },
+    {
+      "item": "allthecompressed:mangrove_log_4x",
+      "emc": 209952
+    },
+    {
+      "item": "allthecompressed:oak_log_4x",
+      "emc": 209952
+    },
+    {
+      "item": "allthecompressed:spruce_log_4x",
+      "emc": 209952
+    },
+    {
+      "item": "allthecompressed:acacia_log_5x",
+      "emc": 1889568
+    },
+    {
+      "item": "allthecompressed:birch_log_5x",
+      "emc": 1889568
+    },
+    {
+      "item": "allthecompressed:dark_oak_log_5x",
+      "emc": 1889568
+    },
+    {
+      "item": "allthecompressed:jungle_log_5x",
+      "emc": 1889568
+    },
+    {
+      "item": "allthecompressed:mangrove_log_5x",
+      "emc": 1889568
+    },
+    {
+      "item": "allthecompressed:oak_log_5x",
+      "emc": 1889568
+    },
+    {
+      "item": "allthecompressed:spruce_log_5x",
+      "emc": 1889568
+    },
+    {
+      "item": "allthecompressed:acacia_log_6x",
+      "emc": 17006112
+    },
+    {
+      "item": "allthecompressed:birch_log_6x",
+      "emc": 17006112
+    },
+    {
+      "item": "allthecompressed:dark_oak_log_6x",
+      "emc": 17006112
+    },
+    {
+      "item": "allthecompressed:jungle_log_6x",
+      "emc": 17006112
+    },
+    {
+      "item": "allthecompressed:mangrove_log_6x",
+      "emc": 17006112
+    },
+    {
+      "item": "allthecompressed:oak_log_6x",
+      "emc": 17006112
+    },
+    {
+      "item": "allthecompressed:spruce_log_6x",
+      "emc": 17006112
+    },
+    {
+      "item": "allthecompressed:acacia_log_7x",
+      "emc": 153055008
+    },
+    {
+      "item": "allthecompressed:birch_log_7x",
+      "emc": 153055008
+    },
+    {
+      "item": "allthecompressed:dark_oak_log_7x",
+      "emc": 153055008
+    },
+    {
+      "item": "allthecompressed:jungle_log_7x",
+      "emc": 153055008
+    },
+    {
+      "item": "allthecompressed:mangrove_log_7x",
+      "emc": 153055008
+    },
+    {
+      "item": "allthecompressed:oak_log_7x",
+      "emc": 153055008
+    },
+    {
+      "item": "allthecompressed:spruce_log_7x",
+      "emc": 153055008
+    },
+    {
+      "item": "allthecompressed:acacia_planks_2x",
+      "emc": 648
+    },
+    {
+      "item": "allthecompressed:birch_planks_2x",
+      "emc": 648
+    },
+    {
+      "item": "allthecompressed:dark_oak_planks_2x",
+      "emc": 648
+    },
+    {
+      "item": "allthecompressed:jungle_planks_2x",
+      "emc": 648
+    },
+    {
+      "item": "allthecompressed:spruce_planks_2x",
+      "emc": 648
+    },
+    {
+      "item": "allthecompressed:oak_planks_2x",
+      "emc": 648
+    },
+    {
+      "item": "allthecompressed:mangrove_planks_2x",
+      "emc": 648
+    },
+    {
+      "item": "allthecompressed:acacia_planks_3x",
+      "emc": 5832
+    },
+    {
+      "item": "allthecompressed:birch_planks_3x",
+      "emc": 5832
+    },
+    {
+      "item": "allthecompressed:dark_oak_planks_3x",
+      "emc": 5832
+    },
+    {
+      "item": "allthecompressed:jungle_planks_3x",
+      "emc": 5832
+    },
+    {
+      "item": "allthecompressed:mangrove_planks_3x",
+      "emc": 5832
+    },
+    {
+      "item": "allthecompressed:spruce_planks_3x",
+      "emc": 5832
+    },
+    {
+      "item": "allthecompressed:acacia_planks_4x",
+      "emc": 52488
+    },
+    {
+      "item": "allthecompressed:birch_planks_4x",
+      "emc": 52488
+    },
+    {
+      "item": "allthecompressed:dark_oak_planks_4x",
+      "emc": 52488
+    },
+    {
+      "item": "allthecompressed:jungle_planks_4x",
+      "emc": 52488
+    },
+    {
+      "item": "allthecompressed:mangrove_planks_4x",
+      "emc": 52488
+    },
+    {
+      "item": "allthecompressed:oak_planks_4x",
+      "emc": 52488
+    },
+    {
+      "item": "allthecompressed:spruce_planks_4x",
+      "emc": 52488
+    },
+    {
+      "item": "allthecompressed:acacia_planks_5x",
+      "emc": 472392
+    },
+    {
+      "item": "allthecompressed:birch_planks_5x",
+      "emc": 472392
+    },
+    {
+      "item": "allthecompressed:dark_oak_planks_5x",
+      "emc": 472392
+    },
+    {
+      "item": "allthecompressed:jungle_planks_5x",
+      "emc": 472392
+    },
+    {
+      "item": "allthecompressed:mangrove_planks_5x",
+      "emc": 472392
+    },
+    {
+      "item": "allthecompressed:oak_planks_5x",
+      "emc": 472392
+    },
+    {
+      "item": "allthecompressed:spruce_planks_5x",
+      "emc": 472392
+    },
+    {
+      "item": "allthecompressed:acacia_planks_6x",
+      "emc": 4251528
+    },
+    {
+      "item": "allthecompressed:birch_planks_6x",
+      "emc": 4251528
+    },
+    {
+      "item": "allthecompressed:dark_oak_planks_6x",
+      "emc": 4251528
+    },
+    {
+      "item": "allthecompressed:jungle_planks_6x",
+      "emc": 4251528
+    },
+    {
+      "item": "allthecompressed:mangrove_planks_6x",
+      "emc": 4251528
+    },
+    {
+      "item": "allthecompressed:oak_planks_6x",
+      "emc": 4251528
+    },
+    {
+      "item": "allthecompressed:spruce_planks_6x",
+      "emc": 4251528
+    },
+    {
+      "item": "allthecompressed:acacia_planks_7x",
+      "emc": 38263752
+    },
+    {
+      "item": "allthecompressed:birch_planks_7x",
+      "emc": 38263752
+    },
+    {
+      "item": "allthecompressed:dark_oak_planks_7x",
+      "emc": 38263752
+    },
+    {
+      "item": "allthecompressed:jungle_planks_7x",
+      "emc": 38263752
+    },
+    {
+      "item": "allthecompressed:mangrove_planks_7x",
+      "emc": 38263752
+    },
+    {
+      "item": "allthecompressed:oak_planks_7x",
+      "emc": 38263752
+    },
+    {
+      "item": "allthecompressed:spruce_planks_7x",
+      "emc": 38263752
+    },
+    {
+      "item": "allthecompressed:acacia_planks_8x",
+      "emc": 344373768
+    },
+    {
+      "item": "allthecompressed:birch_planks_8x",
+      "emc": 344373768
+    },
+    {
+      "item": "allthecompressed:dark_oak_planks_8x",
+      "emc": 344373768
+    },
+    {
+      "item": "allthecompressed:jungle_planks_8x",
+      "emc": 344373768
+    },
+    {
+      "item": "allthecompressed:mangrove_planks_8x",
+      "emc": 344373768
+    },
+    {
+      "item": "allthecompressed:oak_planks_8x",
+      "emc": 344373768
+    },
+    {
+      "item": "allthecompressed:spruce_planks_8x",
+      "emc": 344373768
+    },
+    {
+      "item": "allthecompressed:acacia_planks_9x",
+      "emc": 3099363912
+    },
+    {
+      "item": "allthecompressed:birch_planks_9x",
+      "emc": 3099363912
+    },
+    {
+      "item": "allthecompressed:dark_oak_planks_9x",
+      "emc": 3099363912
+    },
+    {
+      "item": "allthecompressed:jungle_planks_9x",
+      "emc": 3099363912
+    },
+    {
+      "item": "allthecompressed:mangrove_planks_9x",
+      "emc": 3099363912
+    },
+    {
+      "item": "allthecompressed:oak_planks_9x",
+      "emc": 3099363912
+    },
+    {
+      "item": "allthecompressed:spruce_planks_9x",
+      "emc": 3099363912
+    },
+    {
+      "item": "allthecompressed:oak_planks_3x",
+      "emc": 5832
+    },
+    {
+      "item": "bosses_of_mass_destruction:soul_star",
+      "emc": 1024
+    },
+    {
+      "item": "illagerinvasion:illusionary_dust",
+      "emc": 2048
+    },
+    {
+      "item": "illagerinvasion:unusual_dust",
+      "emc": 4096
     }
   ]
 }
