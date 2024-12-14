@@ -1,0 +1,26 @@
+{
+	"error.gateways.left_dimension": "The Gateway imploded because an entity escaped to another dimension",
+
+	"gateways.basic/blaze": "Blaze Gateway",
+	"gateways.basic/chicken_invasion": "Chicken Invasion Gateway",
+	"gateways.basic/creeper": "Creeper Gateway",
+	"gateways.basic/mimic": "Mimic Gateway",
+	"gateways.basic/phantom": "Phantom Gateway",
+	"gateways.basic/siren": "Siren Gateway",
+	"gateways.basic/skeleton": "Skeleton Gateway",
+	"gateways.basic/slime": "Slime Gateway",
+	"gateways.basic/spider": "Spider Gateway",
+	"gateways.basic/witch": "Witch Gateway",
+	"gateways.basic/wither_skeleton": "Wither Skeleton Gateway",
+	"gateways.basic/zombie": "Zombie Gateway",
+
+	"gateways.call_of_dragons": "Call of Dragons",
+	"gateways.deep_abyss": "Deep Abyss",
+	"gateways.illager_invasion_gate": "Illager Invasion Gate",
+	"gateways.illager_sigil": "Illager Sigil",
+	"gateways.nether_breach": "Nether Breach",
+	"gateways.the_convergence": "The Convergence",
+	"gateways.the_end": "The End",
+	"gateways.ancient_pyramid": "Ancient Pyramid",
+	"gateways.corundum_guardian_boss": "Corundum Guardian Boss"
+}
