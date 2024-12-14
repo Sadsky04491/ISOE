@@ -1,0 +1,433 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_aether"
+	group: "760C6DC2960E80B5"
+	icon: "aether:aether_portal_frame"
+	id: "58EC5EDD60332F71"
+	images: [{
+		height: 2.0d
+		hover: ["https://aether.wiki.gg/wiki/Aether_Wiki"]
+		image: "quests:textures/aether.png"
+		rotation: 0.0d
+		width: 7.0d
+		x: -4.0d
+		y: -5.0d
+	}]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&lThe Aether&r is a hostile, paradise-like dimension of floating islands high in the sky, where you can begin a new survival adventure packed with new ores, mythical creatures and perilous Dungeons."
+				""
+				"The &lBook of Lore&r is an item that provides in-game details about items in The Aether mod."
+			]
+			id: "3A4B9D1B063E4CF2"
+			optional: true
+			rewards: [{
+				id: "39D52107108AD64A"
+				item: "aether:book_of_lore"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "https://aether.wiki.gg/wiki/Aether_Wiki"
+			tasks: [{
+				id: "46FFAC8ACCC68D6A"
+				title: "The Aether"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A4B9D1B063E4CF2"]
+			description: [
+				"To access the Aether, the player must first build a &lrectangular glowstone frame&r, ranging in size from a minimum of 4 blocks × 5 blocks to a maximum of 23 blocks × 23 blocks. Once the frame is built, it can then be activated by &lplacing water&r within the frame using a &lwater bucket&r, &lmelting a block of ice&r inside the frame, or &lusing dispensers&r."
+				"{@pagebreak}"
+				""
+				"{image:quests:textures/dimensions_quest/aether_portal.png width:100 height:100 align:center fit:true}"
+			]
+			icon: "aether:aether_portal_frame"
+			id: "325F730CDD5FE741"
+			rewards: [{
+				id: "052A7327F1F337FC"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				dimension: "aether:the_aether"
+				icon: "aether:aether_portal_frame"
+				id: "79472A965D199D71"
+				type: "dimension"
+			}]
+			title: "Visit The Aether"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["325F730CDD5FE741"]
+			description: ["Holystone is The Aether’s counterpart to &lregular stone&r. Alongside Aether Dirt, it is one of main blocks comprising the Aether’s &lfloating islands&r."]
+			id: "1747E9CD851AAE3F"
+			rewards: [{
+				id: "169B22958BC202A4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3D2D71607BB48747"
+				item: "aether:holystone"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1747E9CD851AAE3F"]
+			description: ["The Aether's version of iron. These shiny purple gems can be made into tools and armor that increase in strength when used."]
+			id: "37CA59B3C2FE90D9"
+			rewards: [{
+				count: 12
+				id: "57FD86F763F10B25"
+				item: "aether:zanite_gemstone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "38014E868B9DC0FA"
+				item: "aether:zanite_gemstone"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4CD2A43FBC58B188"]
+			description: ["&lGravitite,&r one of the &lstrongest&r naturally occurring metals in the Aether, holds many interesting properties. Most notably is its ability to bend the gravity of objects around it, and its own. The cause is currently unknown, but it appears to be related to some kind of invisible energy source."]
+			id: "451783503F34977D"
+			rewards: [{
+				count: 3
+				id: "6CDE57F11F3339DF"
+				item: "aether_redux:gravitite_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "04E583A80B70FF11"
+				item: "aether_redux:gravitite_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["325F730CDD5FE741"]
+			description: ["An bar of pure &lVeridium.&r Can be &lobtained&r by &lsmelting Veridium ore&r."]
+			id: "63B072E1428D2741"
+			rewards: [{
+				id: "4317256C9B7849B6"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "31E0BE90F4315646"
+				item: "aether_redux:veridium_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"37CA59B3C2FE90D9"
+				"1747E9CD851AAE3F"
+			]
+			description: ["Used to &lenchant items&r and &lrepair armor&r. They are powered by &lAmbrosium Shards&r."]
+			id: "4CD2A43FBC58B188"
+			rewards: [{
+				id: "0FFEC3B7AFE296C7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "761A86FB374552D5"
+				item: "aether:altar"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["325F730CDD5FE741"]
+			description: ["&lIcestone&r is a common ore that can be &lused&r as &lfuel&r for a &lFreezer&r. It can be used to &lfreeze nearby liquids&r such as &llava and water&r."]
+			id: "72A4697B3EF29B4B"
+			rewards: [{
+				id: "4D37A55B542F8A5D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "73E4055408859F40"
+				item: "aether:icestone"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["72A4697B3EF29B4B"]
+			description: ["You can &lfreeze&r various items using a Freezer, such as &laerclouds or Water Buckets&r. Its source of power is &lIcestone&r."]
+			id: "447A7AC3C79413F3"
+			rewards: [{
+				count: 12
+				id: "5BF3D6E5240928D0"
+				item: "aether:icestone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FD8ADDF8245354A"
+				item: "aether:freezer"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["447A7AC3C79413F3"]
+			description: ["A Ring which allows you to &lfreeze water and lava&r when &lwalked on&r."]
+			id: "09598520E92ED157"
+			rewards: [{
+				id: "0D86C5EB0BB6E4F1"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "1900F0AAC42EE1AE"
+				item: {
+					Count: 1
+					id: "aether:ice_ring"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["447A7AC3C79413F3"]
+			description: ["A Pendant which allows you to &lfreeze water and lava&r when &lwalked on&r."]
+			id: "491412E5DF8D9F24"
+			rewards: [{
+				id: "0B2D42831E4FEE1F"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "382AEE860DF4B0F6"
+				item: {
+					Count: 1
+					id: "aether:ice_pendant"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1747E9CD851AAE3F"]
+			description: ["The Aether's &lCoal equivalent&r. These have the &lhealing property&r of restoring a small amount of health when &leaten&r."]
+			id: "59EA9E27B6D299F8"
+			rewards: [{
+				count: 8
+				id: "29FE3CEE203937BD"
+				item: "aether:ambrosium_shard"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C34D377C707BBDB"
+				item: "aether:ambrosium_shard"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["59EA9E27B6D299F8"]
+			description: ["The main &llight source&r in the Aether, made from a &lSkyroot Stick&r and &lAmbrosium Shard&r."]
+			id: "038B77CCB562B467"
+			rewards: [{
+				count: 2
+				id: "598B098537DE9678"
+				item: "aether:ambrosium_shard"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1289E6048D906540"
+				item: "aether:ambrosium_torch"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"1747E9CD851AAE3F"
+				"038B77CCB562B467"
+			]
+			description: ["Used to &lincubate Moas&r. You use &lAmbrosium Torches for the fuel&r. The process can take quite some time, but it is worth the wait once you Moa of choices hatches!"]
+			id: "4918A491340D5C22"
+			rewards: [{
+				id: "586B592A8B80BC3F"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "1591F3465FE3702F"
+				item: "aether:incubator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["63B072E1428D2741"]
+			id: "10D769970F7DE1B1"
+			rewards: [
+				{
+					id: "20BCE19A02B5DCCF"
+					item: "aether_redux:veridium_ingot"
+					type: "item"
+				}
+				{
+					id: "01095BD33FB9F56C"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "65FABABB974DAC8A"
+				item: {
+					Count: 1
+					id: "aether_redux:infused_veridium_pickaxe"
+					tag: {
+						Damage: 0
+						ambrosium_charge: 64b
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["325F730CDD5FE741"]
+			description: [
+				"Find a &lBronze Dungeon&r and &ldefeat Slider.&r"
+				"{image:quests:textures/dimensions_quest/aether_kill_entity/slider.png width:100 height:100 align:1}"
+			]
+			id: "28DA60651578207F"
+			rewards: [{
+				id: "46DBBFBBA7348D54"
+				item: "aether:agility_cape"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "aether:slider"
+				icon: "aether:bronze_dungeon_key"
+				id: "2DE697854525F3BA"
+				title: "Defeat Slider"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat Slider"
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["325F730CDD5FE741"]
+			description: [
+				"Find a &lSilver Dungeon&r and &ldefeat Valkyrie Queen&r."
+				"{image:quests:textures/dimensions_quest/aether_kill_entity/valkyrie_queen.png width:100 height:100 align:1}"
+			]
+			id: "76DF338BA4C51FE6"
+			rewards: [{
+				id: "57290E655ECCA8A8"
+				item: "aether:invisibility_cloak"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "aether:valkyrie_queen"
+				icon: "aether:silver_dungeon_key"
+				id: "1ABA5AE9BAE1FDE4"
+				title: "Defeat Valkyrie Queen"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat Valkyrie Queen"
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["325F730CDD5FE741"]
+			description: [
+				"Find a &lGold Dungeon&r and &ldefeat Sun Spirit&r."
+				"{image:quests:textures/dimensions_quest/aether_kill_entity/sun_spirit.png width:100 height:100 align:1}"
+			]
+			id: "4628F0BFB7DDAC57"
+			rewards: [{
+				id: "02987E7AB3F5CFA9"
+				item: "aether:healing_stone"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "aether:sun_spirit"
+				icon: "aether:gold_dungeon_key"
+				id: "2013E5B148FF607A"
+				title: "Defeat Sun Spirit"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat Sun Spirit"
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["28DA60651578207F"]
+			description: ["A dull &lkey&r that is &ldropped&r from the &lSlider&r after being defeated."]
+			id: "5B31A93893BCCF6E"
+			rewards: [{
+				id: "15EAAB6826B79B1E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "02C3615BBA3001CD"
+				item: "aether:bronze_dungeon_key"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4628F0BFB7DDAC57"]
+			description: ["An altar containing the power to &lcontrol the sun&r itself! It is dropped by the &lSun Spirit&r after you defeat him."]
+			id: "04DFE7A15221E85D"
+			rewards: [{
+				id: "0D97083495A2D14D"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "6F246EE2BD5F2FD2"
+				item: "aether:sun_altar"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+	]
+	title: "The Aether"
+}

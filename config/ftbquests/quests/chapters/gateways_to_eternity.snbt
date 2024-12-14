@@ -1,0 +1,597 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gateways_to_eternity"
+	group: ""
+	icon: {
+		Count: 1
+		id: "gateways:gate_pearl"
+		tag: {
+			gateway: "gateways:hellish_fortress"
+		}
+	}
+	id: "4CEA118BD50127E5"
+	images: [{
+		height: 1.0d
+		image: "quests:textures/gateways_to_eternity.png"
+		rotation: 0.0d
+		width: 9.0d
+		x: -3.0d
+		y: -3.0d
+	}]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&lGateways to Eternity&r is a mod where you open &lgiant portals&r which pour forth hordes of &lenemies&r in a series of &lwaves,&r each wave &lstronger&r than the last.  &lCompletion&r of a wave will yield &lrewards,&r and completing the entire gateway will yield a completion bonus."]
+			id: "4924A41744E8A4E3"
+			optional: true
+			rewards: [{
+				id: "0A0FB2E0CD85685B"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7BCEFD4FD3C2718F"
+				title: "Gateways to Eternity"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			description: ["Once you have a &lGate Pearl&r, you can learn everything about the &lGateway&r you're about to &lsummon,&r from how many &lwaves&r it has, what &lentities&r are part of each wave, and what &lrewards&r you'll receive.  All of this data is stored on the item's tooltip."]
+			id: "0F159FF48861AEE2"
+			rewards: [{
+				id: "20C387CD764D70F0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3DD8A0C0842ECA49"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:basic/blaze"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			description: ["Once you have a &lGate Pearl&r, you can learn everything about the &lGateway&r you're about to &lsummon,&r from how many &lwaves&r it has, what &lentities&r are part of each wave, and what &lrewards&r you'll receive.  All of this data is stored on the item's tooltip."]
+			id: "665C720C3CF7C770"
+			rewards: [{
+				id: "4FED7E09390B9239"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "68A9C957C85ED32D"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:basic/phantom"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			description: ["Once you have a &lGate Pearl&r, you can learn everything about the &lGateway&r you're about to &lsummon,&r from how many &lwaves&r it has, what &lentities&r are part of each wave, and what &lrewards&r you'll receive.  All of this data is stored on the item's tooltip."]
+			id: "07EC152D8FF762F3"
+			rewards: [{
+				id: "743026AC1BDE9AC6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "00E4A68BF216153B"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:basic/spider"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			description: ["Once you have a &lGate Pearl&r, you can learn everything about the &lGateway&r you're about to &lsummon,&r from how many &lwaves&r it has, what &lentities&r are part of each wave, and what &lrewards&r you'll receive.  All of this data is stored on the item's tooltip."]
+			id: "74E8321C3825A33F"
+			rewards: [{
+				id: "3915A093BB090DDD"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "0DFFF13D356729B6"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:ancient_pyramid"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			description: ["Once you have a &lGate Pearl&r, you can learn everything about the &lGateway&r you're about to &lsummon,&r from how many &lwaves&r it has, what &lentities&r are part of each wave, and what &lrewards&r you'll receive.  All of this data is stored on the item's tooltip."]
+			id: "47818BCF9F3D95CC"
+			rewards: [{
+				id: "19DBBC563E91D3D3"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "1207CC2A0E24283D"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:nether_breach"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			description: ["Once you have a &lGate Pearl&r, you can learn everything about the &lGateway&r you're about to &lsummon,&r from how many &lwaves&r it has, what &lentities&r are part of each wave, and what &lrewards&r you'll receive.  All of this data is stored on the item's tooltip."]
+			id: "50F7F282E6FE72EC"
+			rewards: [{
+				id: "3195D692CF1CCC15"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5AF5F3BCDBF0C12A"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:basic/chicken_invasion"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			description: ["Once you have a &lGate Pearl&r, you can learn everything about the &lGateway&r you're about to &lsummon,&r from how many &lwaves&r it has, what &lentities&r are part of each wave, and what &lrewards&r you'll receive.  All of this data is stored on the item's tooltip."]
+			id: "7A1DC6E79F66A3F3"
+			rewards: [{
+				id: "6360641ACA1DF94A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "53DBE726F3197F4F"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:basic/creeper"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			description: ["Once you have a &lGate Pearl&r, you can learn everything about the &lGateway&r you're about to &lsummon,&r from how many &lwaves&r it has, what &lentities&r are part of each wave, and what &lrewards&r you'll receive.  All of this data is stored on the item's tooltip."]
+			id: "3FE0D9716FAABB63"
+			rewards: [{
+				id: "3DD087563778695A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "41D96877E9BCA20E"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:basic/mimic"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			description: ["Once you have a &lGate Pearl&r, you can learn everything about the &lGateway&r you're about to &lsummon,&r from how many &lwaves&r it has, what &lentities&r are part of each wave, and what &lrewards&r you'll receive.  All of this data is stored on the item's tooltip."]
+			id: "7E521E0488926907"
+			rewards: [{
+				id: "1EC975D57190FE1C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5A7DF0E9BEE1924F"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:basic/siren"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			description: ["Once you have a &lGate Pearl&r, you can learn everything about the &lGateway&r you're about to &lsummon,&r from how many &lwaves&r it has, what &lentities&r are part of each wave, and what &lrewards&r you'll receive.  All of this data is stored on the item's tooltip."]
+			id: "709250F0F404F881"
+			rewards: [{
+				id: "7434034E4C3328FD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1D0492162F247A8B"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:basic/skeleton"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			description: ["Once you have a &lGate Pearl&r, you can learn everything about the &lGateway&r you're about to &lsummon,&r from how many &lwaves&r it has, what &lentities&r are part of each wave, and what &lrewards&r you'll receive.  All of this data is stored on the item's tooltip."]
+			id: "39D267105F06EBD9"
+			rewards: [{
+				id: "377CE7AB28129CC9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "04A6A7DF7B681610"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:basic/slime"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			description: ["Once you have a &lGate Pearl&r, you can learn everything about the &lGateway&r you're about to &lsummon,&r from how many &lwaves&r it has, what &lentities&r are part of each wave, and what &lrewards&r you'll receive.  All of this data is stored on the item's tooltip."]
+			id: "0CC3C697F6009A72"
+			rewards: [{
+				id: "72C9CEFA8471E4D5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "76261A783DDCD378"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:basic/witch"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			description: ["Once you have a &lGate Pearl&r, you can learn everything about the &lGateway&r you're about to &lsummon,&r from how many &lwaves&r it has, what &lentities&r are part of each wave, and what &lrewards&r you'll receive.  All of this data is stored on the item's tooltip."]
+			id: "12D5F37B3B58D53A"
+			rewards: [{
+				id: "5E487EBA13E9CC32"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1F05AD17DC4FC3CF"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:basic/wither_skeleton"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			description: ["Once you have a &lGate Pearl&r, you can learn everything about the &lGateway&r you're about to &lsummon,&r from how many &lwaves&r it has, what &lentities&r are part of each wave, and what &lrewards&r you'll receive.  All of this data is stored on the item's tooltip."]
+			id: "204FE08CD701CB7A"
+			rewards: [{
+				id: "52235773B77917A6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "59875879CB68154D"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:basic/zombie"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			description: ["Once you have a &lGate Pearl&r, you can learn everything about the &lGateway&r you're about to &lsummon,&r from how many &lwaves&r it has, what &lentities&r are part of each wave, and what &lrewards&r you'll receive.  All of this data is stored on the item's tooltip."]
+			id: "5EB53397DA8E1798"
+			rewards: [{
+				id: "3398E1BBBD30615D"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "669F18839B06755C"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:call_of_dragons"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			description: ["Once you have a &lGate Pearl&r, you can learn everything about the &lGateway&r you're about to &lsummon,&r from how many &lwaves&r it has, what &lentities&r are part of each wave, and what &lrewards&r you'll receive.  All of this data is stored on the item's tooltip."]
+			id: "5314ABE3DCA26858"
+			rewards: [{
+				id: "2FEEB9A52D51EE33"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "539B5F92FD5A6270"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:emerald_grove"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			description: ["Once you have a &lGate Pearl&r, you can learn everything about the &lGateway&r you're about to &lsummon,&r from how many &lwaves&r it has, what &lentities&r are part of each wave, and what &lrewards&r you'll receive.  All of this data is stored on the item's tooltip."]
+			id: "1C629CC1E0F88007"
+			rewards: [{
+				id: "664FED7726DE8031"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "2A4E81A3FEC7AB35"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:illager_sigil"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			description: ["Once you have a &lGate Pearl&r, you can learn everything about the &lGateway&r you're about to &lsummon,&r from how many &lwaves&r it has, what &lentities&r are part of each wave, and what &lrewards&r you'll receive.  All of this data is stored on the item's tooltip."]
+			id: "21C64201394A2AC7"
+			rewards: [{
+				id: "01AA9A1CF579D0CB"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "18049372FC95BC4F"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:overworldian_nights"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			description: ["Once you have a &lGate Pearl&r, you can learn everything about the &lGateway&r you're about to &lsummon,&r from how many &lwaves&r it has, what &lentities&r are part of each wave, and what &lrewards&r you'll receive.  All of this data is stored on the item's tooltip."]
+			id: "4502BBE7B0030DD9"
+			rewards: [{
+				id: "15DC8D8D614351D5"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "07936BC85A6F9AFA"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:the_convergence"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			description: ["Once you have a &lGate Pearl&r, you can learn everything about the &lGateway&r you're about to &lsummon,&r from how many &lwaves&r it has, what &lentities&r are part of each wave, and what &lrewards&r you'll receive.  All of this data is stored on the item's tooltip."]
+			id: "0F726A4F45A75E79"
+			rewards: [{
+				id: "3B8AED9A46D46B5F"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "042ECDA43FAB1EAD"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:the_end"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			description: ["Once you have a &lGate Pearl&r, you can learn everything about the &lGateway&r you're about to &lsummon,&r from how many &lwaves&r it has, what &lentities&r are part of each wave, and what &lrewards&r you'll receive.  All of this data is stored on the item's tooltip."]
+			id: "7CC7BA5170F5B671"
+			rewards: [{
+				id: "59F535B185F00B78"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "67007976BF40653A"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:hellish_fortress"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			description: ["Once you have a &lGate Pearl&r, you can learn everything about the &lGateway&r you're about to &lsummon,&r from how many &lwaves&r it has, what &lentities&r are part of each wave, and what &lrewards&r you'll receive.  All of this data is stored on the item's tooltip."]
+			id: "712632287CDCBF06"
+			rewards: [{
+				id: "5BB3BD0431E5CE09"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "7EA7487E5C34B5E0"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:illager_invasion_gate"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			description: ["Once you have a &lGate Pearl&r, you can learn everything about the &lGateway&r you're about to &lsummon,&r from how many &lwaves&r it has, what &lentities&r are part of each wave, and what &lrewards&r you'll receive.  All of this data is stored on the item's tooltip."]
+			id: "22C40DF48F8FA62E"
+			rewards: [{
+				id: "1C9C48E608472FC1"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "5D3F76FFCE7E0F9D"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:deep_abyss"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			description: ["Once you have a &lGate Pearl&r, you can learn everything about the &lGateway&r you're about to &lsummon,&r from how many &lwaves&r it has, what &lentities&r are part of each wave, and what &lrewards&r you'll receive.  All of this data is stored on the item's tooltip."]
+			id: "7BA151E81DDE542B"
+			rewards: [{
+				id: "0C962EC543B22D19"
+				type: "xp"
+				xp: 1500
+			}]
+			tasks: [{
+				id: "51FA15A2A97171FD"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:corundum_guardian_boss"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+	]
+	title: "Gateways to Eternity"
+}

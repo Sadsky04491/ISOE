@@ -1,0 +1,541 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "guide_books"
+	group: ""
+	icon: "minecraft:writable_book"
+	id: "19FC24405CD3EB0A"
+	images: [{
+		height: 1.0d
+		image: "quests:textures/guide_books.png"
+		rotation: 0.0d
+		width: 10.556701030927835d
+		x: -3.0d
+		y: -3.0d
+	}]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&lGuide books&r are essential for understanding the features of different mods."
+				""
+				"Here, you can read a brief description of each mod and obtain its corresponding Guide Book."
+			]
+			id: "6B776EBAFCE9728C"
+			rewards: [{
+				id: "4B9CCCDA5373B1E8"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2E03D589C2AC2653"
+				title: "Guide Books"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			description: ["&lMystical Agriculture&r is a mod based around the concept of growing your resources with crops. Use crops to grow essences used to make materials, mob drops, tools, armor and possibly even more!"]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "mysticalagriculture:guide"
+				}
+			}
+			id: "215E33E0719D059B"
+			rewards: [{
+				id: "62F5AA3F6180336E"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "mysticalagriculture:guide"
+					}
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "5D76A9D7557B184C"
+				title: "Mystical Agriculture"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"&lBotania&r is a tech mod themed around natural magic. Gameplay is centered around creating magical flowers and devices using Mana, the power of the earth."
+				""
+				"The mod focuses on automation, but without elements that make it feel grindy-- systems can be thought out and designed, rather than built blindly from blueprints in JEI or a wiki."
+			]
+			icon: "botania:lexicon"
+			id: "32C744B675BC4D6C"
+			rewards: [{
+				id: "080495C24BD6A8C5"
+				item: "botania:lexicon"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "69E0287CDC8DCA34"
+				title: "Botania"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"&lApotheosis&r is a content mod that allows you to become stronger than ever before, while trying to stay true to vanilla mechanics at heart. Every feature is carefully put together to feel cohesive and complete."
+				""
+				"Features range from simple changes, like taller sugarcane, to massive overhauls of core systems such as Enchanting."
+			]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "apotheosis:apoth_chronicle"
+				}
+			}
+			id: "3927B7E8D3D9BA80"
+			rewards: [{
+				id: "297E9CE517E3F756"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "apotheosis:apoth_chronicle"
+					}
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "42F1523C587E2CBD"
+				title: "Apotheosis"
+				type: "checkmark"
+			}]
+			title: "Apotheosis"
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			description: ["&lImmersive Engineering&r is a tech mod with a certain charm, based on the ideas and concepts, and with most assets created by Damien Hazard."]
+			icon: "immersiveengineering:manual"
+			id: "5626B47C31DCB933"
+			rewards: [{
+				id: "3DD4E1F487E99426"
+				item: "immersiveengineering:manual"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "0BD06152AC49E58C"
+				title: "Immersive Engineering"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			description: ["&lEvilCraft&r is a magic/technical mod that is based on somewhat evil things. Throughout the game you will discover an ancient source of evil. These powers can be used in various technological advancements to initiate a second age of evilness. "]
+			icon: "evilcraft:origins_of_darkness"
+			id: "17A40CA20573F92A"
+			rewards: [{
+				id: "7A9FA1FAB88254D6"
+				item: "evilcraft:origins_of_darkness"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "75692D31D3AF713D"
+				title: "EvilCraft"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Welcome to &lDire's Building Gadgets&r!"
+				""
+				"Sometimes, building large structures can be a little tedious, and take a lot of effort. Not all of us a great builders you know! Dire's Building Gadgets aims to make building a little bit easier."
+			]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "buildinggadgets2:buildinggadgets2book"
+				}
+			}
+			id: "47E0F955404FDF58"
+			rewards: [{
+				id: "03CA26F056F8F161"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "buildinggadgets2:buildinggadgets2book"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "01E39BA9A9D184AA"
+				title: "Building Gadgets"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			description: ["&lArs Nouveau&r is a magic mod inspired by Ars Magicka that allows players to craft their own spells, create magical artifacts, perform rituals, and much more. "]
+			icon: "ars_nouveau:worn_notebook"
+			id: "7717855E23403875"
+			rewards: [{
+				id: "4E4233C99B638850"
+				item: "ars_nouveau:worn_notebook"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D88F05613C0B7AD"
+				title: "Ars Nouveau"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			description: ["&lMahou Tsukai&r is a magic mod focused mainly on spell uniqueness and special effects, instead of focusing on how spells are created, as many magic mods do. Many of the spells are based on similar concepts in Fate/Stay Night and other media, but knowledge of these media are not at all necessary to understand and enjoy the mod. "]
+			icon: "mahoutsukai:guidebook"
+			id: "363E36F3B79B1169"
+			rewards: [{
+				id: "177572625766E83F"
+				item: "mahoutsukai:guidebook"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D3031D157C0CD58"
+				title: "Mahou Tsukai"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			description: ["&lIron's Spells 'n Spellbooks&r introduces the classic RPG spellcasting fantasy to the game. Fight dangerous wizards, raid a plethora of structures, delve through dungeons, collect resources and spells, and find powerful magical artifacts!"]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "irons_spellbooks:iss_guide_book"
+				}
+			}
+			id: "766F2BAE3E44434B"
+			rewards: [{
+				id: "4CFE44251343B4F7"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "irons_spellbooks:iss_guide_book"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "12A171BAC6D267E5"
+				title: "Iron's Spells 'n Spellbooks"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: ["&lPowah&r is a tech mod that adds Various ways to generate, store, and transmit Forge Energy."]
+			icon: "powah:book"
+			id: "2791952C1DDB271E"
+			rewards: [{
+				id: "3ABA7453D2E91F4A"
+				item: "powah:book"
+				type: "item"
+			}]
+			tasks: [{
+				id: "414EF9247D568F1F"
+				title: "Powah!"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"Giants Reactors to harness the power of the atom or mighty Turbines to turn steam into energy? Why not both?"
+				""
+				"Build huge multiblock machines to produce produce energy in a very efficient way."
+			]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "bigreactors:erguide"
+				}
+			}
+			id: "3950EBCB1C012534"
+			rewards: [{
+				id: "442A719BB5575623"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "bigreactors:erguide"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0082A464600F1356"
+				title: "Extreme Reactors"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			description: ["&lThermal Series&r is a bunch of tech mods created by Team CoFH. It expands the usage of Redstone Flux (RF) in the world, adding machines that allow for processing resources, and ways to simplify transportation of items, energy and liquids to distant bases."]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "thermal:guidebook"
+				}
+			}
+			id: "1A75303B7B567569"
+			rewards: [{
+				id: "643731156B019A7D"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "thermal:guidebook"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B60DDAFB3F87622"
+				title: "Thermal Series"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			description: ["&lIndustrial Foregoing&r is a comprehensive, industrial automation mod designed to streamline and improve your in-game production systems! Inspired by the classic MineFactory Reloaded, it brings modern, tech-driven machinery and tools to Minecraft, allowing players to create intricate automated systems for farming, processing resources, animal care, and more."]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "industrialforegoing:industrial_foregoing"
+				}
+			}
+			id: "4AAA655084C8A5FC"
+			rewards: [{
+				id: "696BAD25896429D3"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "industrialforegoing:industrial_foregoing"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2467A3C2EF1879D9"
+				title: "Industrial Foregoing"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			description: ["&lIntegrated Dynamics&r is a mod which requires you to build networks for complex automation and system integration."]
+			icon: "integrateddynamics:on_the_dynamics_of_integration"
+			id: "597192A8227D12F3"
+			rewards: [{
+				id: "350436A476A41A61"
+				item: "integrateddynamics:on_the_dynamics_of_integration"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E4FF56ADF88B5C0"
+				title: "Integrated Dynamics"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			description: ["&lPneumaticCraft&r is a technical mod all about pneumatics. Apart from a power system based on that of real life, it adds all kinds of tools and gadgets, like Drones, which you can program to do all sorts of tasks for you, or a Pneumatic Helmet, which gives you a Iron Man like HUD."]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "pneumaticcraft:book"
+				}
+			}
+			id: "1B458E51EC3D79B6"
+			rewards: [{
+				id: "20A0D8ACB5802AAC"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "pneumaticcraft:book"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D69190217F6B028"
+				title: "PneumaticCraft: Repressurized"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			description: ["&lSecurityCraft&r adds reinforced blocks corresponding to many of the already existing vanilla blocks. These reinforced blocks are unbreakable variants of their vanilla counterpart, and have a slightly darker tint to distinguish them from, but otherwise look the same as, their vanilla versions."]
+			icon: "securitycraft:sc_manual"
+			id: "6FD01C1EA4CA7138"
+			rewards: [{
+				id: "42155C9824385CA6"
+				item: "securitycraft:sc_manual"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A7F83AC2C5750C6"
+				title: "Security Craft"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			description: ["&lSimple Storage Network&r adds an easy and simple way to create a storage network."]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "storagenetwork:network_book"
+				}
+			}
+			id: "0B8FE20770CDF611"
+			rewards: [{
+				id: "769495CEA7D9881F"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "storagenetwork:network_book"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C23B58EAF85FBAD"
+				title: "Simple Storage Network"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			description: ["&lProductive Bees&r builds on the content added by Minecraft 1.15 and adds additional bees and advanced beehives allowing you to put your bees to work creating resources in a fully automated setup. Productive bees are just as derpy as their vanilla cousins, but makes up for it in usefulness and beeuty."]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "productivebees:guide"
+				}
+			}
+			id: "5E1DF8374965D90E"
+			rewards: [{
+				id: "7B602CEFE2D838B6"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "productivebees:guide"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "60DFFA60FDDCF7FC"
+				title: "Productive Bees"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			description: ["&lAlchemistry&r is a tech mod, inspired by the classic Minechem, that allows you to decompose items into their constituent elements, then recombine them to create new items."]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "alchemistry:alchemistry_book"
+				}
+			}
+			id: "2C8D977D1B5103A6"
+			rewards: [{
+				id: "4DFB082589B552F9"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "alchemistry:alchemistry_book"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "65E20BFEEC7F53FF"
+				title: "Alchemistry"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"For hundreds of years, Dragons have roamed the lands of the Known World. They are not simply pests and menaces, but the main cause of the loss of many lives. Only a brave few can slay a dragon. Even less can tame one."
+				""
+				"Welcome, to &lIce and Fire&r."
+			]
+			icon: "iceandfire:bestiary"
+			id: "06EDF1D3C5ACB455"
+			rewards: [{
+				id: "2D9FE99EA6C77BCB"
+				item: "iceandfire:bestiary"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "7A905F1A95B0C550"
+				title: "Ice and Fire"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+	]
+	title: "Guide Books"
+}

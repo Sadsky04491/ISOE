@@ -1,0 +1,183 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "deeper_and_darker"
+	group: "760C6DC2960E80B5"
+	icon: "deeperdarker:heart_of_the_deep"
+	id: "5577420E0B820B57"
+	images: [{
+		height: 2.0d
+		hover: ["https://github.com/KyaniteMods/DeeperAndDarker/wiki"]
+		image: "quests:textures/deeper_and_darker.png"
+		rotation: 0.0d
+		width: 5.0d
+		x: -2.0d
+		y: -3.0d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&lDeeper and Darker&r is a Minecraft mod for that features a dangerous new &ldimension&r called the &lOtherside&r, which is accessed through the center portal in &lAncient Cities&r. In the new dimension, you'll discover tons of new blocks, items, mobs, and treasure! "]
+			id: "12FA2AC54C69BAD7"
+			optional: true
+			rewards: [{
+				id: "25D6953E7B353AA1"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "https://github.com/KyaniteMods/DeeperAndDarker/wiki"
+			tasks: [{
+				id: "790A60D42D5A8311"
+				title: "Deeper and Darker"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12FA2AC54C69BAD7"]
+			description: ["The portal to the &lOtherside&r is located at the center of all &lancient cities&r. These portals are encompassed by &lreinforced deepslate&r and often surrounded by sculk sensors and shriekers."]
+			id: "3113902F6E23171A"
+			rewards: [{
+				id: "53F0958E03F2C332"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				icon: "minecraft:sculk"
+				id: "269BCDC66F68F8F3"
+				structure: "minecraft:ancient_city"
+				title: "Find an Ancient City"
+				type: "structure"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["12FA2AC54C69BAD7"]
+			description: [
+				"The &lHeart of the Deep&r is an item used to &llight the Otherside portal&r."
+				"Hearts of the deep can be obtained by &lkilling the warden&r, with a &l100%&r chance of being dropped."
+			]
+			id: "0EB2AE815D079ED6"
+			rewards: [{
+				id: "0DF62ABDC0635C0D"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "6331E52D93E59E78"
+				item: "deeperdarker:heart_of_the_deep"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"0EB2AE815D079ED6"
+				"3113902F6E23171A"
+			]
+			description: ["To light the &lOtherside&r portal, you will need the &lHeart of the Deep&r, obtained from &lkilling the Warden&r. Using this heart on the &lreinforced deepslate&r will light the portal, as long as the portal has been &lcleared&r of all &lsculk veins&r and &lobstructions&r from the inner frame. After the frame is cleared, you can &lright click&r it with the heart."]
+			id: "7CAF27912EBEDE71"
+			rewards: [{
+				id: "4AD4E3E1FDF7E87B"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				id: "02C6D6A7F675A648"
+				title: "Visit the Otherside"
+				type: "dimension"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7CAF27912EBEDE71"]
+			description: ["&lBloom berries&r are easily found on the &lOtherside&r."]
+			id: "362D651E0A92358B"
+			rewards: [
+				{
+					count: 6
+					id: "561DA98302A1E9B0"
+					item: "deeperdarker:bloom_berries"
+					type: "item"
+				}
+				{
+					id: "29DE2C1FD5549124"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "1A8E62D32D5F8494"
+				item: "deeperdarker:bloom_berries"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["64A00506F5D9568C"]
+			description: [
+				"When in the &lOtherside&r and in Survival mode, the player is given the &ldarkness effect&r. The only way to get rid of the effect is to wear a &lwarden helmet&r."
+				"Warden armor and tools can be obtained by upgrading netherite gear with a warden upgrade smithing template using a reinforced echo shard in a smithing table."
+			]
+			id: "2D225FD1FBC15006"
+			rewards: [
+				{
+					count: 2
+					id: "0FD43391C2F927E5"
+					item: "deeperdarker:reinforced_echo_shard"
+					type: "item"
+				}
+				{
+					id: "083E094AF2F24175"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "3D7D4797187ABD4C"
+				item: {
+					Count: 1
+					id: "deeperdarker:warden_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7CAF27912EBEDE71"]
+			description: [
+				"The Otherside currently only has one structure."
+				""
+				"This structure is the &lancient temple&r, which generates in the &ldeeplands&r. The ancient temple consists of various deepslate and sculk stone blocks. The temple has three levels: an entrance level, a top level, and a bottom level. The bottom level is hidden and can be accessed by breaking through the 2x2 area of water in the center of the entrance level. Each level generates with &lancient vases&r and &lchests&r full of &lenchanted books&r, &ldiamond gear&r, &lecho shards&r, and more &lvaluable loot&r. The &lbottom level&r of the ancient temple is littered with &lsculk stone diamond ore&r and various other &ltreasures&r. There are 2 caged up cells on either side of the bottom level. Inside these cells, there are skeleton skulls. In one of the cells, there is a chest that contains cobwebs and the extremely rare sculk transmitter."
+			]
+			id: "64A00506F5D9568C"
+			rewards: [{
+				id: "2DFEE142CCDC5FFF"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				icon: "deeperdarker:ancient_vase"
+				id: "391FEF386FEEB151"
+				structure: "deeperdarker:ancient_temple"
+				title: "Find the Ancient Temple"
+				type: "structure"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+	]
+	title: "Deeper and Darker"
+}

@@ -1,0 +1,143 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mowzies_mobs"
+	group: "581FD22ED3056953"
+	icon: "mowziesmobs:sol_visage"
+	id: "69EF1E982FB3AD6A"
+	images: [{
+		height: 2.25d
+		hover: ["https://mowziesmobs.fandom.com/wiki/Mowzie's_Mobs_Wiki "]
+		image: "quests:textures/mowzie.png"
+		rotation: 0.0d
+		width: 6.5d
+		x: -2.5d
+		y: -3.0d
+	}]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Mowzie's Mobs adds a variety of fictional creatures to Minecraft, priding itself in unique AI, rich atmosphere, and fluid animations. Prove your might against new bosses and enemies and claim their magical abilities as your own."]
+			id: "35419480436C33BA"
+			optional: true
+			rewards: [{
+				id: "6F88EF1A611A6630"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "https://mowziesmobs.fandom.com/wiki/Mowzie's_Mobs_Wiki "
+			tasks: [{
+				id: "6926C47D44E453FC"
+				title: "Mowzie's Mobs"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["35419480436C33BA"]
+			description: [
+				"&lFerrous Wroughtnauts&r are &lhostile boss&r mobs &lfound in Wrought Chamber&r. They are heavily armored knights that are &limmune to any damage&r. "
+				""
+				"Wrought Chamber is a &lsmall structure&r that generates naturally &lunderground.&r It is the only place where players find and fight the Ferrous Wroughtnaut. "
+			]
+			id: "27E17CE08EDAC997"
+			rewards: [{
+				id: "23EAADFD59B6314B"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				icon: "mowziesmobs:wrought_helmet"
+				id: "68B63F4D68C545FF"
+				title: "Defeat the Ferrous Wroughtnaut"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["35419480436C33BA"]
+			description: [
+				"&lUmvuthi, the Sunbird&r (formerly known as Barako, the Sun Chief) is a large &lneutral boss&r mob that can be &lfound in Umvuthana Grove&r. He is a heliomacer who serves as the creator of the Abavuthana. "
+				""
+				"Umvuthana Groves (formerly known as Barakoa Villages) are &lstructures&r that generate naturally in the &lSavannas&r. They are the main inhabited place of the Abavuthana and their creator, Umvuthi. "
+			]
+			id: "225A0AC1AEB3B5FA"
+			rewards: [{
+				id: "27CAB130A1240971"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				icon: "mowziesmobs:sol_visage"
+				id: "5D00542AB0D7EA71"
+				title: "Defeat Umvuthi, the Sunbird"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["35419480436C33BA"]
+			description: [
+				"&lNagas&r are large &lflying hostile&r mobs &lfound on coastal cliffs&r. They are venomous winged serpents that can split acid at their enemies. "
+				""
+				"Nagas &lspawn in packs in Stony Shores biomes&r."
+			]
+			id: "652C7ED5AEF0297B"
+			rewards: [{
+				id: "12DA1433DB038764"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				entity: "mowziesmobs:naga"
+				icon: "mowziesmobs:naga_fang"
+				id: "5FDC76F759EB1054"
+				title: "Defeat Naga"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["35419480436C33BA"]
+			description: [
+				"&lFrostmaw&r is a large rare &lhostile boss&r mob that can be &lfound in cold biomes&r. It attacks by swinging its arms or freezing its target."
+				""
+				"Frostmaws &lspawn above grass and ice&r in cold and icy biomes such as &lSnowy Plains&r or &lIce Spikes&r and other &lsnowy biomes&r.  "
+			]
+			id: "4D423CE6B8C8C4DD"
+			rewards: [{
+				id: "2509BDD1B1E08B9B"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:ice_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "046D11BBB41F3A78"
+				title: "Defeat the Frostmaw"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+	]
+	title: "Mowzie's Mobs"
+}

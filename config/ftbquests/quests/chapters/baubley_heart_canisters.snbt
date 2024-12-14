@@ -1,0 +1,233 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "baubley_heart_canisters"
+	group: ""
+	icon: "bhc:red_heart_canister"
+	id: "23D0BFBC2C5504EB"
+	images: [{
+		height: 3.0d
+		image: "quests:textures/baubley_heart_canisters.png"
+		rotation: 0.0d
+		width: 7.5d
+		x: -3.0d
+		y: -5.0d
+	}]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["This mod adds back the old Tinkers' Contruct heart canisters in a new and reimagined way to become Baubles/Curios!"]
+			id: "19DA57CCC3BA70BD"
+			optional: true
+			rewards: [{
+				id: "7B64B9312A87A359"
+				item: "bhc:red_heart"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "283EFC5174571F41"
+				title: "Baubley Heart Canisters"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19DA57CCC3BA70BD"]
+			description: ["&lRed Hearts&r drop from &lhostile mobs&r."]
+			id: "1409260A1CC8ACE9"
+			rewards: [{
+				id: "001ED23E80FB724F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "12D8A0E598D728D4"
+				item: "bhc:red_heart"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["19DA57CCC3BA70BD"]
+			description: ["&lYellow Hearts&r drop from the &lWither Boss&r."]
+			id: "48B3978A687743E4"
+			rewards: [{
+				id: "46F72FC0F64C4C06"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "573B34FA07FC99C8"
+				item: "bhc:yellow_heart"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["19DA57CCC3BA70BD"]
+			description: ["&lGreen Hearts&r drop from the &lEnder Dragon&r."]
+			id: "5EF1B6C6490D04DA"
+			rewards: [{
+				id: "7273F7430BF500BF"
+				type: "xp"
+				xp: 750
+			}]
+			tasks: [{
+				id: "548DB89B4477C90A"
+				item: "bhc:green_heart"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["19DA57CCC3BA70BD"]
+			description: ["&lBlue Hearts&r drop from &lWardens&r."]
+			id: "443215467918F147"
+			rewards: [{
+				id: "2718093EC9B89727"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "35DB2B7B94F986BA"
+				item: "bhc:blue_heart"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1409260A1CC8ACE9"]
+			description: [
+				"Holds all &lHeart Canisters&r in one slot, with a &lmaximum&r of &l10 each&r."
+				""
+				"Must be equipped in the &lCurios Gui&r."
+				""
+				""
+				"{image:quests:textures/curios.png width:100 height:100 align:center}"
+			]
+			id: "69BC5E95E5806A75"
+			rewards: [{
+				id: "31A4C46BAA19149B"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "360D8E7BA1DF8ADE"
+				item: "bhc:heart_amulet"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1409260A1CC8ACE9"]
+			description: ["&lIncreases&r the &lplayer's maximum health&r when &lequipped&r on the &lHeart Amulet&r."]
+			id: "4D11D4CBE7C6BF70"
+			rewards: [{
+				id: "525F1FA74781EC60"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "09B9162B18166A6B"
+				item: "bhc:red_heart_canister"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["48B3978A687743E4"]
+			description: ["&lIncreases&r the &lplayer's maximum health&r when &lequipped&r on the &lHeart Amulet&r."]
+			id: "05B254507C68AB4E"
+			rewards: [{
+				id: "1DBED5CAB245F25C"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "7602C30982888616"
+				item: "bhc:yellow_heart_canister"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5EF1B6C6490D04DA"]
+			description: ["&lIncreases&r the &lplayer's maximum health&r when &lequipped&r on the &lHeart Amulet&r."]
+			id: "2AD3682DCAA55F16"
+			rewards: [{
+				id: "1C9C7D9C13690622"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "0EABCB953ECD04A3"
+				item: "bhc:green_heart_canister"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["443215467918F147"]
+			description: ["&lIncreases&r the &lplayer's maximum health&r when &lequipped&r on the &lHeart Amulet&r."]
+			id: "1858FD06F601E959"
+			rewards: [{
+				id: "35A27330E2C95879"
+				type: "xp"
+				xp: 750
+			}]
+			tasks: [{
+				id: "4312F813B0CE2AE0"
+				item: "bhc:blue_heart_canister"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["69BC5E95E5806A75"]
+			description: ["&lSoul Heart Amulet&r acts just like the &lHeart Amulet&r but can also hold &lSoul Heart Canisters&r."]
+			id: "18F912A9C199E8E0"
+			rewards: [{
+				id: "593EE6892B1C0A9E"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "483B0B14E7CE72B2"
+				item: "bhc:soul_heart_amulet"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1858FD06F601E959"]
+			description: ["&lSoul Heart Canister&r can only be used in the &lSoul Amulet&r. They act like &lTotems of Undying&r that heal back to max health and once consumed they revert back to &lBlue Heart Canisters&r."]
+			id: "0A1344DED688B933"
+			rewards: [{
+				id: "3446F70C5363BE78"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "4F2A28BAB7C94403"
+				item: "bhc:soul_heart_canister"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+	]
+	title: "Heart Canisters"
+}

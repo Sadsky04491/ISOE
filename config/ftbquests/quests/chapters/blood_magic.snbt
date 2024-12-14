@@ -1,0 +1,358 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "blood_magic"
+	group: ""
+	icon: "bloodmagic:altar"
+	id: "4B0DE7808620FC1A"
+	images: [{
+		height: 1.0d
+		image: "quests:textures/blood_magic.png"
+		rotation: 0.0d
+		width: 6.0d
+		x: -4.0d
+		y: -3.5d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&lBlood Magic&r is an arcane art that is practiced by mages who attempt to gather a vast amount of power through utilizing a forbidden material: blood. Even though it does grant a huge amount of power, every single action that is performed with this volatile magic can prove deadly. You have been warned."]
+			id: "214654708DCBC879"
+			optional: true
+			rewards: [{
+				id: "69903C24C375AE50"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "bloodmagic:guide"
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "https://ftb.fandom.com/wiki/Blood_Magic"
+			tasks: [{
+				id: "3A36C50DF871F5FB"
+				title: "Blood Magic"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["214654708DCBC879"]
+			description: ["The &lBlood Altar&r is &lused&r to &ltransmute&r various &litems using Life Essence (LP)&r."]
+			id: "666E03EAF2775551"
+			rewards: [
+				{
+					id: "4CE1955A07EED52B"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B441B82E0EC66A3"
+					table_id: 5727529613781251998L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "698AF94CAFF7FD33"
+				item: "bloodmagic:altar"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["214654708DCBC879"]
+			description: ["By pressing &l[Right Button]&r while aiming at air with the knife, you can \"&lextract&r\" &n200 LP&r for the cost of &lone heart&r, placing it into a &lnearby altar&r."]
+			id: "4E8FEFED5AD9167C"
+			rewards: [
+				{
+					id: "02E77BA7EF3D8D1B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7235935F233893A0"
+					table_id: 5727529613781251998L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "620CDF7D9624D3A6"
+				item: {
+					Count: 1
+					id: "bloodmagic:sacrificialdagger"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["666E03EAF2775551"]
+			description: ["The &lWeak Blood Orb&r is a &lLife Essence (LP) storage&r method within Blood Magic. The Weak Blood Orb converts the &lLife Essence&r contained within an altar into a &lstored form of energy&r for items such as the &lLava Crystal&r and the various rituals."]
+			id: "78FBEEFA22E20A69"
+			rewards: [
+				{
+					id: "02834A647A64670A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4244F5007BEEF3B8"
+					table_id: 5727529613781251998L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5959C4A1B3481F2D"
+				item: "bloodmagic:weakbloodorb"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["78FBEEFA22E20A69"]
+			description: ["The &lIncense Altar&r is a multiblock structure that can be used to &lboost&r your &lself-sacrificig&r at a &lBlood Altar&r."]
+			id: "6E3BE7692C6492C5"
+			rewards: [
+				{
+					id: "396804C94120D783"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C72AEB4409C5849"
+					table_id: 5727529613781251998L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1556D9AAC1714C5D"
+				item: "bloodmagic:incensealtar"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["666E03EAF2775551"]
+			description: ["&lBlank Slates&r are a &lcrafting ingredient&r in Blood Magic that are primarily used in &lrune&r and &lsigil&r creation."]
+			id: "7D5CA4B1ACB91D33"
+			rewards: [{
+				id: "1B2EAC2D2AF5746D"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "2B22A323A40B16C1"
+				item: "bloodmagic:blankslate"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"78FBEEFA22E20A69"
+				"7D5CA4B1ACB91D33"
+			]
+			description: ["The &lBlank Rune&r is &lused&r in &lupgrading the tier&r of the &lBlood Altar&r and &lcrafting&r other &lrunes&r."]
+			id: "5CBB88F2A8A0CDB5"
+			rewards: [
+				{
+					count: 3
+					id: "541FD488535BC83A"
+					item: "bloodmagic:blankrune"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3907CA2F1AB0EA9E"
+					table_id: 5727529613781251998L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "68F21D581DEA156C"
+				item: "bloodmagic:blankrune"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7D5CA4B1ACB91D33"]
+			description: ["The &lHellfire Forge&r is needed to &lcraft recipes&r requiring &lWill&r, which requires &lDemonic Will&r or a &lTartaric Gem&r in the right slot that has enough default will to meet the required minimum will."]
+			id: "411BC76689440556"
+			rewards: [
+				{
+					count: 2
+					id: "5CEA50E377D5FFA9"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18BE1C222B0E7323"
+					table_id: 5727529613781251998L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1EAFB232FE031B9E"
+				item: "bloodmagic:soulforge"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["666E03EAF2775551"]
+			description: ["The &lRudimentary Snare&r is the earliest method to &lcollect Demonic Will&r."]
+			id: "22E105B3D5D42AF2"
+			rewards: [{
+				id: "1CCA560F7734E911"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "5BEBC91BB56C7E58"
+				item: "bloodmagic:soulsnare"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"22E105B3D5D42AF2"
+				"411BC76689440556"
+			]
+			description: ["The &lPetty Tartaric Gem&r is a &lstorage&r for &lDemonic Will&r up to an amount of &l64&r."]
+			id: "29C87BFB012C196E"
+			rewards: [
+				{
+					id: "7EC3F1F06924EDC8"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "3D1FD1F4CECC2AA2"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "4A3B88A961008C50"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgempetty"
+					tag: {
+						souls: 64.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["29C87BFB012C196E"]
+			description: ["The &lSentient Sword&r is &lused&r to &lcollect &lRaw Will&r."]
+			id: "45D0E15092241245"
+			rewards: [
+				{
+					id: "08AF6A24F3C92F39"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FDDF0661316D355"
+					table_id: 5727529613781251998L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "796609DCBB708C72"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5CBB88F2A8A0CDB5"]
+			description: [
+				"&lUpgrade&r your &lBlood Altar&r to &lTier 2&r by following the &lguide&r in the &lSanguine Scientiem book&r and &lcreate a Dagger of Sacrifice&r."
+				""
+				"Dagger of Sacrifice will allow you to &lsacrifice any mob&r (monster or passive) that stands within &l2 blocks&r of your &lAltar&r, granting you a decente sum of &lLF&r."
+			]
+			id: "4C87B6FEF219831A"
+			rewards: [
+				{
+					id: "002DA875562EAF98"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2DCC181ED5D38B26"
+					table_id: 5727529613781251998L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "315424ACC9DFC12F"
+				item: "bloodmagic:daggerofsacrifice"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D5CA4B1ACB91D33"]
+			description: ["The &lAlchemy Table crafts items using LP from a Soul Network&r."]
+			id: "03DE695D5F49A492"
+			rewards: [
+				{
+					count: 2
+					id: "0ECB453449F942BD"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42BF00346DE049F2"
+					table_id: 5727529613781251998L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "1E4F2396AB64956A"
+				item: "bloodmagic:alchemytable"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+	]
+	title: "Blood Magic"
+}

@@ -1,0 +1,539 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "draconic_evolution"
+	group: "581FD22ED3056953"
+	icon: "draconicevolution:crafting_core"
+	id: "4ADD5D38AA3F22C2"
+	images: [{
+		height: 2.0d
+		image: "quests:textures/draconic_evolution.png"
+		rotation: 0.0d
+		width: 6.0d
+		x: -3.0d
+		y: -3.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&lDraconic Evolution&r is a mod that adds a lot of high-tier items such as tools and armor as well as some high-tier energy storage."]
+			id: "0DD020F05A4738B1"
+			optional: true
+			rewards: [{
+				id: "331CB2437906194D"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "29EF71552294FB53"
+				title: "Draconic Evolution"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0DD020F05A4738B1"]
+			description: [
+				"&lDraconium Dust drops from Draconium Ore&r when harvested. 1 dust smelts into 1 &nDraconium Ingot&r."
+				"{@pagebreak}"
+				""
+				"{image:draconicevolution:block/overworld_draconium_ore width:20 height:20 align:1}"
+				"{image:draconicevolution:block/deepslate_draconium_ore width:20 height:20 align:1}"
+				"{image:draconicevolution:block/nether_draconium_ore width:20 height:20 align:1}"
+				"{image:draconicevolution:block/end_draconium_ore width:20 height:20 align:1}"
+			]
+			id: "5B57EF0EFC7FFE27"
+			rewards: [{
+				count: 3
+				id: "208223003F9129A1"
+				item: "draconicevolution:draconium_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "76DB8D1988E64A3B"
+				item: "draconicevolution:draconium_dust"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B57EF0EFC7FFE27"]
+			description: ["&lDraconium&r is the &lbase material&r used one way or another to &lcraft every item&r and &lblock&r in Draconic Evolution."]
+			id: "0506BAD81F2C84E4"
+			rewards: [{
+				count: 3
+				id: "4E989440BD70495E"
+				item: "draconicevolution:draconium_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14EE61C3D1C42F30"
+				item: "draconicevolution:draconium_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0506BAD81F2C84E4"]
+			dependency_requirement: "one_completed"
+			description: ["This block is &lresistant to most mobs&r, including the &lWither and Ender Dragon&r. Equivalent to &l4 book shelves&r when used as an enchanting booster."]
+			id: "3F8528756FA0E4B7"
+			rewards: [{
+				count: 9
+				id: "68B510EC017CF580"
+				item: "draconicevolution:draconium_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14B6DEB130200216"
+				item: "draconicevolution:draconium_block"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0506BAD81F2C84E4"]
+			description: ["This is the &llowest Tier Core&r used in a lot of &lbasic crafting recipes&r."]
+			id: "0B325C0F00900224"
+			rewards: [{
+				count: 2
+				id: "022B58A5930C7B3E"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C1227B6870280D4"
+				item: "draconicevolution:draconium_core"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0506BAD81F2C84E4"
+				"0B325C0F00900224"
+			]
+			description: ["The next &ltier up from Draconium&r, this core is used in most &lTier 2&r (Wyvern) &lcrafting recipes&r."]
+			id: "3D2E5E26ACF9223A"
+			rewards: [{
+				id: "2E0458446FB296FC"
+				item: "draconicevolution:draconium_core"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B7D98E2B0D160ED"
+				item: "draconicevolution:wyvern_core"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0B325C0F00900224"]
+			description: ["&lFusion crafting injectors are a key component in Fusion Crafting&r. These are &lused to hold the items to be fused with the catalyst&r."]
+			id: "5CBAA70A21396EB3"
+			rewards: [
+				{
+					count: 3
+					id: "4A35279D2431E3AC"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "29931497281392C0"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "6A6400E8C95628C2"
+				item: "draconicevolution:basic_crafting_injector"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5CBAA70A21396EB3"]
+			description: [
+				"&lFusion crafting&r is a process that &luses&r large amounts of &lenergy to combine&r, or \"&lfuse&r\", items together at atomic level."
+				"{@pagebreak}"
+				"{image:quests:textures/draconic_quests/fusion_crafting.png width:100 height:100 align:center fit:true}"
+			]
+			id: "5997F49A905BF389"
+			rewards: [
+				{
+					count: 15
+					id: "79FB59C3838C5C1F"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "4FF5B7A772477C7D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "616CBC10B88986D1"
+				item: "draconicevolution:crafting_core"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			description: ["&lDropped by the Ender Dragon&r on death. This powerful item is used to craft &nAwakened Draconium&r."]
+			id: "29169C0AFB8DFF38"
+			rewards: [
+				{
+					count: 10
+					id: "6F7B6A69184FC948"
+					item: "draconicevolution:draconium_ingot"
+					type: "item"
+				}
+				{
+					id: "6A634F9853FDB923"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "71B497E60276786D"
+				item: "draconicevolution:dragon_heart"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"3F8528756FA0E4B7"
+				"29169C0AFB8DFF38"
+			]
+			description: ["&lAwakened Draconium&r is your next step towards &lcrafting&r even more &lpowerful tools, weapon and armor!&r"]
+			id: "3BD061052A7D937A"
+			rewards: [
+				{
+					count: 9
+					id: "6710EA8CF222A82B"
+					item: "draconicevolution:awakened_draconium_ingot"
+					type: "item"
+				}
+				{
+					id: "34298545F2484C55"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "647E05C30799B32A"
+				item: "draconicevolution:awakened_draconium_block"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D2E5E26ACF9223A"]
+			description: ["The next &lTier up&r from &lWyvern&r, this core is used in most &lTier 3&r (Draconic) &lcrafting recipes&r."]
+			id: "26B17ACD679C7470"
+			rewards: [
+				{
+					id: "47C6CF4EA96AAD42"
+					item: "draconicevolution:wyvern_core"
+					type: "item"
+				}
+				{
+					id: "3713C7AEB06EFCA7"
+					type: "xp"
+					xp: 150
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B267D1C07C4F845"
+					table_id: 1451898665914076892L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "25C6FD70EFEE06D7"
+				item: "draconicevolution:awakened_core"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"26B17ACD679C7470"
+				"3CA8F0A10A4C4DC5"
+			]
+			description: ["Ready for something a little more challenging? You may want to consider the &lChaotic tier&r! You will need to fight a &nChaostic Guardian&r to get acess to this tier, but the payout is worth it!"]
+			id: "7EE972B9F70F54E7"
+			rewards: [
+				{
+					id: "3E570877F18A45A1"
+					item: "draconicevolution:awakened_core"
+					type: "item"
+				}
+				{
+					id: "7BDB0C446589C0E9"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "50ABFA71BCC146F7"
+					table_id: 1451898665914076892L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "51CECC3FE61D6FB4"
+				item: "draconicevolution:chaotic_core"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0B325C0F00900224"]
+			description: ["This is a &lcrafting component&r used to &lcraft items or blocks&r that need to be able to &lstore energy&r."]
+			id: "3132100BA168EBB3"
+			rewards: [
+				{
+					id: "555E4FDE45F8DC94"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C48C71CF85DEE4C"
+					table_id: 1451898665914076892L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "64D556B4DF8CE858"
+				item: "draconicevolution:wyvern_energy_core"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3D2E5E26ACF9223A"]
+			description: ["This is a more &lpowerful version of the Wyvern Energy Controller&r used in higher Tier &lcrafting recipes&r."]
+			id: "7B5D303890FFEE1D"
+			rewards: [
+				{
+					id: "05D932C0C3860E4F"
+					item: "draconicevolution:wyvern_energy_core"
+					type: "item"
+				}
+				{
+					id: "0CD6562B807281B4"
+					type: "xp"
+					xp: 150
+				}
+				{
+					exclude_from_claim_all: true
+					id: "318AC38B452B8062"
+					table_id: 1451898665914076892L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "051C536C499ED8C9"
+				item: "draconicevolution:draconic_energy_core"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["26B17ACD679C7470"]
+			description: ["This is the &lChaotic&r version of the &lDraconic Energy Controller&r used in higher Tier &lcrafting recipes&r."]
+			id: "28DE06805E7F3D14"
+			rewards: [
+				{
+					id: "53FB132300747950"
+					item: "draconicevolution:draconic_energy_core"
+					type: "item"
+				}
+				{
+					id: "7139952CFB7B7C35"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58E6E5B0390EAFCA"
+					table_id: 1451898665914076892L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2B9ED2618FB46C7F"
+				item: "draconicevolution:chaotic_energy_core"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5CBAA70A21396EB3"]
+			description: ["The next &ltier up from Draconium Fusion Crafting Injector&r, this crafting injector is used in &lTier 2&r (Wyvern) &lcrafting recipes&r."]
+			id: "7DEF6664810AE593"
+			rewards: [
+				{
+					count: 2
+					id: "46C0EC7F53F5864A"
+					item: "draconicevolution:draconium_core"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2AC55BD6A2CB7A1E"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "4308CA0A78ACD854"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "5DF3779AC915AEAC"
+				item: "draconicevolution:wyvern_crafting_injector"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7DEF6664810AE593"]
+			description: ["The next &ltier up from Wyvern Fusion Crafting Injector&r, this crafting injector is used in &lTier 3&r (Draconic) &lcrafting recipes&r."]
+			id: "4397253122844C7F"
+			rewards: [
+				{
+					count: 2
+					id: "1702019BEE8D0088"
+					item: "draconicevolution:wyvern_core"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "310A883694B8A97E"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "76390006316B450C"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "4F4BE0AC015F51DE"
+				item: "draconicevolution:awakened_crafting_injector"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4397253122844C7F"]
+			description: ["The next &ltier up from Draconic Fusion Crafting Injector&r, this crafting injector is used in &lTier 4&r (Chaotic) &lcrafting recipes&r."]
+			id: "2E4EDD864C7433D9"
+			rewards: [
+				{
+					count: 2
+					id: "5A6D1675AF27FDA0"
+					item: "draconicevolution:awakened_core"
+					type: "item"
+				}
+				{
+					count: 18
+					id: "49C892F00CE7211D"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "5FF385FC7C6B9A44"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "3CF9A9418AC0E068"
+				item: "draconicevolution:chaotic_crafting_injector"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"&lChaos Guardian&r is an extremely powerful &lboss&r found every 10000 blocks on the X or Z coordinates in &lThe End&r dimension. &lExample: X:10000, Z:10000&r"
+				""
+				"The Chaos Guardian's &lregeneration crystals&r have a &lshield&r that &lnullifies damage&r, but can be destroyed by having their shield weakened by the &lChaos Guardian's attacks&r, and then destroyed by the &lplayer's attacks&r."
+				""
+				"&lDraconic shield armor&r and &lweapons&r are recommended to defeat him."
+				""
+				"After defeating him, you will be able to &lmine&r the &lChaos Crystal&r found by digging below the middle of the arena."
+			]
+			id: "3CA8F0A10A4C4DC5"
+			rewards: [
+				{
+					count: 3
+					id: "57D61B34CA874565"
+					item: "draconicevolution:chaos_shard"
+					type: "item"
+				}
+				{
+					id: "1E25B14F48F7D77D"
+					type: "xp"
+					xp: 20000
+				}
+			]
+			tasks: [{
+				entity: "draconicevolution:draconic_guardian"
+				icon: "draconicevolution:chaos_shard"
+				id: "11FB3E8107F0EB09"
+				title: "Defeat the Chaos Guardian"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0B325C0F00900224"]
+			description: ["&lDisenchanter&r can be &lused&r to &lextract enchantments&r from &litems&r and &ltransfer&r them to &lbooks&r using &lxp.&r"]
+			id: "116C6E36262DF87E"
+			rewards: [{
+				id: "4265A1D5079AD29E"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "3A788F0E6C3A1B72"
+				item: "draconicevolution:disenchanter"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+	]
+	title: "Draconic Evolution"
+}

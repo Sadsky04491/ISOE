@@ -1,0 +1,988 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "terramity"
+	group: "581FD22ED3056953"
+	icon: "terramity:raw_profanum"
+	id: "49A58888163F3AD3"
+	images: [{
+		height: 1.5d
+		image: "quests:textures/terramity.png"
+		rotation: 0.0d
+		width: 7.5d
+		x: -2.5d
+		y: -4.5d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&lTerramity&r is a mod inspired by progression-heavy games like Terraria, and aims to solve the problem with the lack of things to do in Minecraft if you tend to get bored quickly."
+				""
+				"Terramity attempts to also explore the underutilized facets of vanilla, and touches on them to give them more purpose in your Minecraft playthrough, such as sniffers and bees. Multiplayer is a focus, and Terramity adds multiplayer boss health scaling, making the multiplayer experience more balanced and enjoyable."
+			]
+			id: "77D0053E9E1E702E"
+			optional: true
+			rewards: [{
+				id: "6EBF7DEE57ED02F2"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "terramity:terramity_guidebook"
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "625CA8E218968EC1"
+				title: "Terramity"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77D0053E9E1E702E"]
+			description: [
+				"&lVirentium&r can be obtained by &lcrafting&r together &lnetherite scrap&r and &lgaianite&r."
+				""
+				"&lGaianite ore&r can be found in a triangle pattern in the &llush caves&r, between &lY=20&r and &lY=-64&r. Can also be obtained via &lgaia lilies&r. Gaianite ore can be &lmined&r with a &lNetherite Pickaxe&r."
+				""
+				"Virentium holds the power of the &llush caves&r."
+			]
+			id: "41FF817999BB3F22"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "7176AD12A1E6CCC6"
+					item: "terramity:virentium_alloy_ingot"
+					type: "item"
+				}
+				{
+					id: "7747CA69BD2AA512"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "529239AF2B46B937"
+				item: "terramity:virentium_alloy_ingot"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77D0053E9E1E702E"]
+			description: [
+				"&lDimlite&r can be obtained by &lcrafting&r together &luntapped dimlite&r and &lecho shards&r."
+				""
+				"&lDimlite ore&r can be found in a uniform pattern in the &loverworld&r, between &lY=-44&r and &lY=-64&r. Dimlite ore can be &lmined&r with a &lNetherite Pickaxe&r."
+				""
+				"Dimlite holds the power of the &ldeep dark&r."
+			]
+			id: "16B4306B28791294"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "60C11F1E539C3823"
+					item: "terramity:dimlite_ingot"
+					type: "item"
+				}
+				{
+					id: "73A5702EB6E40FA8"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "049213F2D7B50E4E"
+				item: "terramity:dimlite_ingot"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["77D0053E9E1E702E"]
+			description: [
+				"&lCosmilite&r can be obtained by &lcrafting&r together &lcosmic scrap&r and &lgold ingots&r."
+				""
+				"&lStellar remnants&r can be found in a uniform pattern in &lthe end&r, between &lY=50&r and &lY=0&r. Stellar remnants can be &lmined&r with a &lNetherite Pickaxe&r."
+				""
+				"Cosmilite holds the power of &lthe cosmos&r."
+			]
+			id: "592A80C7DC2B9D9F"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "341CB01E1618C3DE"
+					item: "terramity:cosmilite_ingot"
+					type: "item"
+				}
+				{
+					id: "4B0306D761CD1C0E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "6109D0F09D863459"
+				item: "terramity:cosmilite_ingot"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7D5799E579CD99F2"]
+			description: [
+				"&lBlack matter&r can only be obtained after &ldefeating&r the &lTrial Guardian&r and obtaining a &lperish staff&r."
+				""
+				"&lBedrock Black Matter Ore&r can be found on the &lsurface of the nether&r."
+				""
+				"You can reach the surface of the Nether by looking for a &lChthonian Breach&r at the &lhighest Y coordinates&r."
+				""
+				"Using the perish staff on Bedrock Black Matter Ore will decay it, allowing it to be mined."
+			]
+			id: "6183805BAB1940E7"
+			rewards: [
+				{
+					count: 2
+					id: "423E509860EDED8D"
+					item: "terramity:black_matter"
+					type: "item"
+				}
+				{
+					id: "744EC88A75328CA6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "1D03D0F0B5A8C9CF"
+				item: "terramity:black_matter"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"3DD8DC7C66FB4E60"
+				"63D13CC6474BF724"
+				"38EAF57D99BA024F"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&lIridium&r is used for &lhellspec alloy&r, &lvoid alloy&r, and &lconductite smithing templates&r."
+				""
+				"&lIridium ore&r can be &lfound deep&r in &lany dimension&r, and can only be &lmined&r by a &ldimlite,&r &lcosmilite,&r or &lvirentium pickaxe&r."
+			]
+			id: "6AD9FCE7C938139F"
+			rewards: [
+				{
+					count: 3
+					id: "47CFD1C64EAA5C6A"
+					item: "terramity:iridium"
+					type: "item"
+				}
+				{
+					id: "49C53ACA6994BC2C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "24CFBE5C66C667C3"
+				item: "terramity:iridium"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"The \"&lTrial Guardian&r\" is the &lthird boss&r in Terramity's progression."
+				""
+				"It can be summoned by inserting a &lspire key&r in the &llock&r found in a &lTrial Spire&r."
+				""
+				"Trial Spires can be found anywhere in the &locean&r."
+				""
+				"The Trial Guardian drops a &lperish staff&r when defeated, a necessary item to progress."
+			]
+			id: "7D5799E579CD99F2"
+			rewards: [{
+				id: "4FAC10697DE86621"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				entity: "terramity:trial_guardian"
+				icon: {
+					Count: 1
+					id: "terramity:perish_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5AC77E496BEDB55B"
+				title: "Defeat the Trial Guardian"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the Trial Guardian"
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"\"&lGob, King of Gnomes&r\" is the &lfirst boss&r in Terramity's progression."
+				""
+				"He can be found in a \"&lCourt of Gnomes&r\", a structure only found in &ldark forests&r and &lswamps&r."
+				""
+				"Can be summoned by &lright clicking&r a &lgold gnome statue&r with a &lred gnome hat&r."
+				""
+				"Give any &lgnome&r a &ldiamond&r, and it'll give you their &lhat&r."
+			]
+			id: "325EBD2F56165379"
+			rewards: [{
+				id: "18CDE67251CFAEF9"
+				item: {
+					Count: 1
+					id: "terramity:gobs_gilded_hat_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "terramity:gob"
+				icon: {
+					Count: 1
+					id: "terramity:gobs_gilded_hat_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "293FCE28F0ADFB5B"
+				title: "Defeat Gob, King of Gnomes"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat Gob, King of Gnomes"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"41FF817999BB3F22"
+				"325EBD2F56165379"
+				"004ACC72C17A0480"
+			]
+			description: ["The smithing template &ldrops&r from &lGob, King of Gnomes&r and the &lSuper Sniffer&r, and must be used on &lnetherite upgrade&r."]
+			id: "26612BE2B3C3E6DC"
+			optional: true
+			rewards: [{
+				id: "3C8C9EB3164CBD23"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "07C66203CD731AC1"
+				item: "terramity:virentium_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"16B4306B28791294"
+				"325EBD2F56165379"
+			]
+			description: ["The smithing template &ldrops&r from &lGob, King of Gnomes&r and must be used on &lnetherite upgrade&r."]
+			id: "0FCB3F5FB504BBD1"
+			optional: true
+			rewards: [{
+				id: "5217DDE8D9917B91"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "7A91C769F4F7833A"
+				item: "terramity:dimlite_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"The \"&lSuper Sniffer&r\" is the &lsecond boss&r in Terramity's progression."
+				""
+				"He can be &lsummoned&r anywhere in the world by &lstriking&r a &lsniffer&r with a &llightning&r."
+				""
+				"&lCrafting&r a &llightning staff&r and striking it next to a sniffer (not on, or it will die) is the &leasiest way&r to do this."
+			]
+			id: "004ACC72C17A0480"
+			rewards: [{
+				id: "03CB63C6F9E54D96"
+				item: "terramity:super_sniffers_pelt"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "terramity:super_sniffer"
+				icon: "minecraft:sniffer_egg"
+				id: "01414700DD55C222"
+				title: "Defeat the Super Sniffer"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the Super Sniffer"
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"592A80C7DC2B9D9F"
+				"004ACC72C17A0480"
+			]
+			description: ["The smithing template &ldrops&r from the &lSuper Sniffer&r, and must be used on &lnetherite upgrade&r."]
+			id: "4EDFDB099C76AF33"
+			optional: true
+			rewards: [{
+				id: "59070C142846DA56"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "378B61A62AB40838"
+				item: "terramity:cosmilite_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0FCB3F5FB504BBD1"]
+			description: ["The &lDimlite pickaxe&r can be used to &lmine iridium ore&r."]
+			id: "3DD8DC7C66FB4E60"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "7DA9D9E2230BC5AE"
+				item: "terramity:dimlite_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A271F91C0D199B0"
+				item: {
+					Count: 1
+					id: "terramity:dimlite_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["26612BE2B3C3E6DC"]
+			description: ["The &lVirentium pickaxe&r can be used to &lmine iridium ore&r."]
+			id: "63D13CC6474BF724"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "3FF218BFE9D79BC1"
+				item: "terramity:virentium_alloy_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "53598045E454CF58"
+				item: {
+					Count: 1
+					id: "terramity:virentium_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4EDFDB099C76AF33"]
+			description: ["The &lCosmilite pickaxe&r can be used to &lmine iridium ore&r."]
+			id: "38EAF57D99BA024F"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "0254C330480EC1D7"
+				item: "terramity:cosmilite_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F9F8BA68A94C1AE"
+				item: {
+					Count: 1
+					id: "terramity:cosmilite_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6AD9FCE7C938139F"
+				"6183805BAB1940E7"
+				"0E573488EF0BD7CE"
+			]
+			description: ["&lHellspec alloy&r can be obtained by &lcrafting&r together &liridium,&r &lblack matter&r, and &lchthonic Crystal&r."]
+			id: "6C5A94B91E8CE9F0"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "797B4C8E887EB34B"
+				item: "terramity:hellspec_alloy"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A0C628BF763D6A7"
+				item: "terramity:hellspec_alloy"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6AD9FCE7C938139F"
+				"6183805BAB1940E7"
+			]
+			description: ["&lVoid alloy&r can be obtained by &lcrafting&r together &liridium,&r &lblack matter&r, and &lempty essence&r."]
+			id: "24106FB6B6F96178"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "37402C1E50944D9F"
+				item: "terramity:void_alloy"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BA20E2573D79D04"
+				item: "terramity:void_alloy"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6AD9FCE7C938139F"
+				"6183805BAB1940E7"
+				"4FBCD5ECBD38B89B"
+			]
+			description: ["&lConductite&r can be obtained by &lcrafting&r together &liridium,&r &lblack matter&r, and &lcircuit boards&r."]
+			id: "5A5D74E6B95C6437"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "46DB29B33EE7B972"
+				item: "terramity:conductite"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F1F57BA4C84E767"
+				item: "terramity:conductite"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"&lChthonic crystals&r are best found by &lmining brimslag&r. Brimslag can only be &lmined&r by a &lvirentium,&r &lcosmilite,&r &ldimlite,&r &liridium pickaxe&r or better."
+				""
+				"&lBrimslag&r can be &lfound anywhere&r in the &lNether where blackstone can be found&r, but is most &lcommon&r in the &lbasalt deltas&r."
+			]
+			id: "0E573488EF0BD7CE"
+			optional: true
+			rewards: [{
+				count: 12
+				id: "260D5CFDDFA428E6"
+				item: "terramity:chthonic_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F95BF2525DA7BE8"
+				item: "terramity:chthonic_crystal"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"&lDaemonium&r is used for &ldimlite,&r &lcosmilite,&r and &lvirentium smithing templates&r."
+				""
+				"&lDaemonium ore&r can be &lfound&r on the &lceiling of the nether&r."
+			]
+			id: "4FBCD5ECBD38B89B"
+			optional: true
+			rewards: [{
+				count: 6
+				id: "75779153EA892FDD"
+				item: "terramity:daemonium_chunk"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1361055133679D5B"
+				item: "terramity:daemonium_chunk"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["24106FB6B6F96178"]
+			description: ["&lEmpty essence&r can be &lobtained&r after &lthrowing Black Matter into stygian blood&r, which can be &lfound in certain Terramity structures&r, such as the &lTrial Spire&r."]
+			id: "2F5409A98CF485CB"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "05F9D6C36F9A2699"
+				item: "terramity:empty_essence"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B5AB50679A31245"
+				item: "terramity:empty_essence"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6C5A94B91E8CE9F0"
+				"5A5D74E6B95C6437"
+				"24106FB6B6F96178"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&lProfanum&r is used for &lnyxium,&r &lexodium,&r and &lreverium ingots&r."
+				""
+				"&lProfanum ore&r can be &lfound deep&r in the &loverworld&r between &lY=-10&r and &lY=-64&r."
+			]
+			id: "2F0F5071536F1630"
+			rewards: [
+				{
+					count: 3
+					id: "0BA8A25E6D6A6B78"
+					item: "terramity:profanum"
+					type: "item"
+				}
+				{
+					id: "436CB48D2D5B5D6A"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			tasks: [{
+				id: "5EE64734B47AD900"
+				item: "terramity:profanum"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"2F0F5071536F1630"
+				"56E5D4B7DCEA3AED"
+				"42CA4DA707980F67"
+			]
+			description: [
+				"&lNyxium&r can be &lobtained&r by &lcrafting&r together &lprofanum,&r &lantiprism&r and &lopaline moonstone&r."
+				""
+				"Nyxium holds the power of the &lmoon.&r"
+			]
+			id: "4409B180D95F7C5E"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "5F7D75474E2FD791"
+					item: "terramity:nyxium"
+					type: "item"
+				}
+				{
+					id: "44B1E60195EAE888"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			tasks: [{
+				id: "2682B12E9D2872FE"
+				item: "terramity:nyxium"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"2F0F5071536F1630"
+				"56E5D4B7DCEA3AED"
+				"7735AFA1479E0EC7"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&lReverium&r can be &lobtained&r by &lcrafting&r together &lprofanum,&r &lantiprism,&r and &langel feathers&r."
+				""
+				"Reverium holds the power of the &lheavens.&r"
+			]
+			id: "6352F2E786108AE9"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "6E995C55446CB72E"
+					item: "terramity:reverium"
+					type: "item"
+				}
+				{
+					id: "26D53E96A7F371FC"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			tasks: [{
+				id: "2D8F7DEFEE0C919D"
+				item: "terramity:reverium"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"2F0F5071536F1630"
+				"56E5D4B7DCEA3AED"
+				"545B1EACA2E1DC42"
+			]
+			description: [
+				"&lExodium&r can be &lobtained&r by &lcrafting&r together &lprofanum,&r &lantiprism,&r and &lcracked microcosm&r."
+				""
+				"Exodium holds the power of &l???.&r"
+			]
+			id: "6A3CE4F8623EF8FF"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "0F14C592405D82F8"
+					item: "terramity:exodium_superalloy"
+					type: "item"
+				}
+				{
+					id: "115A0198FCDFC259"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			tasks: [{
+				id: "7E62B34018A7E649"
+				item: "terramity:exodium_superalloy"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4673566DEC06D345"]
+			description: ["The &lAntiprism&r is &ldropped&r by &lArchmage Gundalf&r when defeated and is a &lnecessary&r item used in &lcrafting final metals&r."]
+			id: "56E5D4B7DCEA3AED"
+			rewards: [
+				{
+					count: 3
+					id: "7D415F46A98F0BE8"
+					item: "terramity:antiprism"
+					type: "item"
+				}
+				{
+					id: "715242B04F5F0FBC"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "5EC1AA01E2AC0D14"
+				item: "terramity:antiprism"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["622FF9ABB4F79CBC"]
+			dependency_requirement: "one_completed"
+			description: [
+				"The \"&lShadow Wizards&r\" are the &lfourth&r and &lfinal boss&r in Terramity's progression."
+				""
+				"It can be &lsummoned&r by &lusing occult fabric&r on the &lpedestal&r found in a &lChthonic Cathedral&r."
+				""
+				"The &lChthonic Cathedral&r can be &lfound anywhere&r on the &lroof of the Nether&r."
+				""
+				"You can reach the roof of the Nether by looking for a &lChthonian Breach&r at the &lhighest Y coordinates&r."
+			]
+			id: "4673566DEC06D345"
+			rewards: [{
+				id: "258E76EA2D7DF8CA"
+				type: "xp"
+				xp: 1500
+			}]
+			tasks: [{
+				entity: "terramity:gundalf"
+				icon: {
+					Count: 1
+					id: "terramity:gundalfs_hat_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "388516B6E52FBBE5"
+				title: "Defeat the Shadow Wizards"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"&lOccult fabric&r can be &ldropped&r from &lenemies&r found within the &lChthonic Dungeon&r."
+				""
+				"The &lChthonic Dungeon&r is a &lstructure&r found within Terramity, and the items found inside are required to fight the &lfourth boss&r in the mod's progression."
+				""
+				"The structure can be &lfound&r in the &lnether,&r typically &lsubmerged beneath the lava lakes&r."
+			]
+			id: "622FF9ABB4F79CBC"
+			rewards: [
+				{
+					count: 3
+					id: "4CBA7FFAE4ABA648"
+					item: "terramity:occult_fabric"
+					type: "item"
+				}
+				{
+					id: "09EAEBCEB014B8AF"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "791751E776E00059"
+				item: "terramity:occult_fabric"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["22643E6A385F83EB"]
+			description: [
+				"&lOpaline moostone&r is a necessary &lingredient&r for &lNyxium.&r"
+				""
+				"It can only be &lobtained&r after &lcrafting&r a &lMoondrill Cannon&r and using it to b&llow off chunks of the moon&r."
+			]
+			id: "42CA4DA707980F67"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "29FE2685798F0DC9"
+					item: "terramity:opaline_moonstone"
+					type: "item"
+				}
+				{
+					id: "1B6432B67B4E2930"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			tasks: [{
+				id: "72D17509C0E871C2"
+				item: "terramity:opaline_moonstone"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"The &lmoondrill cannon&r is necessary to getting your hands on some &lmoonstone rocks&r and &lOpaline Moonstone&r."
+				""
+				"The moondrill cannon can only be &lused during midnight&r, when the &lmoon is directly overhead&r. A &lClock&r can be used to help you know the right time, when the moon is &lexactly in the middle&r."
+				""
+				"To use the moondrill cannon, you must first make sure it's charged. To charge it, &lplace a battery under&r, and it'll be consumed and charge the moondrill cannon."
+				""
+				"You'll know it's charged when the cannon glows yellow. All thats left is to give it a &lredstone signal&r and watch it fire into the sky."
+				""
+				"&l(If you hit the moon but no items drop, go up to the highest coordinates where you activated the moondrill cannon to load up the drops)&r"
+			]
+			id: "22643E6A385F83EB"
+			optional: true
+			rewards: [{
+				id: "2AB7D322D2DF52B4"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [
+				{
+					id: "1306B2FFF0FAE343"
+					item: "terramity:moondrill_cannon"
+					type: "item"
+				}
+				{
+					id: "32A609D73179C923"
+					item: "terramity:battery"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6272101936B8F077"]
+			description: ["&lCracked microcosms&r can be &lobtained&r after &ltrowing empty essence into a black hole&r, &lcaused&r by a &lblack hole bomb&r."]
+			id: "545B1EACA2E1DC42"
+			optional: true
+			rewards: [{
+				id: "53B2B2A932F8A59A"
+				item: "terramity:cracked_microcosm"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B866195EA9CD189"
+				item: "terramity:cracked_microcosm"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2A36349ACCFC4734"]
+			description: ["&lBlack Hole Bombs&r are used to &lcause&r a &lblack hole&r, used to &lcreate&r &lCracked microcosms&r."]
+			id: "6272101936B8F077"
+			optional: true
+			rewards: [{
+				id: "77F3FCDAA5692F56"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "6B1C5187E525876A"
+				item: "terramity:black_hole_bomb"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			description: ["&lDecayed bedrock dust&r can be &lobtained&r by &lmining&r &lDecayed bedrock&r, made &lusing&r the &lperish staff&r on a &lbedrock&r."]
+			id: "2A36349ACCFC4734"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "3ACA6A6163E82266"
+				item: "terramity:decayed_bedrock_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "41921E497F471B23"
+				item: "terramity:decayed_bedrock_dust"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3CF81A005D5C438A"]
+			description: [
+				"&lAngel feathers&r are a necessary &lingredient&r for &lReverium.&r"
+				""
+				"Angel feathers can be &lobtained&r after &lthrowing&r an &lUnholy Lance&r into the &lsky,&r piercing the heavens and &lsummoning its wrath&r..."
+			]
+			id: "7735AFA1479E0EC7"
+			optional: true
+			rewards: [
+				{
+					count: 12
+					id: "40692EE7BAA2CA68"
+					item: "terramity:angel_feather"
+					type: "item"
+				}
+				{
+					id: "566664D0D407E2CD"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "6625F9E293914C7F"
+				item: "terramity:angel_feather"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.0d
+		}
+		{
+			description: ["&lUnholy Lance&r can be &lthrow&r into the &loverworld sky&r to pierce the heavens and &lawaken its wrath&r."]
+			id: "3CF81A005D5C438A"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "2F8C642D144F56DB"
+					item: "terramity:profanum"
+					type: "item"
+				}
+				{
+					id: "0410E882B8BAB828"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "058B8520AADD3E72"
+				item: {
+					Count: 1
+					id: "terramity:unholy_lance"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+	]
+	title: "Terramity"
+}

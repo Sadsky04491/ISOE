@@ -1,0 +1,394 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cataclysm"
+	group: "581FD22ED3056953"
+	icon: "cataclysm:flame_eye"
+	id: "2EB7C97FC80A0EAF"
+	images: [{
+		height: 2.0d
+		image: "quests:textures/cataclysm.png"
+		rotation: 0.0d
+		width: 8.0d
+		x: -2.5d
+		y: -4.0d
+	}]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&lCataclysm&r is a mod that adds difficult dungeons, challenging boss-fights and powerful items."
+				""
+				"This mod's bosses are inspired by Minecraft Dungeons,"
+				""
+				"being much more unique, complex and powerful compared to Vanilla's."
+				""
+				"Defeat them in battle to prove yourself and earn powerful gear!"
+			]
+			id: "1208F49E394E810A"
+			optional: true
+			rewards: [{
+				id: "46DB83912228DC3C"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "13BE0FDE2DAD4345"
+				title: "Cataclysm"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1208F49E394E810A"]
+			description: ["&lEye of Abyss&r is &lused&r to &lguide you&r to the &lSunken City&r, an &laquatic dungeon&r."]
+			id: "27537605213D593F"
+			rewards: [{
+				count: 3
+				id: "3EAF3EDD7B6BDB71"
+				item: "cataclysm:abyss_eye"
+				type: "item"
+			}]
+			tasks: [{
+				id: "267738B4A80A9F13"
+				item: "cataclysm:abyss_eye"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["27537605213D593F"]
+			description: [
+				"&lCoralssus&r is &lfound&r in the &lSunken City&r and &ldrops&r &lCoral Chunks&r when defeated."
+				""
+				"Coral Chunks are &lused&r to &lcraft Abyssal Sacrifice&r."
+			]
+			id: "067E1F89CE59FF2B"
+			rewards: [{
+				id: "03F0A701AC043195"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				entity: "cataclysm:coralssus"
+				icon: "cataclysm:coral_chunk"
+				id: "27466873FE8D78FA"
+				title: "Defeat Coralssus"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["067E1F89CE59FF2B"]
+			description: ["&lAbyssal Sacrifice&r is used to &lsummon Leviathan&r when &lused&r at the &lAltar of Abyss&r located in &lSunken City&r."]
+			id: "128CC2B4FAFBCB6D"
+			rewards: [
+				{
+					id: "6B90B56F180B09FA"
+					item: "cataclysm:abyssal_sacrifice"
+					type: "item"
+				}
+				{
+					id: "5439002E07326147"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "047DE146F0A892A9"
+				item: "cataclysm:abyssal_sacrifice"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["128CC2B4FAFBCB6D"]
+			description: ["&lLeviathan&r is the &lmain boss&r of &lSunken City&r and is &lsummoned&r using an &lAbyssal Sacrifice&r on an &lAltar of Abyss&r."]
+			id: "73BD98967FAE5F14"
+			rewards: [{
+				id: "01A521E6EED13B3F"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				icon: "cataclysm:abyssal_egg"
+				id: "472CB34A3A567010"
+				title: "Defeat The Leviathan"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1208F49E394E810A"]
+			description: ["&lEye of Desert&r is &lused&r to &lguide you&r to the &lCursed Pyramid&r."]
+			id: "6FE9CEC15DC89759"
+			rewards: [{
+				count: 3
+				id: "03BF954FBBBD9714"
+				item: "cataclysm:desert_eye"
+				type: "item"
+			}]
+			tasks: [{
+				id: "237450AB156EEBA6"
+				item: "cataclysm:desert_eye"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6FE9CEC15DC89759"]
+			description: ["&lKobolediator&r is &lfound&r in the &lCursed Pyramid&r and &ldrops&r &lKobolediator Skull&r when defeated."]
+			id: "128F713ED1C98A6C"
+			rewards: [{
+				id: "737E01C9AD37519C"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				entity: "cataclysm:kobolediator"
+				icon: "cataclysm:kobolediator_skull"
+				id: "153B44498F6AAD26"
+				title: "Defeat Kobolediator"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6FE9CEC15DC89759"]
+			description: [
+				"&lNecklace of the Desert&r can be &lfound&r by &lbrushing&r the &lSuspicious Sand&r found in the &lCursed Pyramid&r."
+				""
+				"Used to &lbring the Ancient Remnant to life&r."
+			]
+			id: "14551911260407BA"
+			rewards: [{
+				id: "36B59127CC2AF5CE"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "3167533DAAC6A7CE"
+				item: "cataclysm:necklace_of_the_desert"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["14551911260407BA"]
+			description: ["&lAncient Remnant&r is the &lmain boss&r of the &lCursed Pyramid&r. He can come to life by &lusing&r a &lNecklace of the desert&r on &lhis remains&r."]
+			id: "16F312E86C8CF53A"
+			rewards: [{
+				id: "2776F5E745D76B71"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				icon: "cataclysm:remnant_skull"
+				id: "3D9BE80214191ABC"
+				title: "Defeat the Ancient Remnant"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1208F49E394E810A"]
+			description: ["&lEye of Mesh&r is &lused&r to &lguide you&r to the &lAncient Factory&r, a &ldungeon located in the depths&r, and it can be &ldifficult to find its entrance&r."]
+			id: "41A5DC06847C1D5E"
+			rewards: [{
+				count: 3
+				id: "5D717378B8B659E1"
+				item: "cataclysm:mech_eye"
+				type: "item"
+			}]
+			tasks: [{
+				id: "69254BF867CF82FD"
+				item: "cataclysm:mech_eye"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["41A5DC06847C1D5E"]
+			description: ["&lThe Harbinger&r is the &lmain boss&r of the &lAncient Factory&r. To wake him up, use a &lnether star&r on him."]
+			id: "57D5CDF5CE2BF9AB"
+			rewards: [{
+				id: "6B92BA6CB881FDF4"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				icon: "cataclysm:witherite_ingot"
+				id: "188681A0DDCC9716"
+				title: "Defeat The Harbinger"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1208F49E394E810A"]
+			description: ["&lEye of Flame&r is &lused&r to &lguide you&r to the &lBurning Arena&r in the &lNether.&r"]
+			id: "0364DAB76DCF282D"
+			rewards: [{
+				count: 3
+				id: "0CC179210A9382AA"
+				item: "cataclysm:flame_eye"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5767D66021AAF80F"
+				item: "cataclysm:flame_eye"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0364DAB76DCF282D"]
+			description: [
+				"&lIgnited Revenant&r is &lfound&r in the &lBurning Arena&r and &ldrops&r &lBurning Ashes&r when defeated."
+				""
+				"Burning Ashes are &lused&r to summon &lIgnis&r when used on the &lAltar of Fire&r."
+			]
+			id: "677A83BA137ECB6F"
+			rewards: [
+				{
+					id: "15A6F6EB82881FE5"
+					item: "cataclysm:burning_ashes"
+					type: "item"
+				}
+				{
+					id: "7129CE214F95C8B9"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ignited_revenant"
+				icon: "cataclysm:burning_ashes"
+				id: "76BC80D4BF694E7E"
+				title: "Defeath the Ignited Revenant"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["677A83BA137ECB6F"]
+			description: ["&lIgnis&r is the &lmain boss&r of the &lBurning Arena&r and can be &lsummoned&r using &lBurning Ashes&r at the &lFire Altar&r."]
+			id: "2D49D4FC109EE17B"
+			rewards: [{
+				id: "66F7CF829FAC93E9"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: "cataclysm:ignitium_ingot"
+				id: "200A17D3B8E124F2"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1208F49E394E810A"]
+			description: ["&lEye of Monstrous&r is &lused&r to &lguide you&r to the &lSoul Blacksmith&r in the &lNether.&r"]
+			id: "6C35EBDDD786991E"
+			rewards: [{
+				count: 3
+				id: "6F8D8186CCE3CAF8"
+				item: "cataclysm:monstrous_eye"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5936DC4BE3A93EA2"
+				item: "cataclysm:monstrous_eye"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6C35EBDDD786991E"]
+			description: ["&lNetherite Monstrosity&r is the &lmain boss&r of the &lSoul Blacksmith&r and is found &lalready spawned&r there."]
+			id: "31C3069933D22037"
+			rewards: [{
+				id: "5F814E484132F966"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: "cataclysm:monstrous_horn"
+				id: "2F3AFAD6D0E780E7"
+				title: "Defeat the Netherite Monstrosity"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1208F49E394E810A"]
+			description: ["&lEye of Void&r is &lused&r to &lguide you&r to the &lRuined Citadel&r in &lThe End&r."]
+			id: "2CE2054655179B5D"
+			rewards: [{
+				count: 3
+				id: "6F43E84A92CE690F"
+				item: "cataclysm:void_eye"
+				type: "item"
+			}]
+			tasks: [{
+				id: "74D90675D0CA6AE4"
+				item: "cataclysm:void_eye"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2CE2054655179B5D"]
+			description: ["&lEnder Guardian&r is the &lmain boss&r of the &lRuined Citadel&r and is found &lalready spawned&r there."]
+			id: "2066BFE5ACE4DAA4"
+			rewards: [{
+				id: "337D3E30AFE43601"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: "cataclysm:gauntlet_of_guard"
+				id: "0361CC1E086D3763"
+				title: "Defeat the Ender Guardian"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+	]
+	title: "Cataclysm"
+}

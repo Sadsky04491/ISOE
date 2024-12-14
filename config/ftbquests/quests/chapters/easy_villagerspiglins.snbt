@@ -1,0 +1,191 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "easy_villagerspiglins"
+	group: ""
+	icon: "easy_villagers:villager"
+	id: "5B57FF70E76F5CAB"
+	images: [{
+		height: 1.5d
+		image: "quests:textures/easy_villagers_piglins.png"
+		rotation: 0.0d
+		width: 6.75d
+		x: -3.0d
+		y: -3.5d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&lEasy Villagers&r allows you to &ltake villagers&r as an &litem&r."
+				""
+				"&lEasy Piglins&r allows you &lpick up adult piglins&r as an &litem&r."
+			]
+			id: "0532C7E81F30115D"
+			optional: true
+			rewards: [{
+				id: "5762223150C30469"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1F81C9D4432F8A3D"
+				title: "Easy Villagers/Piglins"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0532C7E81F30115D"]
+			description: [
+				"The &lvillager item&r can be &lobtained&r by &lsneaking&r and &lright-clicking&r a &lvillager&r or &lpressing&r the &l'V' key&r."
+				""
+				"The villager item can be placed by right-clicking on the ground."
+			]
+			id: "6CF7869A23C0C8A6"
+			rewards: [{
+				id: "595D14ED5D602BC8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "48044B4DDB7A7B82"
+				item: "easy_villagers:villager"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CF7869A23C0C8A6"]
+			description: ["The &ltrader block&r allows &ltrading&r with the &lvillager&r without having to deal with securing the villager. This block also allows the villager to &lrestock in non-working hours&r. The restocking time of the villager is not dependent on any external sources like day/night time or dimension."]
+			id: "77A98D523830EF6D"
+			rewards: [{
+				id: "4F740ED6F99A3EC2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2EB7AFFA5B6C1290"
+				item: "easy_villagers:trader"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6CF7869A23C0C8A6"]
+			description: ["The &lfarmer block&r contains a whole crop farm in a &lsingle block&r. This helps to &lreduce lag&r and &lsave space&r."]
+			id: "08048496553A92E2"
+			rewards: [{
+				id: "5DEE6490DEE8D81B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "267075532BA53E8C"
+				item: "easy_villagers:farmer"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6CF7869A23C0C8A6"]
+			description: ["The &lbreeder&r block &lproduces baby villagers&r by &lputting in food&r. This also helps to &lreduce lag&r, &lsave space&r and also a lot of &lfrustration&r."]
+			id: "3B2DE5C32BC1FA2C"
+			rewards: [{
+				id: "7E26292BB4C38BF4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "54C035244DF968F3"
+				item: "easy_villagers:breeder"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CF7869A23C0C8A6"]
+			description: ["The &lconverter&r block &lconverts villagers&r to &lzombie villagers&r and &lcures&r them afterwards, enabling the player that placed the block &lbetter trades&r from the cured villager. This block &lneeds&r a &lgolden apple&r, any type of &lpotion of weakness&r and the &lvillager&r to convert. This process takes approximately &lfive minutes&r."]
+			id: "5E844D4838E2A1D0"
+			rewards: [{
+				id: "101109549E8AAF6C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "358D06670516517D"
+				item: "easy_villagers:converter"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6CF7869A23C0C8A6"]
+			description: ["The &liron farm&r block contains a complete iron farm in a &lsingle block&r. It &lproduces&r one &liron golem&r every &lfour minutes&r. This &laverages&r about &lone iron ingot per minute&r."]
+			id: "558E36C7D0C027AB"
+			rewards: [{
+				id: "78CB5A6BD6EF73AA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "45CEBC50CC0338B9"
+				item: "easy_villagers:iron_farm"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0532C7E81F30115D"]
+			description: [
+				"The &lpiglin item&r can be &lobtained&r by &lsneaking and right-clicking&r an &ladult piglin&r."
+				""
+				"Note that you can only pick up piglins if they are &lnot busy or aggressive&r."
+			]
+			id: "7B400CE42B720117"
+			rewards: [{
+				id: "002B40E2FCDC4DA3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1278A6201A69E98B"
+				item: "easy_piglins:piglin"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B400CE42B720117"]
+			description: [
+				"The &lbarterer&r block allows to &lautomatically barter&r with &lpiglins&r without having to deal with capturing it. This block can also be used in other dimensions without the piglins converting to zobified piglins."
+				""
+				"Simply put the bartering item into the input slot or pipe it in with a hopper."
+			]
+			id: "65FC078ACB5E7B04"
+			rewards: [{
+				id: "4D851FE5DDC20A15"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7F3B5E642332F00A"
+				item: "easy_piglins:barterer"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+	]
+	title: "Easy Villagers/Piglins"
+}

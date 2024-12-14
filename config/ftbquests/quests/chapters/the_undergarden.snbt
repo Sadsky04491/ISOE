@@ -1,0 +1,238 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_undergarden"
+	group: "760C6DC2960E80B5"
+	icon: "undergarden:catalyst"
+	id: "79253C3D2A33C43B"
+	images: [{
+		height: 0.5d
+		hover: ["https://the-undergarden-mod.fandom.com/wiki/The_Undergarden_Mod_Wiki"]
+		image: "quests:textures/undergarden.png"
+		rotation: 0.0d
+		width: 7.5d
+		x: -4.5d
+		y: -2.0d
+	}]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&lThe Undergarden&r is a dark, subterranean world located deep below the bedrock of the Overworld. The flora here has adapted to their conditions and can grow anywhere, independent of light. Strange creatures call these dark lands home, and are plagued by the invasive Rotspawn, monsters originating from a chaotic, mysterious realm."]
+			id: "720ECF431635BA74"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "6CA8D75D6D714B8F"
+				item: "minecraft:stone_bricks"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "https://the-undergarden-mod.fandom.com/wiki/The_Undergarden_Mod_Wiki"
+			tasks: [{
+				id: "4AB940696A19092E"
+				title: "The Undergarden"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["720ECF431635BA74"]
+			description: [
+				"An &lUndergarden portal&r is built in a very similar manner to the &lNether portal&r. It is built as a vertical, rectangular frame of either &lstone, deepslate or depthrock&r."
+				""
+				"Once a frame is constructed, it is activated by using a &lCatalyst&r on one of the blocks making up the frame."
+				"{@pagebreak}"
+				""
+				"{image:quests:textures/dimensions_quest/undergarden_portal.png width:100 height:100 align:1 fit:true}"
+			]
+			id: "5FEB825F37CD64D9"
+			rewards: [{
+				id: "5AAB8F0CEDF7DE1B"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "6783BC46BAE79DDB"
+				item: "undergarden:catalyst"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FEB825F37CD64D9"]
+			description: ["A &lDweller&r is a &lcommon passive mob&r found in most &lundergarden biomes&r. Dwellers are a source of &ldweller meat&r and &lleather&r, and can be equipped with a &lsaddle to be driven&r."]
+			id: "5C2E1CE21F9DF2BE"
+			rewards: [{
+				count: 8
+				id: "49302960D314834A"
+				item: "undergarden:raw_dweller_meat"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "undergarden:dweller"
+				id: "1543378C262293AF"
+				title: "Defeat Dweller"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5FEB825F37CD64D9"]
+			description: ["The &lStoneborn&r wanders around slowly and will look at other entities and players. If a player interacts with a Stoneborn, a &ltrade&r will be initiated. If &lattacked,&r it will become &lhostile&r and will call for help from other Stoneborn."]
+			id: "56E73A3CD69A457F"
+			rewards: [{
+				count: 6
+				id: "7C06C6E2CBA6713A"
+				item: "undergarden:depthrock_pebble"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "undergarden:stoneborn"
+				id: "19BB2AE1E412914D"
+				title: "Defeat Stoneborn"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FEB825F37CD64D9"]
+			description: ["The &lForgotten Guardian&r can only be found naturally in the &lcatacombs&r, spawning with the generation of the world."]
+			id: "688EC0AF4A697CDB"
+			rewards: [{
+				count: 8
+				id: "1DD9D97D3989E62C"
+				item: "undergarden:forgotten_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "undergarden:forgotten_guardian"
+				id: "7E2FE3094E31EB83"
+				title: "Defeat the Forgotten Guardian"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["688EC0AF4A697CDB"]
+			description: ["&lForgotten Ingots&r are ingots made from a mysterious alloy of unknown materials. They are primarily used to &lupgrade cloggrum gear&r into &lforgotten gear&r."]
+			id: "246C98E9F49660DD"
+			rewards: [{
+				count: 8
+				id: "27CF33D374C7D5A0"
+				item: "undergarden:forgotten_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "129D6D123B7A7A2D"
+				item: "undergarden:forgotten_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5C2E1CE21F9DF2BE"]
+			description: ["&lDweller Steak&r is a &ldrop&r from &lDweller&r."]
+			id: "5FCA9A1A21727BFF"
+			rewards: [{
+				count: 12
+				id: "6B44BB1003BE9B98"
+				item: "undergarden:dweller_steak"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D1DEDD9F4B55ACB"
+				item: "undergarden:dweller_steak"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5FEB825F37CD64D9"]
+			description: ["The &lCloggrum Ingot&r is an ingot of a &lcoprolithic alloy&r originating from the Undergarden, with its own full set of &ltools&r and &larmour&r."]
+			id: "29DBBEC75448856A"
+			rewards: [{
+				count: 4
+				id: "0D8577B992E2253F"
+				item: "undergarden:cloggrum_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "46D9063B59E9EA04"
+				item: "undergarden:cloggrum_ingot"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5FEB825F37CD64D9"]
+			description: ["&lFroststeel ingot&r can be obtained by &lsmelting Shiverstone Froststeel Ore&r, which can be found in the &lFrostfields biome&r."]
+			id: "69BFFD691FDFE67C"
+			rewards: [{
+				count: 4
+				id: "01B14C6B6CEC582C"
+				item: "undergarden:froststeel_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14CC40FDD02D0EC4"
+				item: "undergarden:froststeel_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5FEB825F37CD64D9"]
+			description: [
+				"&lRegalium Crystals&r are &lrare minerals&r that are used primarily for &ltrading with stoneborns&r. They can be thought of as the &lemeralds of the Undergarden&r."
+				""
+				"Can be obtained by mining &lDepthrock Regalium Ore&r or &lSilverstone Regalium Ore&r."
+			]
+			id: "1E66CB92495D301D"
+			rewards: [{
+				count: 12
+				id: "268852A8FE8EE0DD"
+				item: "undergarden:regalium_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "79E4F5E3C177D73E"
+				item: "undergarden:regalium_crystal"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5FEB825F37CD64D9"]
+			description: ["&lUtherium Crystal&r can be obtained by mining &lDepthrock Utherium Ore&r or &lSilverstone Utherium Ore&r."]
+			id: "2186C55FA25A53B9"
+			rewards: [{
+				count: 6
+				id: "6F8F1A1FB1DB019D"
+				item: "undergarden:utherium_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "114FE2F30DCC6FB8"
+				item: "undergarden:utherium_crystal"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+	]
+	title: "The Undergarden"
+}

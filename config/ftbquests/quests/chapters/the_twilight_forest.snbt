@@ -1,0 +1,428 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_twilight_forest"
+	group: "760C6DC2960E80B5"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	id: "6B2F5DB6AE365655"
+	images: [{
+		height: 1.5d
+		hover: ["http://benimatic.com/tfwiki/index.php/Main_Page"]
+		image: "quests:textures/twilightforest.png"
+		rotation: 0.0d
+		width: 10.0d
+		x: -3.0d
+		y: -2.5d
+	}]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&lThe Twilight Forest&r realm is an endless world like any other Minecraft dimension, except this dimension is densely forested. It has more of an enchanted, fairy tale, and mythological theme and feel than the Overworld."
+				""
+				"{image:quests:textures/dimensions_quest/twilight_florest/twilight_forest_portal.png width:100 height:100 align:center fit:true}"
+			]
+			id: "3ABA6EF5215275AF"
+			optional: true
+			rewards: [{
+				count: 6
+				id: "593E5078C5AD7B49"
+				item: "minecraft:cornflower"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "http://benimatic.com/tfwiki/index.php/Main_Page"
+			tasks: [{
+				id: "25481B49A6C1D9CE"
+				title: "The Twilight Forest"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3ABA6EF5215275AF"]
+			description: ["&lMagic Maps&r are an &lessential tool&r to any serious explorer in the Twilight Forest, as it links intrinsically to the dimension to show &lvaluable information&r of the surrounding lands around the bearer."]
+			id: "162206869318CF79"
+			rewards: [{
+				id: "36A6E821BADBF271"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6C04354B861AFF3B"
+				item: "twilightforest:magic_map"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["162206869318CF79"]
+			description: [
+				"The &lNaga&r can be found in a &lcourtyard&r adorned with a &lsnake motif&r. There are very few obstacles in the Courtyard, and the Naga can just as easily break them down."
+				""
+				"Killing the Naga and touching one of his magical scales will allow you to enter the next area."
+			]
+			id: "748A758F8EB67749"
+			rewards: [{
+				count: 12
+				id: "2D7FC23B24F09A7D"
+				item: "twilightforest:naga_scale"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:naga"
+				icon: "twilightforest:naga_trophy"
+				id: "0DBD4498F9A387FE"
+				title: "Defeat Naga"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat Naga"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["748A758F8EB67749"]
+			description: [
+				"The &lTwilight Lich&r can be found inside his &lLich Tower&r, a large compound with multiple branching towers found in the forest. The Tower is protected by a spell that prevents breaking blocks and harming enemies. The only way in is to &ldefeat the Naga&r."
+				""
+				"Killing the Lich and obtaining one of his magical scepters will open up three areas to explore next: T&lhe Swamp, The Dark Forest and The Snow Forest&r."
+			]
+			id: "75A33DB751A0D0F4"
+			rewards: [
+				{
+					count: 3
+					id: "6A1871DF42E049D8"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "5974C972110E334E"
+					item: {
+						Count: 1
+						id: "twilightforest:zombie_scepter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:lich"
+				icon: "twilightforest:lich_trophy"
+				id: "53C27390B8F7B148"
+				title: "Defeat Lich"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["75A33DB751A0D0F4"]
+			description: [
+				"There are several &lLabyrinths&r buried &lunder the swamp&r. You may locate a natural &lentrance through a chasm or cave&r, or you may find the entrance in a &lsmall mound&r. Your goal is to find and &lslay the Minoshroom&r."
+				""
+				"Killing the Minoshroom, and eating some of his &n&lMeef Stroganoff&r&r will allow you to enter the &n&lFire Swamp&r&r without being burnt."
+			]
+			icon: "twilightforest:minoshroom_trophy"
+			id: "55EF208C257AEFCF"
+			rewards: [{
+				count: 3
+				id: "55BCDC26B82E1421"
+				item: "twilightforest:meef_stroganoff"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				icon: "twilightforest:minoshroom_trophy"
+				id: "4244AC9671F3EF6B"
+				title: "Defeat Minoshroom"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["55EF208C257AEFCF"]
+			description: ["The fearsome &lHydra&r is found in a converted &lHollow Hill&r in the &lmiddle of the Fire Swamp&r. There is no maze or dungeon to navigate, as the hydra does not need any protection from intruders. Good luck! If you survive, make contact with the &lHydra's Fiery Blood&r and the Swamp phase of the adventure will be complete."]
+			id: "53A7C37A27F46A69"
+			rewards: [{
+				count: 5
+				id: "22FB64E66D5F0D13"
+				item: "twilightforest:fiery_blood"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:hydra"
+				icon: "twilightforest:hydra_trophy"
+				id: "6A0855512736D061"
+				title: "Defeat Hydra"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["75A33DB751A0D0F4"]
+			description: [
+				"Beneath the &lDark Forest&r (and sometimes the surrounding areas) lay the fallen &lStrongholds of the Twilight Knights&r. The lower levels of the strongholds are completely sealed, and before you enter, you will have to complete a small initiation ceremony. You will have to find a specific room in the upper ruins of the stronghold. The room contains a &lTrophy Pedestal&r and a shallow pit blocked by Stronghold Shields. &lPlacing a trophy from one of the previous bosses on the pedestal will remove the shield and allow access to the lower levels&r."
+				""
+				"Once inside the main part of the stronghold, you will eventually have to find the &lKnight Phantoms&r to proceed. Sending the phantoms to their final rest will make the strange devices of the Dark Tower obey you."
+			]
+			id: "1A2777A0D78D79AE"
+			rewards: [{
+				count: 12
+				id: "35CFE9307C89F75E"
+				item: "twilightforest:armor_shard_cluster"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:knight_phantom"
+				icon: "twilightforest:knight_phantom_trophy"
+				id: "574D4CD52219A61F"
+				title: "Defeat the Knight Phantom"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1A2777A0D78D79AE"]
+			description: ["The &lDark Tower&r is found in a small clearing in the &lcenter of the dark forest&r. The center area has reddish, autumnal leaves and faded grass. The Dark Tower is the site of many eldritch experiments. The Ur-Ghast has taken over the top of the tower and must be vanquished to complete the Dark Forest phase of the adventure."]
+			id: "1EC8FC9CA433CCEA"
+			rewards: [{
+				count: 5
+				id: "41B06C6CED1D37BB"
+				item: "twilightforest:fiery_tears"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				icon: "twilightforest:ur_ghast_trophy"
+				id: "113884F3E3AB31BF"
+				title: "Defeat Ur-Ghast"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["75A33DB751A0D0F4"]
+			description: ["These somewhat &lsquare-shaped hills&r are placed near the &lcenter&r of the &lsnow forest regions&r. There are &lfour natural entrances&r. Inside, you may find a pack of yetis, lorded over by the massive &lAlpha Yeti&r. Defeating the Alpha Yeti in combat, and claiming some of his downy fur will make the Glacier available to you."]
+			id: "539BBACD7FD6CAD4"
+			rewards: [{
+				count: 6
+				id: "1E920670BC1CC643"
+				item: "twilightforest:alpha_yeti_fur"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				icon: "twilightforest:alpha_yeti_trophy"
+				id: "2EFA644AB0C501F6"
+				title: "Defeat the Yeti"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["539BBACD7FD6CAD4"]
+			description: ["This &lcolorful tower&r sits roughly in the &lcenter&r of the &lGlacier&r. A variety of icy creatures dwell within the tower, while the Snow Queen awaits in a &lfrost-covered room&r near the &ltop&r. She is protected by a shield of ice and will attack with a barrage of icy attacks or charge into the adventurer. Defeating the Snow Queen in combat will complete the Snow Forest phase of the adventure."]
+			id: "256A3B58A5DD6255"
+			rewards: [{
+				id: "5877C936555BF5CA"
+				item: {
+					Count: 1
+					id: "twilightforest:seeker_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				icon: "twilightforest:snow_queen_trophy"
+				id: "5208E922BB7DF009"
+				title: "Defeat the Snow Queen"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["15BE93978C100AD2"]
+			description: ["&lKnightmetal Ingot&r is an item obtained from &lsmelting Armor Shard Clusters&r. Like &liron&r, Knightmetal Ingots can be used to craft &ltools and armors&r."]
+			id: "46BD7EA921E85B68"
+			rewards: [{
+				count: 3
+				id: "7AFBD7A6D815157F"
+				item: "twilightforest:knightmetal_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B68B84E23C489C8"
+				item: "twilightforest:knightmetal_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			description: ["&lLiveroot&r is an item that can be &lharvested from Liveroots&r. Liveroot contains a potent energy, but it requires additional materials to become active. For one to activate the magical properties in Liveroot, one must combine it with an Iron Ingot and a Gold Nugget to create &lRaw Ironwood&r."]
+			id: "2CB5DA3E7000062F"
+			rewards: [{
+				count: 3
+				id: "10CC91FDF74F3B5A"
+				item: "twilightforest:liveroot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "236C65EC5CF289EB"
+				item: "twilightforest:liveroot"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2CB5DA3E7000062F"]
+			description: ["&lRaw Ironwood&r are items &lcrafted&r from &lLiveroot,&r &lGold Nugget&r and &lRaw Iron&r. Before one can unlock the potent energy in Liveroot, one must &lsmelt Raw Ironwood&r to make &lIronwood Ingots&r."]
+			id: "74B1E13F1D14482E"
+			rewards: [{
+				count: 2
+				id: "31296B107A69C3A8"
+				item: "twilightforest:raw_ironwood"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3507CE8D19FE6231"
+				item: "twilightforest:raw_ironwood"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2CB5DA3E7000062F"]
+			description: ["&lIronwood Ingot&r is an item that can be &lobtained&r from &lsmelting Raw Ironwood&r. Ironwood Ingots can be used similar to iron or other materials to make tools and armor. The magic of the liveroots even leaks through into the finished items, imbuing them with minor, but useful enchantments."]
+			id: "1AE5870FC73C15BD"
+			rewards: [{
+				count: 6
+				id: "5265B3FFF4305BA2"
+				item: "twilightforest:ironwood_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F5A7133830153BC"
+				item: "twilightforest:ironwood_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			description: ["&lArmor Shard&r is an item used to create &lKnightmetal Ingots&r. Armor Shards are dropped from &lslain Block and Chain Goblins, Goblin Knights and Helmet Crabs&r, as well as &lloot from Goblin Knight Strongholds&r. "]
+			id: "14DA31FCDBDC8397"
+			rewards: [{
+				count: 6
+				id: "66EA59123F2C6202"
+				item: "twilightforest:armor_shard"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CC17A574BF110CC"
+				item: "twilightforest:armor_shard"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["14DA31FCDBDC8397"]
+			description: ["&lArmor Shard Cluster&r is an item that is &lcrafted&r from &lArmor Shards&r. Armor Shard Clusters are used to create &lKnightmetal Ingots&r by &lsmelting&r."]
+			id: "15BE93978C100AD2"
+			rewards: [{
+				count: 4
+				id: "664CCF7A24A8850A"
+				item: "twilightforest:armor_shard_cluster"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E4FBE23035A4A90"
+				item: "twilightforest:armor_shard_cluster"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			description: ["&lFiery Blood&r is a item dropped by the &lHydra&r. Fiery Blood can be used to craft &lFiery Ingots&r and &lFiery Armor&r."]
+			id: "11C2BEC842218BC2"
+			rewards: [{
+				count: 3
+				id: "3AF7B0EA277E0FD0"
+				item: "twilightforest:fiery_blood"
+				type: "item"
+			}]
+			tasks: [{
+				id: "501FDAEE8156753D"
+				item: "twilightforest:fiery_blood"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			description: ["&lFiery Tears&r is a item dropped by the &lUr-Ghast&r. Fiery Tears can be used to &lcraft&r &lFiery Ingots&r and &lFiery Armor&r."]
+			id: "4B900C9F1AFE0863"
+			rewards: [{
+				count: 3
+				id: "4B03F5C1869EFA09"
+				item: "twilightforest:fiery_tears"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F5FF94A407216E2"
+				item: "twilightforest:fiery_tears"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"11C2BEC842218BC2"
+				"4B900C9F1AFE0863"
+			]
+			description: ["A &lFiery Ingot&r is an item &lcrafted&r from one &lIron Ingot&r and one vial of either &lFiery Blood&r or &lFiery Tears&r. Fiery Ingots contain a magical property that causes items crafted using the ingots to acquire fiery properties."]
+			id: "2DB6DD020143783C"
+			rewards: [{
+				count: 5
+				id: "237F634587B2CA96"
+				item: "twilightforest:fiery_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "78F3E349DD7F11DC"
+				item: "twilightforest:fiery_ingot"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.5d
+		}
+	]
+	title: "The Twilight Forest"
+}

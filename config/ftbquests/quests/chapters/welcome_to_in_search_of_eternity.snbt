@@ -1,0 +1,223 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome_to_in_search_of_eternity"
+	group: ""
+	icon: "minecraft:grass_block"
+	id: "1E522C9E61F08648"
+	images: [{
+		height: 3.0d
+		image: "quests:textures/modpack.png"
+		rotation: 0.0d
+		width: 3.0d
+		x: 0.0d
+		y: -2.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&lMinecraft: In Search of Eternity&r is a modpack that aims to create a journey of adventure and exploration, with advanced technology and the tireless pursuit of EMC production."]
+			id: "5AFCE9BBDD13132D"
+			rewards: [{
+				id: "7497D98EE93FAC6B"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "646CC75435B4E810"
+				title: "Welcome"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["&lNature's Compass&r is a utility item that allows you to &lsearch for a biome's location anywhere in the world&r and view information about it."]
+			id: "3056B4868B36C9F1"
+			rewards: [{
+				id: "55611CD1DB1710EF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3DD8E0559534327E"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			description: ["&lExplorer's Compass&r is an item that allows you to &llocate structures anywhere in the world&r."]
+			id: "7074972811919595"
+			rewards: [{
+				id: "1408C4DDB6BBC7F0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2137AC9A6030941B"
+				item: {
+					Count: 1
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"&lSpyglass&r can be equipped on the &lCurios Gui&r and used by &lholding down&r the &lC key&r."
+				""
+				""
+				"{image:quests:textures/curios.png width:100 height:100 align:center fit:false}"
+			]
+			id: "7C906D6DCC8DC57E"
+			rewards: [{
+				id: "39A6FCCD1870C1FB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2EB8E6DD8AFD8C42"
+				item: "minecraft:spyglass"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"&lBackpacks&r are very &luseful&r for &lstoring items&r and can be &limproved with upgrades&r."
+				""
+				"They can be &lequipped&r in the &lCurios Gui&r and opened by pressing the &lI key&r."
+				""
+				""
+				"{image:quests:textures/curios.png width:100 height:100 align:center fit:false}"
+			]
+			id: "0A78C98B6AF1CE06"
+			rewards: [{
+				id: "3CAC324D7D2CA751"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "209EDE3113D40C83"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: ["&lCrafting on a stick&r let's you &lcraft items&r without the need to place a &lcrafting table&r on the ground."]
+			id: "5DF997F32CB3B22E"
+			rewards: [{
+				id: "61BAD8E7E4DD3D8A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6F0CAA9A8B0FF19E"
+				item: "crafting_on_a_stick:crafting_table"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			description: ["With a &lConstruction Wand&r you can &lplace multiple blocks&r (up to 1024) at once, extending your build on the side you're facing."]
+			id: "741DB424F981D880"
+			rewards: [{
+				id: "30CF63ED37785A33"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5EF930DFE11211EF"
+				item: {
+					Count: 1
+					id: "constructionwand:iron_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			description: ["This item allows you to &laccelerate&r the rate at which &lblocks tick&r. It passively &lcollects time&r while in your &linventory&r which you can consume by &lright clicking&r a block with it. The &lfirst click&r requires &l30 Seconds&r, the &lsecond 60&r, the &lthird 120&r the &lfourth 240&r and the &lfifth 480&r. The speed at which the block ticks doubles with each click. &lThe effect lasts 30 seconds&r."]
+			id: "19CA4201C386C33F"
+			rewards: [{
+				id: "7B1994075600A877"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "077F10D3FD1E8582"
+				item: {
+					Count: 1
+					id: "tiab:time_in_a_bottle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			description: ["&lCrafted&r by &lcombining&r a &lpickaxe&r, &laxe,&r and &lshovel&r from any tool crafting resource, includes a &lfaster harvest rate&r for all blocks and &lgreat durability&r."]
+			id: "0F365145CF639D3C"
+			rewards: [{
+				id: "5AB7AA5CF0814EB9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "57F68449E9E12CEF"
+				item: {
+					Count: 1
+					id: "mekanismtools:iron_paxel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"&lFTB Ultimine&r provides effective modes for &lharvesting multiple blocks at once&r. Just &lhold down&r the &l\" ' \" key&r (Usually located&l below the \"ESC\" key&r) to activate the mod, the gathered items will be collected right under your feet so you don't have to wander around either! "
+				""
+				"With the mod active, &lhold \"SHIFT\"&r and use the &lmouse scroll&r to &lchange harvest mode&r."
+			]
+			id: "7E1F58E19B0E9B28"
+			rewards: [{
+				id: "3DA4A79CB0EACB89"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7CDF5FEB157AB6A2"
+				title: "FTB Ultimine"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+	]
+	title: "Welcome"
+}

@@ -1,0 +1,300 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "eternity"
+	group: "581FD22ED3056953"
+	icon: "kubejs:eternity_ingot"
+	id: "790AA7D4C88EF3FA"
+	images: [{
+		height: 1.5d
+		image: "quests:textures/eternity.png"
+		rotation: 0.0d
+		width: 7.5d
+		x: -4.0d
+		y: -3.0d
+	}]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&lEternity&r has the strongest endgame items."]
+			id: "3F2568BE8AACCCED"
+			optional: true
+			rewards: [{
+				id: "5F6CCE0CB57B4381"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "02987B5817BB0F17"
+				title: "Eternity"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F2568BE8AACCCED"]
+			description: ["&lStellar Obsidium Ingot&r is an &lendgame crafting material&r made with &lingots of all dimensions&r."]
+			id: "289784C444DD616C"
+			rewards: [
+				{
+					count: 3
+					id: "6C3AE73063FAC7A5"
+					item: "kubejs:estelar_obsidium_ingot"
+					type: "item"
+				}
+				{
+					id: "490E4FF23E64029A"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			tasks: [{
+				id: "533A07F6A7601A42"
+				item: "kubejs:estelar_obsidium_ingot"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3F2568BE8AACCCED"]
+			description: ["&lEternity Core&r is an &lendgame crafting material&r, considered the &lcore&r of &lEternity items&r."]
+			id: "4DE07B7A7233CE4E"
+			rewards: [
+				{
+					count: 6
+					id: "69120654FD4712B8"
+					item: "projectexpansion:fading_matter"
+					type: "item"
+				}
+				{
+					id: "056BC2686E130A48"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			tasks: [{
+				id: "3BE631BAE7BFFACC"
+				item: "kubejs:eternity_core"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4DE07B7A7233CE4E"
+				"289784C444DD616C"
+				"5725497C3200C3D0"
+				"76B737A87C8A6149"
+				"3F294052D6962C78"
+				"5B56AD9CA9BB5850"
+			]
+			description: ["&lEternity Ingot&r is the &lresult of the fusion of Infinity Ingots with the Eternity Core&r, &lused&r as &lcrafting material&r for &lEternity endgame items&r."]
+			id: "0387F379BA830D14"
+			rewards: [
+				{
+					count: 8
+					id: "0AB0FDACA389CE45"
+					item: "kubejs:estelar_obsidium_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "21A3D3BFD7A82F52"
+					item: "kubejs:eternity_core"
+					type: "item"
+				}
+				{
+					id: "15B9D220659A8167"
+					type: "xp"
+					xp: 2500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "045DFD7C33126D74"
+					table_id: 2750323013577703741L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "4E6AE8318C481930"
+				item: "kubejs:eternity_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0387F379BA830D14"]
+			description: ["&lEternity Shaper&r is the &lfinal modpack item&r and is &lused&r as a &lcrafting material&r for &lcreative items&r."]
+			id: "00EB22843BAA0CC5"
+			rewards: [
+				{
+					count: 12
+					id: "2DA80AAFA95E4B8A"
+					item: "kubejs:eternity_ingot"
+					type: "item"
+				}
+				{
+					id: "66BCB0A592E9D1F2"
+					type: "xp"
+					xp: 50000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6DCDEF9A3A62B5AB"
+					table_id: 2750323013577703741L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "68D6C96D29CCDD4D"
+				item: "kubejs:eternity_shaper"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["00EB22843BAA0CC5"]
+			description: ["Congratulations, your journey has come to an end! You have reached the pinnacle of Eternity. With unwavering determination, you've conquered multiple dimensions, defeated multiple bosses, mastered the art of extreme EMC production, and amassed an arsenal of Eternity items. This world is proud of your achievement. Embrace the endless rewards that await you and may your legacy endure through the ages. Well done!"]
+			id: "49D867B3C1490D4A"
+			rewards: [{
+				count: 2
+				id: "7F6E233F5334D603"
+				item: "kubejs:eternity_shaper"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "3D99575A0DFDFE88"
+				title: "The End."
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3F2568BE8AACCCED"]
+			description: ["&lSoul Catalyst&r is an item used to &lmerge the remnants of powerful beings&r, serving as a medium for the &lcreation of new souls&r."]
+			id: "1EF0D7D00EADA719"
+			rewards: [{
+				id: "069B4C80319150E4"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "0E7F2FE7DBC4B6E8"
+				item: "kubejs:soul_catalyst"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1EF0D7D00EADA719"]
+			description: ["&lPurple Soul&r is the result of &lmerging the remnants of powerful beings&r with a &lSoul Catalyst&r."]
+			id: "5725497C3200C3D0"
+			rewards: [
+				{
+					id: "14A9DD42F9C7325F"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					count: 3
+					id: "4854EE0722585FC9"
+					item: "kubejs:purple_soul"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "59625577DB85D700"
+				item: "kubejs:purple_soul"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1EF0D7D00EADA719"]
+			description: ["&lGreen Soul&r is the result of &lmerging the remnants of powerful beings&r with a &lSoul Catalyst&r."]
+			id: "5B56AD9CA9BB5850"
+			rewards: [
+				{
+					id: "09FA67542DD6900E"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					count: 3
+					id: "65D68878B221CC0A"
+					item: "kubejs:green_soul"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "711B8DD2320246DB"
+				item: "kubejs:green_soul"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1EF0D7D00EADA719"]
+			description: ["&lRed Soul&r is the result of &lmerging the remnants of powerful beings&r with a &lSoul Catalyst&r."]
+			id: "76B737A87C8A6149"
+			rewards: [
+				{
+					id: "3BECF6342D2AEEF3"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					count: 3
+					id: "518C59E0634138B0"
+					item: "kubejs:red_soul"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6406A4FF567F33E0"
+				item: "kubejs:red_soul"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1EF0D7D00EADA719"]
+			description: ["&lBlue Soul&r is the result of &lmerging the remnants of powerful beings&r with a &lSoul Catalyst&r."]
+			id: "3F294052D6962C78"
+			rewards: [
+				{
+					id: "3B28B60AF78173A8"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					count: 3
+					id: "078C01AE3B39E551"
+					item: "kubejs:blue_soul"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "51747899F850CB21"
+				item: "kubejs:blue_soul"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+	]
+	title: "Eternity"
+}

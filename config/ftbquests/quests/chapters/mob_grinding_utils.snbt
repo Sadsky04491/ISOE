@@ -1,0 +1,376 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mob_grinding_utils"
+	group: ""
+	icon: "mob_grinding_utils:wither_muffler"
+	id: "6B18199BCB943B2D"
+	images: [{
+		height: 1.0d
+		image: "quests:textures/mob_grinding_utils.png"
+		rotation: 0.0d
+		width: 10.138613861386139d
+		x: -3.0d
+		y: -3.0d
+	}]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&lMob Grinding Utils&r is a mod designed to encourage players to create new ways for farming mobs for drops and experience. Contained in the mod is a fully modular system for players to explore and use to get the most out of their mob farms."]
+			id: "7C29A258597212C1"
+			optional: true
+			rewards: [{
+				id: "5DFEE760474AB831"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "33D3D78113F70CB1"
+				title: "Mob Grinding Utils"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C29A258597212C1"]
+			description: ["&lMob Fans&r are designed to allow players to &lpush mobs&r all over the place in all directions even vertical. The Mob Fan Block has &l3 upgrade options&r to expand it’s capabilities - &lWidth,&r &lHeight&r and &lDistance&r modifiers. Click the block to Open a GUI to add upgrades. Mob Fans are &lactivated&r with a &lredstone signal&r and can also be used to &lmove players&r. Placing a single block anywhere in the direct path of the Mob Fan will limit it’s range to that block. &lMob Launchers&r and &lAir Elevators&r are some of the fun ways these blocks can be used."]
+			id: "6DA6F0F695CC36E8"
+			rewards: [
+				{
+					count: 2
+					id: "1B17DA57575ED607"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "5F827F666C202DBC"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Moves Mobs and Players in the Direction it Faces"
+			tasks: [{
+				id: "2FE9979FA5DD6EA9"
+				item: "mob_grinding_utils:fan"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7C29A258597212C1"]
+			description: [
+				"The &lAbsorption Hopper&r is a block that will suck up any &lmob drops&r and &lexperience orbs&r within it’s range. The Basic range for an Absorption Hopper is a &l3 block radius&r - this can be &lincreased with upgrades&r. Click the block to Open a GUI for the upgrades. The Absorption Hopper can store 16 Buckets of Fluid XP in it’s internal tank and has a large inventory for item collection. The Absorption Hopper can be configured on every side to push out items to inventories OR Fluid XP to fluid tanks. Other mods (such as &lEnder IO&r) can pull both &lFluids&r and &lItems&r from sides."
+				""
+				"Breaking an Absorption hopper will drop all the items it contains but the fluid will be lost."
+			]
+			id: "31FAAEA097531D1B"
+			rewards: [
+				{
+					count: 3
+					id: "7D5B0FA851355A19"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					id: "635DEB8791382587"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Sucks up Items and XP Orbs and distributes to Inventories and Tanks"
+			tasks: [{
+				id: "4CF42AF1C580C5EA"
+				item: "mob_grinding_utils:absorption_hopper"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7C29A258597212C1"]
+			description: ["The &lSingularity Tank&r is a basic &lfluid tank&r that will hold &l32 Buckets&r of any fluid. The Singularity Tank will retain any fluids it contains when broken which makes it a simple and &lportable fluid transport system&r. Right Clicking on The Singularity Tank with an empty bottle will give the player a Bottle O' Enchanting if enough Fluid XP is available (uses 200Mb of fluid)."]
+			id: "55DE61042DF1636D"
+			rewards: [
+				{
+					count: 2
+					id: "3419382EC4A7EA30"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "2938E57E0F49EFA8"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Portable Fluid Tank Holds 32 Buckets"
+			tasks: [{
+				id: "1A53F5C62BC3AAA1"
+				item: "mob_grinding_utils:tank"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55DE61042DF1636D"]
+			description: ["The &lXP Drain Singularity Tank&r is the same as the standard Singularity Tank but with a drain on top to &lsiphon player experience&r and &lconvert it to Fluid Xp&r. Players who stand on top of this block can have their xp stored in the tank for later use. The XP tap can also be attached to convert the stored xp fluid back in to experience orbs."]
+			id: "60A01BEDFD9C6EB7"
+			rewards: [
+				{
+					id: "0E67E5DB52E60CD4"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "1F0F881BD033A070"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "15EE235503D036DA"
+				item: "mob_grinding_utils:tank_sink"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["55DE61042DF1636D"]
+			description: ["The &lXP Tap&r can only be placed on the side of a &lSingularity Tank&r. The XP Tap can be turned on and off when required to &lconvert Fluid XP&r, contained in the tank, back in to &lXP Orbs&r for when you need to top up your XP levels."]
+			id: "4698C4293F26484E"
+			rewards: [
+				{
+					id: "3B65788161529EA1"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "41EA80EA3C8E5E25"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Attach to Tank to spawn XP Orbs"
+			tasks: [{
+				id: "3CA7A60EC69FE876"
+				item: "mob_grinding_utils:xp_tap"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55DE61042DF1636D"]
+			description: ["A larger version of the Singularity Tank."]
+			id: "70B1E08C40076D5E"
+			rewards: [
+				{
+					id: "5FD226BBE554474F"
+					item: "mob_grinding_utils:tank"
+					type: "item"
+				}
+				{
+					id: "086CC6771EFB3D11"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "2D6A828B870B7E14"
+				item: "mob_grinding_utils:jumbo_tank"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7C29A258597212C1"]
+			description: ["&lIron Spikes&r are a basic block that can be placed on any side of a solid block. Iron Spikes will &ldamage mobs and players&r when they come in to contact with them. Mobs will &ldrop XP&r and their &lnormal drops&r."]
+			id: "5CD1B33698E594D5"
+			rewards: [
+				{
+					count: 3
+					id: "76511EC4765439E8"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "6C24DA2B1496D3E7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Spikes for Mob traps"
+			tasks: [{
+				id: "7A720030BDF4C1C6"
+				item: "mob_grinding_utils:spikes"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5CD1B33698E594D5"]
+			description: [
+				"The &lMob Masher&r is a block used to &lmaximise mob drops&r by being modular with &lseveral upgrade options&r."
+				""
+				"Vanilla enchants are available as upgrades beyond normal levels. Click the block to Open a GUI for the upgrades. The upgrades are as follows: &lSharpness&r, &lLooting&r, &lSmite&r, &lFire Aspect&r, &lBane of Arthropods&r and a special non-vanilla upgrade, &lBeheading&r which increases mob head drops (10% per level up to 100%)."
+				""
+				"The Mob Masher can be placed on any side of a solid block and is activated via a &lredstone signal&r."
+			]
+			id: "35A91332870AD5DA"
+			rewards: [
+				{
+					count: 2
+					id: "667ABF6491BDCB88"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "1DDFAA88AF1435A2"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Mashes up Mobs"
+			tasks: [{
+				id: "5BC4578873B6B15A"
+				item: "mob_grinding_utils:saw"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7C29A258597212C1"]
+			description: ["&lConveyer&r to move Mobs and Items along a &lHorizontal&r Vector."]
+			id: "2294369D7E5B5A7E"
+			rewards: [
+				{
+					id: "5B8ABAE05C3D8B5E"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+				{
+					id: "153F027DBC582021"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Move mobs and items"
+			tasks: [{
+				id: "3B2F4653BA3B9478"
+				item: "mob_grinding_utils:entity_conveyor"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7C29A258597212C1"]
+			description: ["&lInhibits Teleportation&r for Entities up to &l8 Blocks&r away. Can be attached on ANY side of Solid Blocks. &lRight Click&r to &lDeactivate/Activate&r."]
+			id: "289334B3483940B1"
+			rewards: [
+				{
+					id: "084DDE59D9BB401C"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					id: "4BEA59BBB04FBA09"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Prevents Teleportation"
+			tasks: [{
+				id: "657BB509EC1D22CF"
+				item: "mob_grinding_utils:ender_inhibitor_on"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7C29A258597212C1"]
+			description: ["Both these blocks work in the same way for their respective boss. When a &lMuffler&r is placed in the world the sound of the &lboss death&r is negated - this removes the annoying thump heard globally for Wither Boss Farms. The Muffler Block effect has an &l8 block&r radius for sound cancelling."]
+			id: "6673FEC1AEAB56E6"
+			optional: true
+			rewards: [{
+				id: "4C1D8E72D934A466"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [
+				{
+					id: "233D9BE97D1B8983"
+					item: "mob_grinding_utils:wither_muffler"
+					type: "item"
+				}
+				{
+					id: "3F30A47AC6ADEF20"
+					item: "mob_grinding_utils:dragon_muffler"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7C29A258597212C1"]
+			description: ["Ever wanted &lMob Spawn Eggs&r to drop in Survival? Well, the Mob Swab enables this function. Just use a Mob Swab on the mob you want the egg for and it will retain that mob’s &l‘DNA’&r and give you a &lUsed Mob Swab&r. Then craft the Used Mob Swab with Seeds and a Bucket of &lFluid XP&r - this will give you some &lGM Chicken Feed&r."]
+			id: "40CE860CEED474E8"
+			rewards: [
+				{
+					count: 3
+					id: "7216A25AABF2AF7B"
+					item: "mob_grinding_utils:mob_swab"
+					type: "item"
+				}
+				{
+					id: "37478A12FC1011D3"
+					type: "xp"
+					xp: 250
+				}
+			]
+			subtitle: "Mob eggs in survival"
+			tasks: [{
+				id: "65FA8F46235934D9"
+				item: "mob_grinding_utils:mob_swab"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40CE860CEED474E8"]
+			description: [
+				"When you &lfeed&r a &lChicken&r with the &lGM Chicken Feed&r, something magical happens and the Chicken will &ldrop&r the &lMob Spawn Egg&r you wanted. Mob Spawn eggs can be &lright clicked&r on to a &lMonster Spawner Block&r and will change the spawner to the same mob as the Mob Egg. "
+				""
+				"This means with other mods that allow you to move spawners you can create tailor made mob farms."
+			]
+			id: "435172403809D98A"
+			rewards: [{
+				id: "7355016A623E39D9"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "Mob eggs in survival"
+			tasks: [{
+				id: "11526AFE6C0FFE07"
+				item: "mob_grinding_utils:gm_chicken_feed"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+	]
+	title: "Mob Grinding Utils"
+}

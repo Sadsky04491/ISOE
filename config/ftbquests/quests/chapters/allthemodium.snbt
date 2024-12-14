@@ -1,0 +1,190 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "allthemodium"
+	group: "760C6DC2960E80B5"
+	icon: "allthemodium:teleport_pad"
+	id: "1E19C0E9988A2A46"
+	images: [{
+		height: 1.0d
+		image: "quests:textures/allthemodium.png"
+		rotation: 0.0d
+		width: 7.5d
+		x: -1.5d
+		y: -2.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&lAllthemodium&r introduces new &lores&r for crafting &lpowerful gear&r and new &ldimensions&r."]
+			id: "77F14A0BD19EC44E"
+			optional: true
+			rewards: [{
+				id: "63AD096EB94924A4"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "22F09EF3631D7B6B"
+				title: "Allthemodium"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77F14A0BD19EC44E"]
+			description: ["The &lTeleport Pad&r is used to teleport to the &lMining Dimension&r, &lThe Other&r and &lThe Beyond&r. You need to hold shift and right click with your hands empty."]
+			id: "3D1BFFFE26241CF6"
+			rewards: [
+				{
+					count: 2
+					id: "4CDA36356CDAE227"
+					item: "allthemodium:allthemodium_nugget"
+					type: "item"
+				}
+				{
+					id: "71F9423EF8369B1F"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "722145F1DCFF9B5E"
+				item: "allthemodium:teleport_pad"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D1BFFFE26241CF6"]
+			description: ["To enter the &lMining Dimension&r, you need to place the &lTeleport Pad&r on the &lOverword&r."]
+			id: "77C0D50AC4765E54"
+			rewards: [{
+				id: "4DB222C0B8512547"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				dimension: "allthemodium:mining"
+				id: "74E826D4E92EF5CA"
+				title: "Visit the Mining Dimension"
+				type: "dimension"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3D1BFFFE26241CF6"]
+			description: ["To enter the &lThe Other&r dimension, you need to place the &lTeleport Pad&r on the &lNether&r."]
+			id: "41C6EE0BFC9C6D05"
+			rewards: [{
+				id: "4C0BED8352905A83"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				dimension: "allthemodium:the_other"
+				id: "0940B6EBED6C07A6"
+				title: "Visit The Other"
+				type: "dimension"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D1BFFFE26241CF6"]
+			description: [
+				"To enter the &lThe Beyond&r dimension, you need to place the &lTeleport Pad&r on &lThe End&r dimension."
+				"The Beyond is a &lvoid dimension&r made for &lbuilders&r."
+			]
+			id: "4FEA8C625B424041"
+			rewards: [{
+				id: "59A5422EA176D89D"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				dimension: "allthemodium:the_beyond"
+				id: "3A04A5C88556B9FA"
+				title: "Visit The Beyond"
+				type: "dimension"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["41C6EE0BFC9C6D05"]
+			description: ["&lAncient Soul Berries&r are found in abundance in the &lcaves&r of &lThe Other&r dimension."]
+			id: "5BC767EDCC044F3C"
+			rewards: [
+				{
+					count: 8
+					id: "2A3138A8DFA2C4F1"
+					item: "allthemodium:ancient_soulberries"
+					type: "item"
+				}
+				{
+					id: "4FF82A27FD365A5C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "094D70B72B426CFB"
+				item: "allthemodium:ancient_soulberries"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["41C6EE0BFC9C6D05"]
+			description: ["&lAncient Pyramids&r are structures in &lThe Other&r dimension with &lvery valuable loot&r and &lPiglichs&r."]
+			id: "79C262707C91823B"
+			rewards: [{
+				id: "5C3FFB27312D3520"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				icon: "allthemodium:ancient_polished_stone"
+				id: "4D7F71A46AD6875A"
+				structure: "allthemodium:ancient_pyramid"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["79C262707C91823B"]
+			dependency_requirement: "one_completed"
+			description: ["&lPiglich Hearts&r are &ldropped&r by &lPiglichs&r and used to &lcraft Allthemodium Alloy Ingots&r."]
+			id: "46BDCD6E591419FE"
+			rewards: [
+				{
+					count: 2
+					id: "47C60866FBFD613F"
+					item: "allthemodium:piglich_heart"
+					type: "item"
+				}
+				{
+					id: "0EBBAC856D34218C"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			tasks: [{
+				id: "52DA6FBBFF3E3727"
+				item: "allthemodium:piglich_heart"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+	]
+	title: "Allthemodium"
+}
