@@ -1,0 +1,138 @@
+{
+	"size": "small",
+	"color": "#3345ae",
+	"waves": [
+		{
+			"entities": [
+				{
+					"entity": "minecraft:phantom",
+					"count": 5
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:entity_loot",
+					"entity": "minecraft:phantom",
+					"rolls": 5
+				}
+			],
+			"modifiers": [
+				{
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "minecraft:fire_resistance"
+					}
+				}
+			],
+			"max_wave_time": 6000,
+			"setup_time": 100
+		},
+		{
+			"entities": [
+				{
+					"entity": "minecraft:phantom",
+					"count": 8
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:entity_loot",
+					"entity": "minecraft:phantom",
+					"rolls": 8
+				}
+			],
+			"modifiers": [
+				{
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "minecraft:fire_resistance"
+					}
+				}
+			],
+			"max_wave_time": 6000,
+			"setup_time": 150
+		},
+		{
+			"entities": [
+				{
+					"entity": "minecraft:phantom",
+					"count": 12
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:entity_loot",
+					"entity": "minecraft:phantom",
+					"rolls": 12
+				}
+			],
+			"modifiers": [
+				{
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "minecraft:fire_resistance"
+					}
+				}
+			],
+			"max_wave_time": 9000,
+			"setup_time": 200
+		},
+		{
+			"entities": [
+				{
+					"entity": "minecraft:phantom",
+					"count": 15
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:entity_loot",
+					"entity": "minecraft:phantom",
+					"rolls": 15
+				}
+			],
+			"modifiers": [
+				{
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "minecraft:fire_resistance"
+					}
+				}
+			],
+			"max_wave_time": 9000,
+			"setup_time": 250
+		},
+		{
+			"entities": [
+				{
+					"entity": "minecraft:phantom",
+					"count": 20
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:entity_loot",
+					"entity": "minecraft:phantom",
+					"rolls": 20
+				}
+			],
+			"modifiers": [
+				{
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "minecraft:fire_resistance"
+					}
+				}
+			],
+			"max_wave_time": 13500,
+			"setup_time": 300
+		}
+	],
+	"rewards": [
+		{
+			"type": "gateways:entity_loot",
+			"entity": "minecraft:phantom",
+			"rolls": 30
+		}
+	]
+}

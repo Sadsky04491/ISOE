@@ -1,18 +1,18 @@
 {
 	"size": "small",
-	"color": "#e4e810",
+	"color": "#f7f7f7",
 	"waves": [
 		{
 			"entities": [
 				{
-					"entity": "minecraft:blaze",
+					"entity": "minecraft:chicken",
 					"count": 5
 				}
 			],
 			"rewards": [
 				{
 					"type": "gateways:entity_loot",
-					"entity": "minecraft:blaze",
+					"entity": "minecraft:chicken",
 					"rolls": 5
 				}
 			],
@@ -22,14 +22,14 @@
 		{
 			"entities": [
 				{
-					"entity": "minecraft:blaze",
+					"entity": "minecraft:chicken",
 					"count": 8
 				}
 			],
 			"rewards": [
 				{
 					"type": "gateways:entity_loot",
-					"entity": "minecraft:blaze",
+					"entity": "minecraft:chicken",
 					"rolls": 8
 				}
 			],
@@ -39,14 +39,14 @@
 		{
 			"entities": [
 				{
-					"entity": "minecraft:blaze",
+					"entity": "minecraft:chicken",
 					"count": 12
 				}
 			],
 			"rewards": [
 				{
 					"type": "gateways:entity_loot",
-					"entity": "minecraft:blaze",
+					"entity": "minecraft:chicken",
 					"rolls": 12
 				}
 			],
@@ -56,14 +56,14 @@
 		{
 			"entities": [
 				{
-					"entity": "minecraft:blaze",
+					"entity": "minecraft:chicken",
 					"count": 15
 				}
 			],
 			"rewards": [
 				{
 					"type": "gateways:entity_loot",
-					"entity": "minecraft:blaze",
+					"entity": "minecraft:chicken",
 					"rolls": 15
 				}
 			],
@@ -73,14 +73,14 @@
 		{
 			"entities": [
 				{
-					"entity": "minecraft:blaze",
+					"entity": "minecraft:chicken",
 					"count": 20
 				}
 			],
 			"rewards": [
 				{
 					"type": "gateways:entity_loot",
-					"entity": "minecraft:blaze",
+					"entity": "minecraft:chicken",
 					"rolls": 20
 				}
 			],
@@ -91,7 +91,7 @@
 	"rewards": [
 		{
 			"type": "gateways:entity_loot",
-			"entity": "minecraft:blaze",
+			"entity": "minecraft:chicken",
 			"rolls": 30
 		}
 	]

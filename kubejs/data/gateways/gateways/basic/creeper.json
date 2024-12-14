@@ -1,0 +1,148 @@
+{
+	"size": "small",
+	"color": "#33ae35",
+	"waves": [
+		{
+			"entities": [
+				{
+					"entity": "minecraft:creeper",
+					"count": 5
+				},
+				{
+					"entity": "mekanismadditions:baby_creeper",
+					"count": 3
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:entity_loot",
+					"entity": "minecraft:creeper",
+					"rolls": 5
+				},
+				{
+					"type": "gateways:entity_loot",
+					"entity": "mekanismadditions:baby_creeper",
+					"rolls": 3
+				}
+			],
+			"max_wave_time": 6000,
+			"setup_time": 100
+		},
+		{
+			"entities": [
+				{
+					"entity": "minecraft:creeper",
+					"count": 8
+				},
+				{
+					"entity": "mekanismadditions:baby_creeper",
+					"count": 5
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:entity_loot",
+					"entity": "minecraft:creeper",
+					"rolls": 8
+				},
+				{
+					"type": "gateways:entity_loot",
+					"entity": "mekanismadditions:baby_creeper",
+					"rolls": 5
+				}
+			],
+			"max_wave_time": 6000,
+			"setup_time": 150
+		},
+		{
+			"entities": [
+				{
+					"entity": "minecraft:creeper",
+					"count": 12
+				},
+				{
+					"entity": "mekanismadditions:baby_creeper",
+					"count": 8
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:entity_loot",
+					"entity": "minecraft:creeper",
+					"rolls": 12
+				},
+				{
+					"type": "gateways:entity_loot",
+					"entity": "mekanismadditions:baby_creeper",
+					"rolls": 8
+				}
+			],
+			"max_wave_time": 9000,
+			"setup_time": 200
+		},
+		{
+			"entities": [
+				{
+					"entity": "minecraft:creeper",
+					"count": 15
+				},
+				{
+					"entity": "mekanismadditions:baby_creeper",
+					"count": 12
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:entity_loot",
+					"entity": "minecraft:creeper",
+					"rolls": 15
+				},
+				{
+					"type": "gateways:entity_loot",
+					"entity": "mekanismadditions:baby_creeper",
+					"rolls": 12
+				}
+			],
+			"max_wave_time": 9000,
+			"setup_time": 250
+		},
+		{
+			"entities": [
+				{
+					"entity": "minecraft:creeper",
+					"count": 20
+				},
+				{
+					"entity": "mekanismadditions:baby_creeper",
+					"count": 15
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:entity_loot",
+					"entity": "minecraft:creeper",
+					"rolls": 20
+				},
+				{
+					"type": "gateways:entity_loot",
+					"entity": "mekanismadditions:baby_creeper",
+					"rolls": 15
+				}
+			],
+			"max_wave_time": 13500,
+			"setup_time": 300
+		}
+	],
+	"rewards": [
+		{
+			"type": "gateways:entity_loot",
+			"entity": "minecraft:creeper",
+			"rolls": 30
+		},
+		{
+			"type": "gateways:entity_loot",
+			"entity": "mekanismadditions:baby_creeper",
+			"rolls": 20
+		}
+	]
+}

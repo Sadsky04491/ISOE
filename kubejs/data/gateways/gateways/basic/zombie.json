@@ -1,0 +1,188 @@
+{
+	"size": "small",
+	"color": "#45ae33",
+	"waves": [
+		{
+			"entities": [
+				{
+					"entity": "minecraft:zombie",
+					"count": 5
+				},
+				{
+					"entity": "minecraft:zombie_villager",
+					"count": 3
+				}
+			],
+			"modifiers": [
+				{
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "minecraft:fire_resistance"
+					}
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:entity_loot",
+					"entity": "minecraft:zombie",
+					"rolls": 5
+				},
+				{
+					"type": "gateways:entity_loot",
+					"entity": "minecraft:zombie_villager",
+					"rolls": 3
+				}
+			],
+			"max_wave_time": 6000,
+			"setup_time": 100
+		},
+		{
+			"entities": [
+				{
+					"entity": "minecraft:zombie",
+					"count": 8
+				},
+				{
+					"entity": "minecraft:zombie_villager",
+					"count": 5
+				}
+			],
+			"modifiers": [
+				{
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "minecraft:fire_resistance"
+					}
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:entity_loot",
+					"entity": "minecraft:zombie",
+					"rolls": 8
+				},
+				{
+					"type": "gateways:entity_loot",
+					"entity": "minecraft:zombie_villager",
+					"rolls": 5
+				}
+			],
+			"max_wave_time": 6000,
+			"setup_time": 150
+		},
+		{
+			"entities": [
+				{
+					"entity": "minecraft:zombie",
+					"count": 12
+				},
+				{
+					"entity": "minecraft:zombie_villager",
+					"count": 8
+				}
+			],
+			"modifiers": [
+				{
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "minecraft:fire_resistance"
+					}
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:entity_loot",
+					"entity": "minecraft:zombie",
+					"rolls": 12
+				},
+				{
+					"type": "gateways:entity_loot",
+					"entity": "minecraft:zombie_villager",
+					"rolls": 8
+				}
+			],
+			"max_wave_time": 9000,
+			"setup_time": 200
+		},
+		{
+			"entities": [
+				{
+					"entity": "minecraft:zombie",
+					"count": 15
+				},
+				{
+					"entity": "minecraft:zombie_villager",
+					"count": 12
+				}
+			],
+			"modifiers": [
+				{
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "minecraft:fire_resistance"
+					}
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:entity_loot",
+					"entity": "minecraft:zombie",
+					"rolls": 15
+				},
+				{
+					"type": "gateways:entity_loot",
+					"entity": "minecraft:zombie_villager",
+					"rolls": 12
+				}
+			],
+			"max_wave_time": 9000,
+			"setup_time": 250
+		},
+		{
+			"entities": [
+				{
+					"entity": "minecraft:zombie",
+					"count": 20
+				},
+				{
+					"entity": "minecraft:zombie_villager",
+					"count": 15
+				}
+			],
+			"modifiers": [
+				{
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "minecraft:fire_resistance"
+					}
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:entity_loot",
+					"entity": "minecraft:zombie",
+					"rolls": 20
+				},
+				{
+					"type": "gateways:entity_loot",
+					"entity": "minecraft:zombie_villager",
+					"rolls": 15
+				}
+			],
+			"max_wave_time": 13500,
+			"setup_time": 300
+		}
+	],
+	"rewards": [
+		{
+			"type": "gateways:entity_loot",
+			"entity": "minecraft:zombie",
+			"rolls": 30
+		},
+		{
+			"type": "gateways:entity_loot",
+			"entity": "minecraft:zombie_villager",
+			"rolls": 20
+		}
+	]
+}

@@ -1,0 +1,148 @@
+{
+	"size": "small",
+	"color": "#191a18",
+	"waves": [
+		{
+			"entities": [
+				{
+					"entity": "minecraft:wither_skeleton",
+					"count": 5
+				},
+				{
+					"entity": "mekanismadditions:baby_wither_skeleton",
+					"count": 3
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:entity_loot",
+					"entity": "minecraft:wither_skeleton",
+					"rolls": 5
+				},
+				{
+					"type": "gateways:entity_loot",
+					"entity": "mekanismadditions:baby_wither_skeleton",
+					"rolls": 3
+				}
+			],
+			"max_wave_time": 6000,
+			"setup_time": 100
+		},
+		{
+			"entities": [
+				{
+					"entity": "minecraft:wither_skeleton",
+					"count": 8
+				},
+				{
+					"entity": "mekanismadditions:baby_wither_skeleton",
+					"count": 5
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:entity_loot",
+					"entity": "minecraft:wither_skeleton",
+					"rolls": 8
+				},
+				{
+					"type": "gateways:entity_loot",
+					"entity": "mekanismadditions:baby_wither_skeleton",
+					"rolls": 5
+				}
+			],
+			"max_wave_time": 6000,
+			"setup_time": 150
+		},
+		{
+			"entities": [
+				{
+					"entity": "minecraft:wither_skeleton",
+					"count": 12
+				},
+				{
+					"entity": "mekanismadditions:baby_wither_skeleton",
+					"count": 8
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:entity_loot",
+					"entity": "minecraft:wither_skeleton",
+					"rolls": 12
+				},
+				{
+					"type": "gateways:entity_loot",
+					"entity": "mekanismadditions:baby_wither_skeleton",
+					"rolls": 8
+				}
+			],
+			"max_wave_time": 9000,
+			"setup_time": 200
+		},
+		{
+			"entities": [
+				{
+					"entity": "minecraft:wither_skeleton",
+					"count": 15
+				},
+				{
+					"entity": "mekanismadditions:baby_wither_skeleton",
+					"count": 12
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:entity_loot",
+					"entity": "minecraft:wither_skeleton",
+					"rolls": 15
+				},
+				{
+					"type": "gateways:entity_loot",
+					"entity": "mekanismadditions:baby_wither_skeleton",
+					"rolls": 12
+				}
+			],
+			"max_wave_time": 9000,
+			"setup_time": 250
+		},
+		{
+			"entities": [
+				{
+					"entity": "minecraft:wither_skeleton",
+					"count": 20
+				},
+				{
+					"entity": "mekanismadditions:baby_wither_skeleton",
+					"count": 15
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:entity_loot",
+					"entity": "minecraft:wither_skeleton",
+					"rolls": 20
+				},
+				{
+					"type": "gateways:entity_loot",
+					"entity": "mekanismadditions:baby_wither_skeleton",
+					"rolls": 15
+				}
+			],
+			"max_wave_time": 13500,
+			"setup_time": 300
+		}
+	],
+	"rewards": [
+		{
+			"type": "gateways:entity_loot",
+			"entity": "minecraft:wither_skeleton",
+			"rolls": 30
+		},
+		{
+			"type": "gateways:entity_loot",
+			"entity": "mekanismadditions:baby_wither_skeleton",
+			"rolls": 20
+		}
+	]
+}

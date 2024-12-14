@@ -1,19 +1,19 @@
 {
 	"size": "small",
-	"color": "#e4e810",
+	"color": "#f5ed0a",
 	"waves": [
 		{
 			"entities": [
 				{
-					"entity": "minecraft:blaze",
-					"count": 5
+					"entity": "artifacts:mimic",
+					"count": 2
 				}
 			],
 			"rewards": [
 				{
 					"type": "gateways:entity_loot",
-					"entity": "minecraft:blaze",
-					"rolls": 5
+					"entity": "artifacts:mimic",
+					"rolls": 1
 				}
 			],
 			"max_wave_time": 6000,
@@ -22,15 +22,15 @@
 		{
 			"entities": [
 				{
-					"entity": "minecraft:blaze",
-					"count": 8
+					"entity": "artifacts:mimic",
+					"count": 3
 				}
 			],
 			"rewards": [
 				{
 					"type": "gateways:entity_loot",
-					"entity": "minecraft:blaze",
-					"rolls": 8
+					"entity": "artifacts:mimic",
+					"rolls": 2
 				}
 			],
 			"max_wave_time": 6000,
@@ -39,15 +39,15 @@
 		{
 			"entities": [
 				{
-					"entity": "minecraft:blaze",
-					"count": 12
+					"entity": "artifacts:mimic",
+					"count": 4
 				}
 			],
 			"rewards": [
 				{
 					"type": "gateways:entity_loot",
-					"entity": "minecraft:blaze",
-					"rolls": 12
+					"entity": "artifacts:mimic",
+					"rolls": 3
 				}
 			],
 			"max_wave_time": 9000,
@@ -56,15 +56,15 @@
 		{
 			"entities": [
 				{
-					"entity": "minecraft:blaze",
-					"count": 15
+					"entity": "artifacts:mimic",
+					"count": 5
 				}
 			],
 			"rewards": [
 				{
 					"type": "gateways:entity_loot",
-					"entity": "minecraft:blaze",
-					"rolls": 15
+					"entity": "artifacts:mimic",
+					"rolls": 3
 				}
 			],
 			"max_wave_time": 9000,
@@ -73,15 +73,15 @@
 		{
 			"entities": [
 				{
-					"entity": "minecraft:blaze",
-					"count": 20
+					"entity": "artifacts:mimic",
+					"count": 6
 				}
 			],
 			"rewards": [
 				{
 					"type": "gateways:entity_loot",
-					"entity": "minecraft:blaze",
-					"rolls": 20
+					"entity": "artifacts:mimic",
+					"rolls": 3
 				}
 			],
 			"max_wave_time": 13500,
@@ -91,8 +91,8 @@
 	"rewards": [
 		{
 			"type": "gateways:entity_loot",
-			"entity": "minecraft:blaze",
-			"rolls": 30
+			"entity": "artifacts:mimic",
+			"rolls": 5
 		}
 	]
 }

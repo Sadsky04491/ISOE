@@ -1,18 +1,18 @@
 {
 	"size": "small",
-	"color": "#e4e810",
+	"color": "#33AE53",
 	"waves": [
 		{
 			"entities": [
 				{
-					"entity": "minecraft:blaze",
+					"entity": "minecraft:slime",
 					"count": 5
 				}
 			],
 			"rewards": [
 				{
 					"type": "gateways:entity_loot",
-					"entity": "minecraft:blaze",
+					"entity": "minecraft:slime",
 					"rolls": 5
 				}
 			],
@@ -22,14 +22,14 @@
 		{
 			"entities": [
 				{
-					"entity": "minecraft:blaze",
+					"entity": "minecraft:slime",
 					"count": 8
 				}
 			],
 			"rewards": [
 				{
 					"type": "gateways:entity_loot",
-					"entity": "minecraft:blaze",
+					"entity": "minecraft:slime",
 					"rolls": 8
 				}
 			],
@@ -39,14 +39,14 @@
 		{
 			"entities": [
 				{
-					"entity": "minecraft:blaze",
+					"entity": "minecraft:slime",
 					"count": 12
 				}
 			],
 			"rewards": [
 				{
 					"type": "gateways:entity_loot",
-					"entity": "minecraft:blaze",
+					"entity": "minecraft:slime",
 					"rolls": 12
 				}
 			],
@@ -56,14 +56,14 @@
 		{
 			"entities": [
 				{
-					"entity": "minecraft:blaze",
+					"entity": "minecraft:slime",
 					"count": 15
 				}
 			],
 			"rewards": [
 				{
 					"type": "gateways:entity_loot",
-					"entity": "minecraft:blaze",
+					"entity": "minecraft:slime",
 					"rolls": 15
 				}
 			],
@@ -73,14 +73,14 @@
 		{
 			"entities": [
 				{
-					"entity": "minecraft:blaze",
+					"entity": "minecraft:slime",
 					"count": 20
 				}
 			],
 			"rewards": [
 				{
 					"type": "gateways:entity_loot",
-					"entity": "minecraft:blaze",
+					"entity": "minecraft:slime",
 					"rolls": 20
 				}
 			],
@@ -91,7 +91,7 @@
 	"rewards": [
 		{
 			"type": "gateways:entity_loot",
-			"entity": "minecraft:blaze",
+			"entity": "minecraft:slime",
 			"rolls": 30
 		}
 	]
