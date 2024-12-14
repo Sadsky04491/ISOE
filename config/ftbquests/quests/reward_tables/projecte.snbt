@@ -1,0 +1,32 @@
+{
+	id: "73273F8BBB50289C"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ count: 2, item: "projecte:dark_matter", weight: 1.25f }
+		{ count: 3, item: "projecte:aeternalis_fuel", weight: 2.0f }
+		{ count: 2, item: "projecte:red_matter" }
+		{
+			count: 2
+			item: {
+				Count: 1
+				ForgeCaps: {
+					Parent: { }
+				}
+				id: "projecte:klein_star_sphere"
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					Parent: { }
+				}
+				id: "projecte:klein_star_omega"
+			}
+			weight: 0.2f
+		}
+	]
+	title: "ProjectE"
+}

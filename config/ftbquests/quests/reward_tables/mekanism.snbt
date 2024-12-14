@@ -1,0 +1,17 @@
+{
+	id: "4F025A841CE63D47"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ count: 3, item: "mekanism:dust_osmium", weight: 2.0f }
+		{ item: "mekanism:ingot_osmium", weight: 1.75f }
+		{ count: 6, item: "minecraft:coal", weight: 2.0f }
+		{ count: 2, item: "minecraft:iron_ingot" }
+		{ item: "thermal:diamond_dust", weight: 0.5f }
+		{ item: "mekanism:dust_refined_obsidian", weight: 0.25f }
+		{ count: 3, item: "mekanism:dust_coal", weight: 1.5f }
+		{ count: 2, item: "thermal:steel_dust" }
+		{ item: "mekanism:basic_control_circuit", weight: 0.8f }
+	]
+	title: "Mekanism"
+}
