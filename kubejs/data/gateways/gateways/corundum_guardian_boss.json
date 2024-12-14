@@ -1,0 +1,52 @@
+{
+    "size": "large",
+    "color": "#722f37",
+    "waves": [
+        {
+            "entities": [
+                {
+                    "entity": "corundumguardian:corundum_guardian",
+                    "count": 1
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 3.29
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.25
+                },
+                {
+                    "type": "gateways:mob_effect",
+                    "effect": {
+                        "effect": "minecraft:strength",
+                        "amplifier": 20,
+                        "visible": false
+                    }
+                }
+            ],
+            "max_wave_time": 6600,
+            "setup_time": 150
+        }
+    ],
+    "rewards": [
+        {
+            "type": "gateways:stack",
+            "stack": {
+                "item": "kubejs:mechanical_part"
+            }
+        }
+    ],
+    "failures": [
+        {
+            "type": "gateways:explosion",
+            "strength": 4,
+            "fire": true,
+            "block_damage": true
+        }
+    ]
+}

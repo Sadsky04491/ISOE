@@ -1,0 +1,183 @@
+{
+    "size": "medium",
+    "color": "#3e2ecf",
+    "waves": [
+        {
+            "entities": [
+                {
+                    "type": "gateways:standard",
+                    "entity": "iceandfire:fire_dragon",
+                    "nbt": {
+                        "AgeTicks": 3000000,
+                        "Health": 500
+                    },
+                    "count": 1
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:stack_list",
+                    "stacks": [
+                        {
+                            "item": "iceandfire:dragonbone",
+                            "count": 36
+                        },
+                        {
+                            "item": "iceandfire:fire_dragon_heart",
+                            "count": 3
+                        }
+                    ]
+                }
+            ],
+            "max_wave_time": 6000,
+            "setup_time": 100
+        },
+        {
+            "entities": [
+                {
+                    "type": "gateways:standard",
+                    "entity": "iceandfire:ice_dragon",
+                    "nbt": {
+                        "AgeTicks": 3000000,
+                        "Health": 500
+                    },
+                    "count": 1
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:stack_list",
+                    "stacks": [
+                        {
+                            "item": "iceandfire:dragonbone",
+                            "count": 36
+                        },
+                        {
+                            "item": "iceandfire:ice_dragon_heart",
+                            "count": 3
+                        }
+                    ]
+                }
+            ],
+            "max_wave_time": 6000,
+            "setup_time": 150
+        },
+        {
+            "entities": [
+                {
+                    "type": "gateways:standard",
+                    "entity": "iceandfire:lightning_dragon",
+                    "nbt": {
+                        "AgeTicks": 3000000,
+                        "Health": 500
+                    },
+                    "count": 1
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:stack_list",
+                    "stacks": [
+                        {
+                            "item": "iceandfire:dragonbone",
+                            "count": 36
+                        },
+                        {
+                            "item": "iceandfire:lightning_dragon_heart",
+                            "count": 3
+                        }
+                    ]
+                }
+            ],
+            "max_wave_time": 9000,
+            "setup_time": 200
+        },
+        {
+            "entities": [
+                {
+                    "type": "gateways:standard",
+                    "entity": "iceandfire:fire_dragon",
+                    "nbt": {
+                        "AgeTicks": 3000000,
+                        "Health": 500
+                    },
+                    "count": 1
+                },
+                {
+                    "type": "gateways:standard",
+                    "entity": "iceandfire:ice_dragon",
+                    "nbt": {
+                        "AgeTicks": 3000000,
+                        "Health": 500
+                    },
+                    "count": 1
+                },
+                {
+                    "type": "gateways:standard",
+                    "entity": "iceandfire:lightning_dragon",
+                    "nbt": {
+                        "AgeTicks": 3000000,
+                        "Health": 500
+                    },
+                    "count": 1
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:stack_list",
+                    "stacks": [
+                        {
+                            "item": "iceandfire:dragonbone",
+                            "count": 64
+                        },
+                        {
+                            "item": "iceandfire:dragonbone",
+                            "count": 44
+                        },
+                        {
+                            "item": "iceandfire:fire_dragon_heart",
+                            "count": 3
+                        },
+                        {
+                            "item": "iceandfire:ice_dragon_heart",
+                            "count": 3
+                        },
+                        {
+                            "item": "iceandfire:lightning_dragon_heart",
+                            "count": 3
+                        }
+                    ]
+                }
+            ],
+            "max_wave_time": 9000,
+            "setup_time": 250
+        }
+    ],
+    "rewards": [
+        {
+            "type": "gateways:stack_list",
+            "stacks": [
+                {
+                    "item": "iceandfire:fire_dragon_blood",
+                    "count": 16
+                },
+                {
+                    "item": "iceandfire:ice_dragon_blood",
+                    "count": 16
+                },
+                {
+                    "item": "iceandfire:lightning_dragon_blood",
+                    "count": 16
+                }
+            ]
+        }
+    ],
+    "failures": [
+        {
+            "type": "gateways:explosion",
+            "strength": 4,
+            "fire": true,
+            "block_damage": true
+        }
+    ]
+}

@@ -1,0 +1,212 @@
+{
+    "size": "medium",
+    "color": "#cf2e54",
+    "waves": [
+        {
+            "entities": [
+                {
+                    "entity": "minecraft:magma_cube",
+                    "count": 5
+                },
+                {
+                    "entity": "minecraft:wither_skeleton",
+                    "count": 3
+                },
+                {
+                    "entity": "minecraft:ghast",
+                    "count": 3
+                },
+                {
+                    "entity": "minecraft:zoglin",
+                    "count": 3
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "minecraft:magma_cube",
+                    "rolls": 3
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "minecraft:wither_skeleton",
+                    "rolls": 3
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "minecraft:ghast",
+                    "rolls": 3
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "minecraft:zoglin",
+                    "rolls": 3
+                }
+            ],
+            "max_wave_time": 6000,
+            "setup_time": 100
+        },
+        {
+            "entities": [
+                {
+                    "entity": "minecraft:magma_cube",
+                    "count": 8
+                },
+                {
+                    "entity": "minecraft:wither_skeleton",
+                    "count": 5
+                },
+                {
+                    "entity": "minecraft:ghast",
+                    "count": 5
+                },
+                {
+                    "entity": "minecraft:zoglin",
+                    "count": 5
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "minecraft:magma_cube",
+                    "rolls": 3
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "minecraft:wither_skeleton",
+                    "rolls": 3
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "minecraft:ghast",
+                    "rolls": 3
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "minecraft:zoglin",
+                    "rolls": 3
+                }
+            ],
+            "max_wave_time": 6000,
+            "setup_time": 150
+        },
+        {
+            "entities": [
+                {
+                    "entity": "minecraft:magma_cube",
+                    "count": 10
+                },
+                {
+                    "entity": "minecraft:wither_skeleton",
+                    "count": 8
+                },
+                {
+                    "entity": "minecraft:ghast",
+                    "count": 8
+                },
+                {
+                    "entity": "minecraft:zoglin",
+                    "count": 8
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "minecraft:magma_cube",
+                    "rolls": 3
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "minecraft:wither_skeleton",
+                    "rolls": 3
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "minecraft:ghast",
+                    "rolls": 3
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "minecraft:zoglin",
+                    "rolls": 3
+                }
+            ],
+            "max_wave_time": 9000,
+            "setup_time": 200
+        },
+        {
+            "entities": [
+                {
+                    "entity": "minecraft:magma_cube",
+                    "count": 12
+                },
+                {
+                    "entity": "minecraft:wither_skeleton",
+                    "count": 10
+                },
+                {
+                    "entity": "minecraft:ghast",
+                    "count": 10
+                },
+                {
+                    "entity": "minecraft:zoglin",
+                    "count": 10
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "minecraft:magma_cube",
+                    "rolls": 3
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "minecraft:wither_skeleton",
+                    "rolls": 3
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "minecraft:ghast",
+                    "rolls": 3
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "minecraft:zoglin",
+                    "rolls": 3
+                }
+            ],
+            "max_wave_time": 9000,
+            "setup_time": 250
+        }
+    ],
+    "rewards": [
+        {
+            "type": "gateways:entity_loot",
+            "entity": "minecraft:magma_cube",
+            "rolls": 12
+        },
+        {
+            "type": "gateways:entity_loot",
+            "entity": "minecraft:wither_skeleton",
+            "rolls": 6
+        },
+        {
+            "type": "gateways:entity_loot",
+            "entity": "minecraft:ghast",
+            "rolls": 6
+        },
+        {
+            "type": "gateways:entity_loot",
+            "entity": "minecraft:zoglin",
+            "rolls": 6
+        }
+    ],
+    "failures": [
+        {
+            "type": "gateways:explosion",
+            "strength": 4,
+            "fire": true,
+            "block_damage": true
+        }
+    ]
+}

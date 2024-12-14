@@ -1,0 +1,301 @@
+{
+    "size": "medium",
+    "color": "#6e2ecf",
+    "waves": [
+        {
+            "entities": [
+                {
+                    "entity": "minecraft:enderman",
+                    "count": 5
+                },
+                {
+                    "entity": "minecraft:shulker",
+                    "count": 3
+                },
+                {
+                    "entity": "mekanismadditions:baby_enderman",
+                    "count": 3
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.50
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.25
+                },
+                {
+                    "type": "gateways:mob_effect",
+                    "effect": {
+                        "effect": "minecraft:strength", 
+                        "amplifier": 0,
+                        "visible": true
+                    }
+                },
+                {
+                    "type": "gateways:mob_effect",
+                    "effect": {
+                        "effect": "minecraft:resistance", 
+                        "amplifier": 0,
+                        "visible": true
+                    }
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "minecraft:enderman",
+                    "rolls": 3
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "minecraft:shulker",
+                    "rolls": 3
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "mekanismadditions:baby_enderman",
+                    "rolls": 3
+                }
+            ],
+            "max_wave_time": 6000,
+            "setup_time": 100
+        },
+        {
+            "entities": [
+                {
+                    "entity": "minecraft:enderman",
+                    "count": 8
+                },
+                {
+                    "entity": "minecraft:shulker",
+                    "count": 5
+                },
+                {
+                    "entity": "mekanismadditions:baby_enderman",
+                    "count": 5
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 1
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.5
+                },
+                {
+                    "type": "gateways:mob_effect",
+                    "effect": {
+                        "effect": "minecraft:strength", 
+                        "amplifier": 1,
+                        "visible": true
+                    }
+                },
+                {
+                    "type": "gateways:mob_effect",
+                    "effect": {
+                        "effect": "minecraft:resistance", 
+                        "amplifier": 1,
+                        "visible": true
+                    }
+                },
+                {
+                    "type": "gateways:mob_effect",
+                    "effect": {
+                        "effect": "minecraft:regeneration", 
+                        "amplifier": 0,
+                        "visible": true
+                    }
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "minecraft:enderman",
+                    "rolls": 3
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "minecraft:shulker",
+                    "rolls": 3
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "mekanismadditions:baby_enderman",
+                    "rolls": 3
+                }
+            ],
+            "max_wave_time": 6000,
+            "setup_time": 150
+        },
+        {
+            "entities": [
+                {
+                    "entity": "minecraft:enderman",
+                    "count": 10
+                },
+                {
+                    "entity": "minecraft:shulker",
+                    "count": 8
+                },
+                {
+                    "entity": "mekanismadditions:baby_enderman",
+                    "count": 8
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 1
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.5
+                },
+                {
+                    "type": "gateways:mob_effect",
+                    "effect": {
+                        "effect": "minecraft:strength", 
+                        "amplifier": 1,
+                        "visible": true
+                    }
+                },
+                {
+                    "type": "gateways:mob_effect",
+                    "effect": {
+                        "effect": "minecraft:resistance", 
+                        "amplifier": 1,
+                        "visible": true
+                    }
+                },
+                {
+                    "type": "gateways:mob_effect",
+                    "effect": {
+                        "effect": "minecraft:regeneration", 
+                        "amplifier": 0,
+                        "visible": true
+                    }
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "minecraft:enderman",
+                    "rolls": 3
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "minecraft:shulker",
+                    "rolls": 3
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "mekanismadditions:baby_enderman",
+                    "rolls": 3
+                }
+            ],
+            "max_wave_time": 9000,
+            "setup_time": 200
+        },
+        {
+            "entities": [
+                {
+                    "entity": "minecraft:enderman",
+                    "count": 12
+                },
+                {
+                    "entity": "minecraft:shulker",
+                    "count": 10
+                },
+                {
+                    "entity": "mekanismadditions:baby_enderman",
+                    "count": 10
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 1
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.5
+                },
+                {
+                    "type": "gateways:mob_effect",
+                    "effect": {
+                        "effect": "minecraft:strength", 
+                        "amplifier": 1,
+                        "visible": true
+                    }
+                },
+                {
+                    "type": "gateways:mob_effect",
+                    "effect": {
+                        "effect": "minecraft:resistance", 
+                        "amplifier": 1,
+                        "visible": true
+                    }
+                },
+                {
+                    "type": "gateways:mob_effect",
+                    "effect": {
+                        "effect": "minecraft:regeneration", 
+                        "amplifier": 0,
+                        "visible": true
+                    }
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "minecraft:enderman",
+                    "rolls": 3
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "minecraft:shulker",
+                    "rolls": 3
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "mekanismadditions:baby_enderman",
+                    "rolls": 3
+                }
+            ],
+            "max_wave_time": 9000,
+            "setup_time": 250
+        }
+    ],
+    "rewards": [{
+            "type": "gateways:entity_loot",
+            "entity": "minecraft:enderman",
+            "rolls": 12
+        },
+        {
+            "type": "gateways:entity_loot",
+            "entity": "minecraft:shulker",
+            "rolls": 6
+        }
+    ],
+    "failures": [
+        {
+            "type": "gateways:explosion",
+            "strength": 4,
+            "fire": true,
+            "block_damage": true
+        }
+    ]
+}

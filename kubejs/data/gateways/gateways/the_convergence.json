@@ -1,0 +1,212 @@
+{
+    "size": "medium",
+    "color": "#c4cf2e",
+    "waves": [
+        {
+            "entities": [
+                {
+                    "entity": "thermal:basalz",
+                    "count": 4
+                },
+                {
+                    "entity": "thermal:blitz",
+                    "count": 4
+                },
+                {
+                    "entity": "thermal:blizz",
+                    "count": 3
+                },
+                {
+                    "entity": "trials:breeze",
+                    "count": 3
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "thermal:basalz",
+                    "rolls": 5
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "thermal:blitz",
+                    "rolls": 5
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "thermal:blizz",
+                    "rolls": 5
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "trials:breeze",
+                    "rolls": 5
+                }
+            ],
+            "max_wave_time": 6000,
+            "setup_time": 100
+        },
+        {
+            "entities": [
+                {
+                    "entity": "thermal:basalz",
+                    "count": 6
+                },
+                {
+                    "entity": "thermal:blitz",
+                    "count": 6
+                },
+                {
+                    "entity": "thermal:blizz",
+                    "count": 5
+                },
+                {
+                    "entity": "trials:breeze",
+                    "count": 5
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "thermal:basalz",
+                    "rolls": 5
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "thermal:blitz",
+                    "rolls": 5
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "thermal:blizz",
+                    "rolls": 5
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "trials:breeze",
+                    "rolls": 5
+                }
+            ],
+            "max_wave_time": 6000,
+            "setup_time": 150
+        },
+        {
+            "entities": [
+                {
+                    "entity": "thermal:basalz",
+                    "count": 8
+                },
+                {
+                    "entity": "thermal:blitz",
+                    "count": 8
+                },
+                {
+                    "entity": "thermal:blizz",
+                    "count": 6
+                },
+                {
+                    "entity": "trials:breeze",
+                    "count": 6
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "thermal:basalz",
+                    "rolls": 5
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "thermal:blitz",
+                    "rolls": 5
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "thermal:blizz",
+                    "rolls": 5
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "trials:breeze",
+                    "rolls": 5
+                }
+            ],
+            "max_wave_time": 9000,
+            "setup_time": 200
+        },
+        {
+            "entities": [
+                {
+                    "entity": "thermal:basalz",
+                    "count": 10
+                },
+                {
+                    "entity": "thermal:blitz",
+                    "count": 10
+                },
+                {
+                    "entity": "thermal:blizz",
+                    "count": 8
+                },
+                {
+                    "entity": "trials:breeze",
+                    "count": 8
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "thermal:basalz",
+                    "rolls": 5
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "thermal:blitz",
+                    "rolls": 5
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "thermal:blizz",
+                    "rolls": 5
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "trials:breeze",
+                    "rolls": 5
+                }
+            ],
+            "max_wave_time": 9000,
+            "setup_time": 250
+        }
+    ],
+    "rewards": [
+        {
+            "type": "gateways:entity_loot",
+            "entity": "thermal:basalz",
+            "rolls": 8
+        },
+        {
+            "type": "gateways:entity_loot",
+            "entity": "thermal:blitz",
+            "rolls": 8
+        },
+        {
+            "type": "gateways:entity_loot",
+            "entity": "thermal:blizz",
+            "rolls": 8
+        },
+        {
+            "type": "gateways:entity_loot",
+            "entity": "trials:breeze",
+            "rolls": 8
+        }
+    ],
+    "failures": [
+        {
+            "type": "gateways:explosion",
+            "strength": 4,
+            "fire": true,
+            "block_damage": true
+        }
+    ]
+}
