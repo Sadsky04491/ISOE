@@ -13,8 +13,6 @@ import crafttweaker.api.item.property.Rarity;
 <item:projecte:philosophers_stone>.addTooltip("Can be crafted with any mob soul.");
 <item:projecte:dm_pedestal>.addTooltip("Only mined using ProjectE tools.");
 <item:trials:ominous_bottle>.addTooltip("Possible reward of a Trial Vault in a Trial Chamber.");
-<item:illageandspillage:bag_of_horrors>.addTooltip("Reward for defeating an Awakened Freakager Boss Gateway.");
-<item:illageandspillage:spellbound_book>.addTooltip("Reward for defeating an Awakened Spiritcaller Boss Gateway.");
 <item:draconicevolution:creative_capacitor>.addTooltip('Press the " ~ " key to open item settings.');
 <item:draconicevolution:chaotic_capacitor>.addTooltip('Press the " ~ " key to open item settings.');
 <item:draconicevolution:draconic_capacitor>.addTooltip('Press the " ~ " key to open item settings.');
