@@ -395,23 +395,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["28DA60651578207F"]
-			description: ["A dull &lkey&r that is &ldropped&r from the &lSlider&r after being defeated."]
-			id: "5B31A93893BCCF6E"
-			rewards: [{
-				id: "15EAAB6826B79B1E"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "02C3615BBA3001CD"
-				item: "aether:bronze_dungeon_key"
-				type: "item"
-			}]
-			x: -7.5d
-			y: 3.0d
-		}
-		{
 			dependencies: ["4628F0BFB7DDAC57"]
 			description: ["An altar containing the power to &lcontrol the sun&r itself! It is dropped by the &lSun Spirit&r after you defeat him."]
 			id: "04DFE7A15221E85D"
@@ -425,8 +408,8 @@
 				item: "aether:sun_altar"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 2.5d
+			x: -5.0d
+			y: 3.0d
 		}
 	]
 	title: "The Aether"

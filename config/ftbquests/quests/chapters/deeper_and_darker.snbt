@@ -124,7 +124,7 @@
 		{
 			dependencies: ["64A00506F5D9568C"]
 			description: [
-				"When in the &lOtherside&r and in Survival mode, the player is given the &ldarkness effect&r. The only way to get rid of the effect is to wear a &lwarden helmet&r."
+				"When in the &lOtherside&r, the player is given the &ldarkness effect&r. The only way to get rid of the effect is to wear a &lwarden helmet&r."
 				"Warden armor and tools can be obtained by upgrading netherite gear with a warden upgrade smithing template using a reinforced echo shard in a smithing table."
 			]
 			id: "2D225FD1FBC15006"

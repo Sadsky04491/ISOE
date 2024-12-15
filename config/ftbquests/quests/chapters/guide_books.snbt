@@ -64,7 +64,7 @@
 				title: "Mystical Agriculture"
 				type: "checkmark"
 			}]
-			x: -3.0d
+			x: -1.5d
 			y: 0.5d
 		}
 		{
@@ -533,7 +533,7 @@
 				title: "Ice and Fire"
 				type: "checkmark"
 			}]
-			x: -1.5d
+			x: -3.0d
 			y: 0.5d
 		}
 	]

@@ -156,6 +156,7 @@
 				structure: "allthemodium:ancient_pyramid"
 				type: "structure"
 			}]
+			title: "Find the Ancient Pyramid"
 			x: 0.0d
 			y: 1.0d
 		}

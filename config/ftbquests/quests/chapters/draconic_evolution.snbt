@@ -484,7 +484,7 @@
 		}
 		{
 			description: [
-				"&lChaos Guardian&r is an extremely powerful &lboss&r found every 10000 blocks on the X or Z coordinates in &lThe End&r dimension. &lExample: X:10000, Z:10000&r"
+				"&lChaos Guardian&r is an extremely powerful &lboss&r found every 10000 blocks on the X or Z coordinates in &lThe End&r dimension. &lAs an example: X:10000, Z:10000&r"
 				""
 				"The Chaos Guardian's &lregeneration crystals&r have a &lshield&r that &lnullifies damage&r, but can be destroyed by having their shield weakened by the &lChaos Guardian's attacks&r, and then destroyed by the &lplayer's attacks&r."
 				""

@@ -310,6 +310,7 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "Defeat Ignis"
 			x: -1.5d
 			y: 1.0d
 		}
