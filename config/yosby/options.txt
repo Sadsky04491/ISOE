@@ -142,7 +142,7 @@ key_keybind.ironjetpacks.descend:key.keyboard.unknown
 key_keybind.ironjetpacks.increment_throttle:key.keyboard.period
 key_keybind.ironjetpacks.decrement_throttle:key.keyboard.comma
 key_key.modernfix.config:key.keyboard.unknown
-key_key.evilcraft.fart:key.keyboard.p
+key_key.evilcraft.fart:key.keyboard.unknown
 key_key.evilcraft.exaltedCrafting:key.keyboard.c
 key_key.apotheosis.toggle_radial_mining:key.keyboard.o:CONTROL
 key_info.structure_gel.building_tool.undo:key.keyboard.z:CONTROL
@@ -346,7 +346,7 @@ key_bloodmagic.keybind.open_holding:key.keyboard.unknown
 key_bloodmagic.keybind.cycle_holding_pos:key.keyboard.unknown
 key_bloodmagic.keybind.cycle_holding_neg:key.keyboard.unknown
 key_key.draconicevolution.place_item:key.keyboard.p
-key_key.draconicevolution.tool_config:key.keyboard.apostrophe
+key_key.draconicevolution.tool_config:key.keyboard.l
 key_key.draconicevolution.tool_modules:key.keyboard.g
 key_key.draconicevolution.toggle_flight:key.keyboard.unknown
 key_key.draconicevolution.toggle_magnet:key.keyboard.unknown
